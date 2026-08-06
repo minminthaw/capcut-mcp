@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# CapCut working artifacts (never commit real drafts or backups)
+*.mcpbak
+*.tmp
+*.locked
