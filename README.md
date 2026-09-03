@@ -155,6 +155,8 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 | `capcut_set_speed_curve` | Apply speed ramping curves (montage, hero, bullet_time, flash_in, flash_out) |
 | `capcut_apply_chroma_key` | Green Screen / Chroma Key cutout with intensity & shadow preservation |
 | `capcut_apply_pip_layout` | Picture-in-Picture or Split-Screen layout presets (Corner PiP, 50/50 Split) |
+| `capcut_auto_insert_broll` | Automatically place B-Roll cutaways (videos/images) on an overlay track |
+| `capcut_sync_to_beats` | Synchronize timeline edits (cuts or punchy zoom pulses) to music beats |
 | `capcut_set_canvas_blur` | Apply Gaussian background blur or color behind reframed clips |
 | `capcut_set_color_adjustments` | Manual color slider adjustments (brightness, contrast, saturation) |
 
@@ -166,8 +168,10 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 | `capcut_auto_duck_bgm` | Automatically duck BGM volume during spoken dialogue |
 | `capcut_normalize_audio` | Normalize dialogue loudness across tracks |
 | `capcut_add_subtitles_batch` | Bulk place styled subtitles with typography, colors, and outlines |
+| `capcut_add_dynamic_captions` | Add modern dynamic word-highlight subtitles (Alex Hormozi style) with pop colors |
 | `capcut_add_progress_bar` | Add animated video progress bar (0% to 100% fill across timeline) |
 | `capcut_add_lower_third` | Add speaker name and role title badge overlay with animations |
+| `capcut_generate_chapters` | Generate structured YouTube / Social chapter markers & timestamps |
 | `capcut_set_canvas` | Set canvas aspect ratio (9:16 vertical, 16:9 widescreen, 1:1 square) |
 
 ### 5. Multimodal Video Understanding & Semantic AI Director

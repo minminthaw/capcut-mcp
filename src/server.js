@@ -416,6 +416,52 @@ s.tool('capcut_semantic_edit', 'Automatically apply a CapCut editing action (fil
     name: a.name, scale: a.scale, intensity: a.intensity, title: a.title, subtitle: a.subtitle
   })));
 
+s.tool('capcut_auto_insert_broll', 'Automatically place B-Roll cutaways (videos/images) on an overlay track at designated timestamps.',
+  { draft: z.string(),
+    insertions: z.array(z.object({
+      filePath: z.string().describe('absolute path to B-Roll video or image asset'),
+      startSec: z.number().describe('start time on timeline in seconds'),
+      durSec: z.number().optional().describe('duration of B-Roll overlay in seconds (default: 3.0)'),
+      scale: z.number().optional().describe('optional scale factor (e.g. 1.05)'),
+      animation: z.string().optional().describe('optional entrance animation name (e.g. "Zoom In")')
+    })).describe('list of B-Roll cutaways to insert'),
+    trackIndex: z.number().int().optional().describe('target B-Roll video track index (default: track 1)') },
+  wrap(async (a) => get(a.draft).autoInsertBroll(a.insertions, { trackIndex: a.trackIndex })));
+
+s.tool('capcut_add_dynamic_captions', 'Add modern dynamic word-highlight subtitles (Alex Hormozi style) with pop colors and heavy outline.',
+  { draft: z.string(),
+    subtitles: z.array(z.object({
+      text: z.string().describe('subtitle text or word'),
+      startSec: z.number().describe('start time in seconds'),
+      durSec: z.number().optional().describe('duration in seconds'),
+      endSec: z.number().optional().describe('end time in seconds'),
+      isHighlight: z.boolean().optional().describe('whether this word/line is actively highlighted'),
+      highlightWord: z.string().optional().describe('specific key word in the line to highlight')
+    })).describe('list of timed dynamic subtitles'),
+    defaultColor: z.string().optional().describe('default text color hex (default: "#FFFFFF")'),
+    highlightColor: z.string().optional().describe('highlight pop color hex (default: "#FFE600")'),
+    strokeColor: z.string().optional().describe('outline stroke color hex (default: "#000000")'),
+    fontSize: z.number().optional().describe('font size (default: 9.0)'),
+    posY: z.number().optional().describe('vertical position (default: -0.70 bottom)'),
+    trackIndex: z.number().int().optional().describe('target text track index') },
+  wrap(async (a) => get(a.draft).addDynamicCaptions(a.subtitles, {
+    defaultColor: a.defaultColor, highlightColor: a.highlightColor, strokeColor: a.strokeColor,
+    fontSize: a.fontSize, posY: a.posY, trackIndex: a.trackIndex
+  })));
+
+s.tool('capcut_sync_to_beats', 'Synchronize timeline edits (cuts or punchy zoom pulses) to music beat markers.',
+  { draft: z.string(),
+    beatTimestamps: z.array(z.number()).describe('list of musical beat timestamps in seconds'),
+    action: z.enum(['accent_zoom', 'accent_cut']).optional().describe('action on beat (default: "accent_zoom")'),
+    zoomScale: z.number().optional().describe('scale factor for zoom pulse (default: 1.08)') },
+  wrap(async (a) => get(a.draft).syncToBeat(a.beatTimestamps, {
+    action: a.action, zoomScale: a.zoomScale
+  })));
+
+s.tool('capcut_generate_chapters', 'Generate structured YouTube / Social Media chapter markers and timestamps from scene analysis.',
+  { draft: z.string() },
+  wrap(async ({ draft }) => get(draft).generateChapters()));
+
 const transport = new StdioServerTransport();
 await s.connect(transport);
 process.stderr.write(`[capcut-mcp] ready. drafts: ${DRAFTS_DIR}\n`);

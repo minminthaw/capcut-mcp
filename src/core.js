@@ -188,7 +188,7 @@ export class CapCutDraft {
     const tplType = kind === 'image' ? (this.templates().image ? 'image' : 'video') : kind;
     const tpl = this.templates()[tplType] || this.templates().video;
     if (!tpl) throw new Error(`no ${kind} template available`);
-    const dur = opts.durUs != null ? opts.durUs : probeDur(file);
+    const dur = opts.durUs != null ? opts.durUs : (opts.durSec != null ? Math.round(opts.durSec * US) : (opts.durationSec != null ? Math.round(opts.durationSec * US) : probeDur(file)));
     const mat = clone(tpl.mat); mat.id = uid(); mat.path = file.replace(/\\/g, '/'); mat.material_name = path.basename(file); mat.type = type;
     if (kind !== 'audio') { const { w, h } = probeWH(file); mat.width = w; mat.height = h; }
     mat.duration = kind === 'audio' ? probeDur(file) : (mat.duration || probeDur(file));
@@ -197,7 +197,7 @@ export class CapCutDraft {
     this._mats(matKey).push(mat);
     const refs = tpl.refs.map(({ k, m }) => { const c = clone(m); c.id = uid(); this._mats(k).push(c); return c.id; });
     const seg = clone(tpl.seg); seg.id = uid(); seg.material_id = mat.id; seg.extra_material_refs = refs;
-    const at = opts.atUs || 0;
+    const at = opts.atUs != null ? opts.atUs : (opts.atSec != null ? Math.round(opts.atSec * US) : (opts.startSec != null ? Math.round(opts.startSec * US) : 0));
     seg.target_timerange = { start: at, duration: dur };
     seg.source_timerange = { start: opts.srcStartUs || 0, duration: dur };
     this._applyProps(seg, opts);
@@ -1648,6 +1648,164 @@ export class CapCutDraft {
         visualDescription: scene.visualDescription
       },
       editResult
+    };
+  }
+
+  // ---------- auto B-Roll insertion ----------
+  autoInsertBroll(insertions = [], opts = {}) {
+    let brollTrackIndex = opts.trackIndex;
+    if (brollTrackIndex == null) {
+      const vTracks = (this.content.tracks || []).map((t, i) => ({ t, i })).filter(x => x.t.type === 'video');
+      if (vTracks.length > 1) {
+        brollTrackIndex = vTracks[1].i;
+      } else {
+        brollTrackIndex = this.addTrack('video', 'B-Roll Overlay Track');
+      }
+    }
+
+    const inserted = [];
+    for (const item of insertions) {
+      const atSec = Number(item.startSec || item.atSec || 0);
+      const durSec = Number(item.durSec || item.durationSec || 3.0);
+      const filePath = item.filePath || item.path || item.assetPath;
+
+      if (!filePath) continue;
+
+      let res;
+      if (filePath.match(/\.(png|jpg|jpeg|webp|gif)$/i)) {
+        res = this.addImage(filePath, { atSec, durSec, trackIndex: brollTrackIndex });
+      } else {
+        res = this.addVideo(filePath, { atSec, durSec, trackIndex: brollTrackIndex, speed: item.speed || 1.0 });
+      }
+
+      if (item.scale) {
+        this.setProps(res.segmentId, { scale: item.scale });
+      }
+      if (item.animation) {
+        this.applyAnimation(res.segmentId, item.animation, { animationType: 'in', durationSec: 0.5 });
+      }
+
+      inserted.push({
+        segmentId: res.segmentId,
+        filePath,
+        startSec: atSec,
+        durationSec: durSec,
+      });
+    }
+
+    return {
+      brollTrackIndex,
+      totalInserted: inserted.length,
+      insertions: inserted,
+    };
+  }
+
+  // ---------- dynamic word highlight captions ----------
+  addDynamicCaptions(subtitles = [], opts = {}) {
+    const defaultColor = opts.defaultColor || '#FFFFFF';
+    const highlightColor = opts.highlightColor || '#FFE600';
+    const strokeColor = opts.strokeColor || '#000000';
+    const fontSize = opts.fontSize || 9.0;
+    const posY = opts.posY != null ? opts.posY : -0.70;
+
+    const formattedSubtitles = subtitles.map(sub => {
+      let text = sub.text;
+      if (sub.highlightWord) {
+        text = text.replace(sub.highlightWord, `[${sub.highlightWord}]`);
+      }
+      return {
+        startSec: sub.startSec,
+        durSec: sub.durSec || (sub.endSec != null ? +(sub.endSec - sub.startSec).toFixed(2) : 2.0),
+        text,
+        color: sub.isHighlight ? highlightColor : defaultColor,
+        strokeColor,
+        fontSize,
+        posY,
+      };
+    });
+
+    return this.addSubtitlesBatch(formattedSubtitles, {
+      trackIndex: opts.trackIndex,
+      fontColor: defaultColor,
+      strokeColor,
+      fontSize,
+      posY,
+    });
+  }
+
+  // ---------- music beat-sync auto cutter / accents ----------
+  syncToBeat(beatTimestamps = [], opts = {}) {
+    const action = opts.action || 'accent_zoom';
+    const accents = [];
+
+    const mainTrack = (this.content.tracks || []).find(t => t.type === 'video');
+    if (!mainTrack) throw new Error('Main video track not found');
+
+    for (const tSec of beatTimestamps) {
+      const atUs = Math.round(tSec * US);
+      const seg = (mainTrack.segments || []).find(s => s.target_timerange.start <= atUs && (s.target_timerange.start + s.target_timerange.duration) > atUs);
+      if (!seg) continue;
+
+      if (action === 'accent_zoom') {
+        const offsetSec = +((atUs - seg.target_timerange.start) / US).toFixed(3);
+        this.addKeyframe(seg.id, 'scale', [
+          { timeOffsetSec: Math.max(0, offsetSec - 0.05), value: 1.0 },
+          { timeOffsetSec: offsetSec, value: opts.zoomScale || 1.08 },
+          { timeOffsetSec: offsetSec + 0.15, value: 1.0 },
+        ]);
+        accents.push({ beatSec: tSec, type: 'zoom_pulse' });
+      } else if (action === 'accent_cut') {
+        this.split(seg.id, tSec);
+        accents.push({ beatSec: tSec, type: 'split_cut' });
+      }
+    }
+
+    return {
+      action,
+      totalBeatsSynced: accents.length,
+      accents,
+    };
+  }
+
+  // ---------- generate chapter markers ----------
+  generateChapters(opts = {}) {
+    const map = opts.sceneMap || this.sceneMap;
+    const chapters = [];
+
+    if (map && Array.isArray(map.scenes) && map.scenes.length > 0) {
+      for (const sc of map.scenes) {
+        const min = Math.floor(sc.startSec / 60);
+        const sec = Math.floor(sc.startSec % 60);
+        const timeStr = `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+        const title = sc.sceneType ? `${sc.sceneType.toUpperCase()} - ${sc.emotion || sc.visualDescription?.slice(0, 30)}` : (sc.visualDescription?.slice(0, 30) || 'Chapter');
+        chapters.push({
+          timestamp: timeStr,
+          startSec: sc.startSec,
+          title,
+        });
+      }
+    } else {
+      const mainTrack = (this.content.tracks || []).find(t => t.type === 'video');
+      for (let i = 0; i < (mainTrack?.segments || []).length; i++) {
+        const s = mainTrack.segments[i];
+        const atSec = +(s.target_timerange.start / US).toFixed(2);
+        const min = Math.floor(atSec / 60);
+        const sec = Math.floor(atSec % 60);
+        const timeStr = `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+        chapters.push({
+          timestamp: timeStr,
+          startSec: atSec,
+          title: `Scene ${i + 1}`,
+        });
+      }
+    }
+
+    const formattedText = chapters.map(c => `${c.timestamp} ${c.title}`).join('\n');
+
+    return {
+      totalChapters: chapters.length,
+      chapters,
+      formattedText,
     };
   }
 
