@@ -1,0 +1,15 @@
+{
+	"content" : {},
+	"requirement" :
+	{
+		"3dFaceMeshPerspective" : false,
+		"FaceAttributes" : false,
+		"faceDetect" : false,
+		"faceVerify" : false,
+		"hairColor" : false,
+		"handDetect" : false,
+		"matting" : false
+	},
+	"tag" : "AMG-jian-xian-kai-mu-2020-3-23-11-02-02",
+	"version" : "1.0"
+}

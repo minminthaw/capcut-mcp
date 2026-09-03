@@ -1,0 +1,574 @@
+[
+    {
+        "ClassName": "LumiManager",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/LumiFamily/LumiManager.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/lua/LumiFamily/LumiManager.lua",
+        "Properties": [
+            {
+                "VarName": "debugTime",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    6.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "autoPlay",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "lumiEffectRoot",
+                "VarType": "Transform",
+                "Comment": ""
+            },
+            {
+                "VarName": "start_render_layer",
+                "VarType": "Int64",
+                "Comment": ""
+            },
+            {
+                "VarName": "start_render_order",
+                "VarType": "Int64",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getKeyframeAeTime",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onDestroy",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getCameraCount",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "ReRender",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "registerLumiObj",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateCameraLayerAndOrder",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateRtPingpong",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateOutputRtSize",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "initVideoAnimationLua",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onLateUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiEffect",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/LumiFamily/LumiEffect.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/lua/LumiFamily/LumiEffect.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onDestroy",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateMaterials",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiSurfaceBlur",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/LumiSurfaceBlur/lua/LumiSurfaceBlur.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/effects/LumiSurfaceBlur/lua/LumiSurfaceBlur.lua",
+        "Properties": [
+            {
+                "VarName": "radius",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.001,
+                                    8.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "blurIntensity",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.001,
+                                    25.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setEffectAttr",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Curves",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/LumiCurves/lua/Curves.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/effects/LumiCurves/lua/Curves.lua",
+        "Properties": [
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "start",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seekToTime",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiSkinFilter",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/LumiSkinFilter/lua/LumiSkinFilter.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/effects/LumiSkinFilter/lua/LumiSkinFilter.lua",
+        "Properties": [
+            {
+                "VarName": "skinFilterIntensity",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "bgFilterIntensity",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "bgLut",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "skinLut",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "skinMask",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setEffectAttr",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "ScriptCompStrongSharpen",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/LumiStrongSharpen/lua/ScriptCompStrongSharpen.lua",
+        "FileAbsPath": "/Users/yanhong/Desktop/\u6ee4\u955c\u6539\u5305/\u6ee4\u955c/LumiExportEffect_20250306204809639/AmazingFeature/effects/LumiStrongSharpen/lua/ScriptCompStrongSharpen.lua",
+        "Properties": [
+            {
+                "VarName": "strength",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "range",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    10.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "quality",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "borderType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Normal",
+                                    "Replicate",
+                                    "Black",
+                                    "Reflect"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "lumiSharedRt",
+                "VarType": "Vector",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Type",
+                                "RawValue": "",
+                                "Values": [
+                                    "Texture"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setEffectAttr",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

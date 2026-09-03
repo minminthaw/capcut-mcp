@@ -1,0 +1,20 @@
+{
+	"ae_tool": "AmazingEditor",
+	"bALG_BACH_CONFIG": true,
+	"effect": {
+		"Link": [
+			{
+				"path": "AmazingFeature/",
+				"type": "AmazingFeature",
+				"zorder": 8029
+			},
+			{
+				"path": "sharp/",
+				"type": "AmazingFeature",
+				"zorder": 8129
+			}
+		]
+	},
+	"name": "AE2Effect",
+	"version": "13.4.0"
+}

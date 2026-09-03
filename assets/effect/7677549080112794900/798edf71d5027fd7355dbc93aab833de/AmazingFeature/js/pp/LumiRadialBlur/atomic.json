@@ -1,0 +1,76 @@
+{
+  "key": "LumiRadialBlur",
+  "category": "Blur & Sharpen",
+  "desc": "径向模糊效果 - 从中心点向外或围绕中心点创建径向模糊，支持多种模糊类型。适用于速度感表现、聚焦效果、旋转模糊、径向运动",
+  "preset": [
+    {
+      "name": "none",
+      "desc": "无效果 - 关闭径向模糊效果，不应用任何径向模糊，保持图像原始状态"
+    },
+    {
+      "name": "low",
+      "desc": "低强度径向模糊 - 模拟低强度的径向模糊，创建柔和的视觉效果"
+    },
+    {
+      "name": "medium",
+      "desc": "中等强度径向模糊 - 模拟中等强度的径向模糊，创建中等的视觉效果"
+    },
+    {
+      "name": "high",
+      "desc": "高强度径向模糊 - 模拟高强度的径向模糊，创建强烈的视觉效果"
+    }
+  ],
+  "subProperties": [
+    {
+      "name": "blurType",
+      "desc": "模糊类型 - 选择径向模糊方式：0=直线缩放，1=渐变缩放，2=居中缩放，3=旋转模糊",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "amount",
+      "desc": "模糊强度 - 控制径向模糊的强度，正值为正向，负值为反向",
+      "type": "number",
+      "value": 60,
+      "min": -250,
+      "max": 250
+    },
+    {
+      "name": "quality",
+      "desc": "采样质量 - 控制径向模糊的采样精度，影响效果质量",
+      "type": "number",
+      "value": 0.2
+    },
+    {
+      "name": "center",
+      "desc": "模糊中心点 - 设定径向模糊的中心位置",
+      "type": "array",
+      "value": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "weightDecay",
+      "desc": "权重衰减 - 控制采样权重的衰减系数，影响模糊的渐变效果",
+      "type": "number",
+      "value": 0.965
+    },
+    {
+      "name": "intensity",
+      "desc": "径向模糊强度 - 控制径向模糊的强度, 0为无模糊, 1为最大模糊",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "weightdecay",
+      "desc": "Controls how quickly the radial blur weight falls off with distance.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    }
+  ]
+}

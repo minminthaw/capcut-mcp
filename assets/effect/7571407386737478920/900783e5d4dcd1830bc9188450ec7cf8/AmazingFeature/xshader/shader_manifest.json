@@ -1,0 +1,19 @@
+{
+  "sceneName": "",
+  "extractionTime": "2025-10-28T12:34:44.755Z",
+  "totalShaders": 1,
+  "totalDuplicates": 0,
+  "uniqueShaders": 1,
+  "shaders": [
+    {
+      "key": "132_1956",
+      "name": "132_1956",
+      "objectName": "Plane",
+      "files": {
+        "vertex": "132_1956.vert",
+        "fragment": "132_1956.frag",
+        "info": "132_1956.json"
+      }
+    }
+  ]
+}

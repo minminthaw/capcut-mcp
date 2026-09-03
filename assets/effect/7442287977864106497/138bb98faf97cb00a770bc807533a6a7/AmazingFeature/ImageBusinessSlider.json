@@ -1,0 +1,33 @@
+{
+	"ImageBusinessSlider" : 
+	{
+		"LV" : 
+		{
+			"blur" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 0.0
+			},
+			"color" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 0.0
+			},
+			"intensity" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 100.0
+			},
+			"size" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 100.0
+			},
+			"speed" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 33.333335876464844
+			}
+		}
+	}
+}

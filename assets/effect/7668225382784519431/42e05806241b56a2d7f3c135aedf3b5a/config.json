@@ -1,0 +1,33 @@
+{
+    "ae_tool": "AmazingEditor",
+    "bALG_BACH_CONFIG": true,
+    "effect": {
+        "Link": [
+            {
+                "path": "AmazingFeature_HDSmooth/",
+                "type": "AmazingFeature",
+                "zorder": 8001
+            },
+            {
+                "path": "AmazingFeature_FillLight/",
+                "type": "AmazingFeature",
+                "zorder": 8002
+            },
+            {
+                "path": "AmazingFeature_HLightFilter/",
+                "type": "AmazingFeature",
+                "zorder": 8003
+            }
+        ],
+        "model_names": {
+            "faceDetect": [
+                "tt_face"
+            ],
+            "skinseg": [
+                "tt_skin_seg"
+            ]
+        }
+    },
+    "name": "45986fe8457b11ee88067c10c9c055a5",
+    "version": "13.3.0"
+}

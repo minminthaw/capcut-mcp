@@ -1,0 +1,54 @@
+{
+    "setting": {
+        "effect_adjust_params": [
+            {
+                "effect_key": "effects_adjust_speed",
+                "default": 0.5,
+                "min": 0.0,
+                "max": 1.0
+            }
+        ],
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "效果进度",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "gridCount",
+                "effect_key_cn": "网格数",
+                "type": "float",
+                "default": 8,
+                "min": 2,
+                "max": 32
+            },
+            {
+                "effect_key": "maxPixelBlock",
+                "effect_key_cn": "最大像素块",
+                "type": "float",
+                "default": 64,
+                "min": 8,
+                "max": 256
+            },
+            {
+                "effect_key": "offsetStrength",
+                "effect_key_cn": "偏移强度",
+                "type": "float",
+                "default": 0.1,
+                "min": 0,
+                "max": 0.5
+            },
+            {
+                "effect_key": "flashProb",
+                "effect_key_cn": "闪光问题",
+                "type": "float",
+                "default": 0.2,
+                "min": 0,
+                "max": 1
+            }
+        ]
+    }
+}

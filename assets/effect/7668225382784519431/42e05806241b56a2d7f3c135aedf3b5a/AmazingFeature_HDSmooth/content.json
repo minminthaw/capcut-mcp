@@ -1,0 +1,12 @@
+{
+	"ae_tool" : "AmazingEditor",
+	"content" : {},
+	"needblend" : false,
+	"requirement" : 
+	{
+		"3dFaceMeshPerspective" : true,
+		"faceDetect" : true
+	},
+	"tag" : "AMG_109010135320763417702331246945509361809",
+	"version" : "1.0"
+}

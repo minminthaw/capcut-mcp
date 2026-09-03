@@ -1,0 +1,108 @@
+{
+  "name": "132_1956",
+  "objectName": "Plane",
+  "vertexShaderFile": "132_1956.vert",
+  "fragmentShaderFile": "132_1956.frag",
+  "uniforms": {
+    "tDiffuse": {
+      "value": {
+        "metadata": {
+          "version": 4.6,
+          "type": "Texture",
+          "generator": "Texture.toJSON"
+        },
+        "uuid": "94086104-2df3-4b66-99c5-a28eb51e89b3",
+        "name": "",
+        "image": "cd809e5b-de3a-4987-9668-6bb756deb41b",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "colorSpace": "",
+        "minFilter": 1006,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    },
+    "tDiffuse1": {
+      "value": {
+        "metadata": {
+          "version": 4.6,
+          "type": "Texture",
+          "generator": "Texture.toJSON"
+        },
+        "uuid": "94086104-2df3-4b66-99c5-a28eb51e89b3",
+        "name": "",
+        "image": "cd809e5b-de3a-4987-9668-6bb756deb41b",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "colorSpace": "",
+        "minFilter": 1006,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    },
+    "intensity": {
+      "value": 0.0029113700000000012
+    },
+    "ratio": {
+      "value": 1
+    },
+    "progress": {
+      "value": 0.0014556850000000006
+    },
+    "gridSize": {
+      "value": 0.1
+    },
+    "collapseStrength": {
+      "value": 1
+    }
+  },
+  "timestamp": "2025-10-28T12:34:44.754Z"
+}

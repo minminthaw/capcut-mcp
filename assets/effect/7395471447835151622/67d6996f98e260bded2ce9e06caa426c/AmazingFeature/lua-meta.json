@@ -1,0 +1,469 @@
+[
+    {
+        "ClassName": "SeekModeScript",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/SeekModeScript1.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/SeekModeScript1.lua",
+        "Properties": [
+            {
+                "VarName": "nowTime",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "timeRange",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "lightRange",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "lightRange2",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "jump1Range",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "jump2Range",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "inputTex",
+                "VarType": "RenderTexture",
+                "Comment": ""
+            },
+            {
+                "VarName": "blurTex",
+                "VarType": "RenderTexture",
+                "Comment": ""
+            },
+            {
+                "VarName": "highLightTex",
+                "VarType": "RenderTexture",
+                "Comment": ""
+            },
+            {
+                "VarName": "autoPlay",
+                "VarType": "Bool",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seekToTime",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Class",
+        "Super": "",
+        "FilePath": "lua/src/common/Class.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/src/common/Class.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "extend ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "new ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "isBaseOf ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "isInstance ",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "AEAdapter",
+        "Super": "",
+        "FilePath": "lua/src/common/AEAdapter.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/src/common/AEAdapter.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "new ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "addKeyframes ",
+                "Params": [
+                    {
+                        "ParaName": "layerName",
+                        "ParaType": "String",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "layerData",
+                        "ParaType": "table<string,",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "addFrames ",
+                "Params": [
+                    {
+                        "ParaName": "layerName",
+                        "ParaType": "String",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "layerData",
+                        "ParaType": "table",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "addAnimations ",
+                "Params": [
+                    {
+                        "ParaName": "layerName",
+                        "ParaType": "String",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "layerData",
+                        "ParaType": "table",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "get ",
+                "Params": [
+                    {
+                        "ParaName": "path",
+                        "ParaType": "String",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "time",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": "",
+                "Return": {
+                    "Types": [
+                        "number|number[]"
+                    ],
+                    "Comment": ""
+                }
+            },
+            {
+                "FuncName": "getVelocity ",
+                "Params": [
+                    {
+                        "ParaName": "path",
+                        "ParaType": "String",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "time",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "delta",
+                        "ParaType": "number|nil",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": "",
+                "Return": {
+                    "Types": [
+                        "number|number[]"
+                    ],
+                    "Comment": ""
+                }
+            },
+            {
+                "FuncName": "makeTransform3D ",
+                "Params": [
+                    {
+                        "ParaName": "layers",
+                        "ParaType": "table[]",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": "",
+                "Return": {
+                    "Types": [
+                        "Matrix4x4f"
+                    ],
+                    "Comment": ""
+                }
+            },
+            {
+                "FuncName": "makeTransform2D ",
+                "Params": [
+                    {
+                        "ParaName": "screenSize",
+                        "ParaType": "Vector2f|nil",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "layers",
+                        "ParaType": "table[]",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": "",
+                "Return": {
+                    "Types": [
+                        "Mat3"
+                    ],
+                    "Comment": ""
+                }
+            },
+            {
+                "FuncName": "_solveFrame ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_interpolateFrame ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_solveKeyframe ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_interpolateScalar ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_interpolateVector ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_solveAnimation ",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Mat3",
+        "Super": "",
+        "FilePath": "lua/src/common/Mat3.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/src/common/Mat3.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "identity ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "rotate ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "translate ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "scale ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "skewX ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "skewY ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "determinant ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "inverse ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mulMatrix ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mulVector ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mulPoint ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mulScalar ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "toMaterial ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "toMaterialVector ",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Setting",
+        "Super": "",
+        "FilePath": "lua/src/common/Setting.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/src/common/Setting.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "new ",
+                "Params": [
+                    {
+                        "ParaName": "map",
+                        "ParaType": "Map",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "__index ",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "__newindex ",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "EventScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/HighlightNew/lua/EventScript.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/HighlightNew/lua/EventScript.lua",
+        "Properties": [
+            {
+                "VarName": "radius",
+                "VarType": "Double",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

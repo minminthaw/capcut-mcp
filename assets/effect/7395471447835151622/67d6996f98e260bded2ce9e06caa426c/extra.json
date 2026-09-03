@@ -1,0 +1,37 @@
+{
+    "setting": {
+        "effect_adjust_params": [
+            {
+                "effect_key": "effects_adjust_luminance",
+                "default": 0.5,
+                "min": 0.0,
+                "max": 1.0
+            },
+            {
+                "effect_key": "effects_adjust_filter",
+                "default": 0.3,
+                "min": 0.0,
+                "max": 1.0
+            },
+            {
+                "effect_key": "effects_adjust_speed",
+                "default": 0.3333333333,
+                "min": 0.0,
+                "max": 1.0
+            },
+            {
+                "effect_key": "effects_adjust_range",
+                "default": 0.5,
+                "min": 0.0,
+                "max": 1.0
+            },
+            {
+                "effect_key": "effects_adjust_intensity",
+                "default": 0.285,
+                "min": 0.0,
+                "max": 1.0
+            }
+        ]
+    },
+    "External_Producer": true
+}

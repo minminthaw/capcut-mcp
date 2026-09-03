@@ -1,0 +1,43 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "gridCount",
+                "effect_key_cn": "\u7f51\u683c\u6570",
+                "type": "float",
+                "default": 12,
+                "min": 6,
+                "max": 24
+            },
+            {
+                "effect_key": "glowIntensity",
+                "effect_key_cn": "\u53d1\u5149\u5f3a\u5ea6",
+                "type": "float",
+                "default": 1.1,
+                "min": 0,
+                "max": 2
+            },
+            {
+                "effect_key": "aberration",
+                "effect_key_cn": "\u50cf\u5dee",
+                "type": "float",
+                "default": 0.004,
+                "min": 0,
+                "max": 0.02
+            }
+        ]
+    }
+}

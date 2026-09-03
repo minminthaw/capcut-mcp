@@ -1,0 +1,64 @@
+[
+    {
+        "ClassName": "TempScriptLua",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/TempScriptLua.lua",
+        "FileAbsPath": "/Users/logl/Downloads/amaz_projects/\u526a\u6620\u7279\u6548-\u53d1\u5149CCD/AmazingFeature_filter/lua/TempScriptLua.lua",
+        "Properties": [
+            {
+                "VarName": "FilterIntensity",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            },
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

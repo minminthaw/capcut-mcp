@@ -1,0 +1,61 @@
+{
+  "key": "LumiCustom",
+  "category": "Others",
+  "desc": "A custom single-pass post effect with intensity, progress, blur, and lighting controls.",
+  "preset": [
+    {
+      "name": "none",
+      "desc": "Disables the stylization and preserves the source image as much as possible."
+    }
+  ],
+  "subProperties": [
+    {
+      "name": "intensity",
+      "desc": "Overall effect-strength control intended for simple host-side animation or mixing.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "ratio",
+      "desc": "Ratio parameter used to balance or scale the custom effect response.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "progress",
+      "desc": "Normalized progress control for animating the effect over time.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "blurSize",
+      "desc": "Parameter controlling blurSize in the LumiCustom effect.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "quality",
+      "desc": "Internal quality or downsampling control that trades detail for performance.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "lightIntensity",
+      "desc": "Additional light or highlight intensity used by the custom shader.",
+      "type": "number",
+      "value": 0,
+      "min": 0,
+      "max": 1
+    }
+  ]
+}

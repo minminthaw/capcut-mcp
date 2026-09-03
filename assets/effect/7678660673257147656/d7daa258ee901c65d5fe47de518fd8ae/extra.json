@@ -1,0 +1,27 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "blockScale",
+                "effect_key_cn": "\u5757\u5c3a\u5ea6",
+                "type": "float",
+                "default": 40,
+                "min": 8,
+                "max": 120
+            }
+        ]
+    }
+}

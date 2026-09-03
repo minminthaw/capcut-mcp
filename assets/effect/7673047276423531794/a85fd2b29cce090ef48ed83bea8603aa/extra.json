@@ -1,0 +1,43 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "glitchAmount",
+                "effect_key_cn": "\u6545\u969c\u91cf",
+                "type": "float",
+                "default": 0.75,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "shardDelay",
+                "effect_key_cn": "\u5206\u7247\u5ef6\u8fdf",
+                "type": "float",
+                "default": 0.22,
+                "min": 0,
+                "max": 0.35
+            },
+            {
+                "effect_key": "neonIntensity",
+                "effect_key_cn": "\u9713\u8679\u706f\u5f3a\u5ea6",
+                "type": "float",
+                "default": 0.65,
+                "min": 0,
+                "max": 1
+            }
+        ]
+    }
+}

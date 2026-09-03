@@ -1,0 +1,4552 @@
+[
+  {
+    "resourceId": "1036120041",
+    "hash": "7e3c26bd14a0b68a84fee058db7f1ade",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120041/7e3c26bd14a0b68a84fee058db7f1ade"
+  },
+  {
+    "resourceId": "1036120042",
+    "hash": "6e7fa46ea829d76af5c4b45b3af75696",
+    "name": "rect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120042/6e7fa46ea829d76af5c4b45b3af75696"
+  },
+  {
+    "resourceId": "1036120043",
+    "hash": "756373427cbe82b997760cac8c9bb107",
+    "name": "circle",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120043/756373427cbe82b997760cac8c9bb107"
+  },
+  {
+    "resourceId": "1036120044",
+    "hash": "8d6ca013cc94eaf89f0b889432efd31c",
+    "name": "linear",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120044/8d6ca013cc94eaf89f0b889432efd31c"
+  },
+  {
+    "resourceId": "1036120045",
+    "hash": "9ee4e93af66335a75843446555efd8a6",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120045/9ee4e93af66335a75843446555efd8a6"
+  },
+  {
+    "resourceId": "1036120046",
+    "hash": "0a294934a14e5956965a554987b559d7",
+    "name": "mirror",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120046/0a294934a14e5956965a554987b559d7"
+  },
+  {
+    "resourceId": "1068046536",
+    "hash": "4c6a0ef5de6a844342d40330e00c59eb",
+    "name": "linear",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046536/4c6a0ef5de6a844342d40330e00c59eb"
+  },
+  {
+    "resourceId": "1068046537",
+    "hash": "02b8999168d121538a98ea59127483ef",
+    "name": "rect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046537/02b8999168d121538a98ea59127483ef"
+  },
+  {
+    "resourceId": "1068046538",
+    "hash": "cfa1154e4873fda2c09716c8aa546236",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046538/cfa1154e4873fda2c09716c8aa546236"
+  },
+  {
+    "resourceId": "1068046539",
+    "hash": "95ac211c99063c41b86b9b63742f4a6d",
+    "name": "mirror",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046539/95ac211c99063c41b86b9b63742f4a6d"
+  },
+  {
+    "resourceId": "1068046540",
+    "hash": "3ab1c47350d987c8ad415497e020a38b",
+    "name": "circle",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046540/3ab1c47350d987c8ad415497e020a38b"
+  },
+  {
+    "resourceId": "1068046541",
+    "hash": "7e3c26bd14a0b68a84fee058db7f1ade",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046541/7e3c26bd14a0b68a84fee058db7f1ade"
+  },
+  {
+    "resourceId": "1068046543",
+    "hash": "9ee4e93af66335a75843446555efd8a6",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046543/9ee4e93af66335a75843446555efd8a6"
+  },
+  {
+    "resourceId": "1220399934",
+    "hash": "ada210b1e21e860006c8324db359d8a3",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1220399934/ada210b1e21e860006c8324db359d8a3"
+  },
+  {
+    "resourceId": "1220408588",
+    "hash": "ada210b1e21e860006c8324db359d8a3",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1220408588/ada210b1e21e860006c8324db359d8a3"
+  },
+  {
+    "resourceId": "4381462",
+    "hash": "b033ea56618d5b0f098071fb326bb02a",
+    "name": "2023_02_03_19_26_15_9225ff50a3b511edb4479a74e0f57e8a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4381462/b033ea56618d5b0f098071fb326bb02a"
+  },
+  {
+    "resourceId": "4381463",
+    "hash": "7b53f4c008c4c684fccf8c7d4d46cc92",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4381463/7b53f4c008c4c684fccf8c7d4d46cc92"
+  },
+  {
+    "resourceId": "4711700586",
+    "hash": "d3eb0298b2b1c345c123470c9194c8ad",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4711700586/d3eb0298b2b1c345c123470c9194c8ad"
+  },
+  {
+    "resourceId": "670865",
+    "hash": "6f18fb242b64f9641da79aa773a33687",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/670865/6f18fb242b64f9641da79aa773a33687"
+  },
+  {
+    "resourceId": "670877",
+    "hash": "4cfd965c25e33c7df9b2c1b3b4cbdf31",
+    "name": "AmazingAuto_9f781fcbf4c7b20edf72cf5b75078c92",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/670877/4cfd965c25e33c7df9b2c1b3b4cbdf31"
+  },
+  {
+    "resourceId": "6724845376098013708",
+    "hash": "b033ea56618d5b0f098071fb326bb02a",
+    "name": "2023_02_03_19_26_15_9225ff50a3b511edb4479a74e0f57e8a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6724845376098013708/b033ea56618d5b0f098071fb326bb02a"
+  },
+  {
+    "resourceId": "6724845717472416269",
+    "hash": "7b53f4c008c4c684fccf8c7d4d46cc92",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6724845717472416269/7b53f4c008c4c684fccf8c7d4d46cc92"
+  },
+  {
+    "resourceId": "6726711296063967748",
+    "hash": "837bf042dc2b29a82fbb0cde8bbfc6fc",
+    "name": "AmazingAuto_9f781fcbf4c7b20edf72cf5b75078c92",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6726711296063967748/837bf042dc2b29a82fbb0cde8bbfc6fc"
+  },
+  {
+    "resourceId": "6858191510865711629",
+    "hash": "e9301bacebc6dc444aa4e6f835dd4a31",
+    "name": "AmazingAuto_d7122df996c495d66df70cd2698c2156",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6858191510865711629/e9301bacebc6dc444aa4e6f835dd4a31"
+  },
+  {
+    "resourceId": "7083799735387050498",
+    "hash": "11494a507063eb58ead29c9a0e658fc8",
+    "name": "Editor_Sticker_Config_TAG_jdSbG8bTcWdobJecndkcAsd4Hc4c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7083799735387050498/11494a507063eb58ead29c9a0e658fc8"
+  },
+  {
+    "resourceId": "7194814295517958657",
+    "hash": "b1985a36a9c9ecd0395004fb85ab9097",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7194814295517958657/b1985a36a9c9ecd0395004fb85ab9097"
+  },
+  {
+    "resourceId": "7194814374001775105",
+    "hash": "13fd5bb6c22236bb299c266428395180",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7194814374001775105/13fd5bb6c22236bb299c266428395180"
+  },
+  {
+    "resourceId": "7198424967803834881",
+    "hash": "3a0fd76188f0955a96b967a9cce139b3",
+    "name": "AmazingAuto_f367780846c65ec68ff06012ae35fe9a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7198424967803834881/3a0fd76188f0955a96b967a9cce139b3"
+  },
+  {
+    "resourceId": "7241034488325607937",
+    "hash": "5e9ca6bcc2a29c19b2fb9a2d3b217f44",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0570C",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7241034488325607937/5e9ca6bcc2a29c19b2fb9a2d3b217f44"
+  },
+  {
+    "resourceId": "7241034586971443713",
+    "hash": "7f546620febfe6bd96881cb842b61bec",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7241034586971443713/7f546620febfe6bd96881cb842b61bec"
+  },
+  {
+    "resourceId": "7289393505166692866",
+    "hash": "0cef35f4090468586ca961c4baa51c83",
+    "name": "CreateByScript__2022_04_07_14_47_44_a0b2854eb63e11eca601acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7289393505166692866/0cef35f4090468586ca961c4baa51c83"
+  },
+  {
+    "resourceId": "7291923867235258882",
+    "hash": "95462badbbb87bd7dc4e1d7b04e58306",
+    "name": "Editor_Sticker_Config_TAG_wd20230612nxs_dianguang",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7291923867235258882/95462badbbb87bd7dc4e1d7b04e58306"
+  },
+  {
+    "resourceId": "7297208322564821506",
+    "hash": "c49dc3466423aa089c78e96cb582a764",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7297208322564821506/c49dc3466423aa089c78e96cb582a764"
+  },
+  {
+    "resourceId": "7297208498499097090",
+    "hash": "9fb47b707f085de151d89a921fbc5cdd",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7297208498499097090/9fb47b707f085de151d89a921fbc5cdd"
+  },
+  {
+    "resourceId": "7301690894971834881",
+    "hash": "b977315213335e028ee6d25ae0f67661",
+    "name": "2023_11_15_21_48_70a958a0581b4015cda941aabf3166c2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7301690894971834881/b977315213335e028ee6d25ae0f67661"
+  },
+  {
+    "resourceId": "7338723334563041793",
+    "hash": "f8217aa95e0a67eed36effcf72e7bc16",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7338723334563041793/f8217aa95e0a67eed36effcf72e7bc16"
+  },
+  {
+    "resourceId": "7367637998579487248",
+    "hash": "9c7e9af83b4e4effc689afcd35febcd5",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7367637998579487248/9c7e9af83b4e4effc689afcd35febcd5"
+  },
+  {
+    "resourceId": "7369530763454190081",
+    "hash": "5de0a0ed7f0bd78bf63f434439b07202",
+    "name": "matting",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7369530763454190081/5de0a0ed7f0bd78bf63f434439b07202"
+  },
+  {
+    "resourceId": "7394445460133384705",
+    "hash": "43be3756d5f8988ade333be730e7950d",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fjuziqishui",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7394445460133384705/43be3756d5f8988ade333be730e7950d"
+  },
+  {
+    "resourceId": "7395466266540084486",
+    "hash": "815fe4564516ccb104dd6a12682e6ac2",
+    "name": "1b8439c2057311ef807f7c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395466266540084486/815fe4564516ccb104dd6a12682e6ac2"
+  },
+  {
+    "resourceId": "7395471447835151622",
+    "hash": "67d6996f98e260bded2ce9e06caa426c",
+    "name": "c5e1e0ce65a311eeac9a7c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395471447835151622/67d6996f98e260bded2ce9e06caa426c"
+  },
+  {
+    "resourceId": "7395474293095763206",
+    "hash": "5fd07aa6f1051732b710181c578cc2ce",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395474293095763206/5fd07aa6f1051732b710181c578cc2ce"
+  },
+  {
+    "resourceId": "7399466453944093957",
+    "hash": "be1c0676764ee83d32b63afc46272c28",
+    "name": "GESticker_exposure_reduce_20191202_142223",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399466453944093957/be1c0676764ee83d32b63afc46272c28"
+  },
+  {
+    "resourceId": "7399467149846121734",
+    "hash": "b7abe840af4f942b11e0ccda971d4df7",
+    "name": "Editor_Sticker_Config_TAG_lde2Fb2bHjbucfc7Bg0dSdZbib202009251626",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399467149846121734/b7abe840af4f942b11e0ccda971d4df7"
+  },
+  {
+    "resourceId": "7399469054718741765",
+    "hash": "a299b022ab4d7a1830ac72dce3d21d95",
+    "name": "jian-xian-kai-mu",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399469054718741765/a299b022ab4d7a1830ac72dce3d21d95"
+  },
+  {
+    "resourceId": "7406274848898583813",
+    "hash": "3058b95c1064b998c81e7f4bb5cc17df",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1qingtougan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274848898583813/3058b95c1064b998c81e7f4bb5cc17df"
+  },
+  {
+    "resourceId": "7406274861477219590",
+    "hash": "c5bf6c4df93488e8803b646baa9fca08",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fdanrenzhuang63jianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274861477219590/c5bf6c4df93488e8803b646baa9fca08"
+  },
+  {
+    "resourceId": "7406274867105926406",
+    "hash": "d0696f4e244d3ca9945f233e26bc2689",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274867105926406/d0696f4e244d3ca9945f233e26bc2689"
+  },
+  {
+    "resourceId": "7406274871811919110",
+    "hash": "46dec5de0e4dad6bfa81636d71530f41",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274871811919110/46dec5de0e4dad6bfa81636d71530f41"
+  },
+  {
+    "resourceId": "7406274883337964806",
+    "hash": "fa81c3da32f52eb9676f4ff87a760383",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274883337964806/fa81c3da32f52eb9676f4ff87a760383"
+  },
+  {
+    "resourceId": "7406274909426552069",
+    "hash": "e8f25000cf7890348809c80a5622148e",
+    "name": "overseas-model-3dtangmeixiannv",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274909426552069/e8f25000cf7890348809c80a5622148e"
+  },
+  {
+    "resourceId": "7406274917844585733",
+    "hash": "4c7fb4c468cb3974afc8cddad665e5f6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274917844585733/4c7fb4c468cb3974afc8cddad665e5f6"
+  },
+  {
+    "resourceId": "7406274923083074822",
+    "hash": "cf0b131897e47e265ac3f20e742d6c71",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_tuofengbiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274923083074822/cf0b131897e47e265ac3f20e742d6c71"
+  },
+  {
+    "resourceId": "7406274967505046790",
+    "hash": "6991e25cc45bd9e91501a21aac419806",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274967505046790/6991e25cc45bd9e91501a21aac419806"
+  },
+  {
+    "resourceId": "7406274977802161413",
+    "hash": "e5bb3a0eb2b510d2e651f3c95557c094",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274977802161413/e5bb3a0eb2b510d2e651f3c95557c094"
+  },
+  {
+    "resourceId": "7406274987881008389",
+    "hash": "3d99c2b3caa2b97885d73a79f5aa8e7f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274987881008389/3d99c2b3caa2b97885d73a79f5aa8e7f"
+  },
+  {
+    "resourceId": "7406275011327151365",
+    "hash": "0e74d8d9739ee72017116c963446167d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275011327151365/0e74d8d9739ee72017116c963446167d"
+  },
+  {
+    "resourceId": "7406275013055139078",
+    "hash": "01e593a081e9d83a1d395a0b2bc52b5f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275013055139078/01e593a081e9d83a1d395a0b2bc52b5f"
+  },
+  {
+    "resourceId": "7406275031136832774",
+    "hash": "6e73061652a2aded9a47e44901c6b135",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275031136832774/6e73061652a2aded9a47e44901c6b135"
+  },
+  {
+    "resourceId": "7406275033196268806",
+    "hash": "116c1a695f45f18db98e748d7e4972ec",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1taxi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275033196268806/116c1a695f45f18db98e748d7e4972ec"
+  },
+  {
+    "resourceId": "7406275061491010821",
+    "hash": "3ea115b69e5ec2f6121ab20b7e962be8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275061491010821/3ea115b69e5ec2f6121ab20b7e962be8"
+  },
+  {
+    "resourceId": "7406275063676243206",
+    "hash": "c7baf7d720e864b650680adfb12b86b6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275063676243206/c7baf7d720e864b650680adfb12b86b6"
+  },
+  {
+    "resourceId": "7406275067019037957",
+    "hash": "66385dee490adeb789f061070da7d526",
+    "name": "legacy-model-2d-6b21cb88-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275067019037957/66385dee490adeb789f061070da7d526"
+  },
+  {
+    "resourceId": "7406275072958172421",
+    "hash": "d764552d7a92af5a4c4d0d4b664e6fde",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275072958172421/d764552d7a92af5a4c4d0d4b664e6fde"
+  },
+  {
+    "resourceId": "7406275081007074565",
+    "hash": "78ca534e33e0460635326589e48dccf7",
+    "name": "overseas-model-3dlatte",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275081007074565/78ca534e33e0460635326589e48dccf7"
+  },
+  {
+    "resourceId": "7406275155275664645",
+    "hash": "5f7b475e2a564170edaf9dbf5a21f961",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275155275664645/5f7b475e2a564170edaf9dbf5a21f961"
+  },
+  {
+    "resourceId": "7406275174242340102",
+    "hash": "b4b0586a654ae45253a300c63ab38225",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275174242340102/b4b0586a654ae45253a300c63ab38225"
+  },
+  {
+    "resourceId": "7406275174573591814",
+    "hash": "86a749f15191fe2197ec2cab4d691113",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fwuhuaguo",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275174573591814/86a749f15191fe2197ec2cab4d691113"
+  },
+  {
+    "resourceId": "7406275177702575365",
+    "hash": "867d58c16f65ee1f75beace79e00d7ac",
+    "name": "overseas-model-softglam0517",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275177702575365/867d58c16f65ee1f75beace79e00d7ac"
+  },
+  {
+    "resourceId": "7406275199672372485",
+    "hash": "83a4fed2f7df8ea4addc6c34cba31ded",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1cleanmk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275199672372485/83a4fed2f7df8ea4addc6c34cba31ded"
+  },
+  {
+    "resourceId": "7406275199949131014",
+    "hash": "cadf8134f7fb699f5b6fade68e465c65",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275199949131014/cadf8134f7fb699f5b6fade68e465c65"
+  },
+  {
+    "resourceId": "7406275203912764677",
+    "hash": "9ac827f704c4332aa82a075d6c9bd0c9",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275203912764677/9ac827f704c4332aa82a075d6c9bd0c9"
+  },
+  {
+    "resourceId": "7406275213500878086",
+    "hash": "eb7b11e03f9e7e61222111ff5a488ba5",
+    "name": "overseas-model-3dnatural",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275213500878086/eb7b11e03f9e7e61222111ff5a488ba5"
+  },
+  {
+    "resourceId": "7406275228231290118",
+    "hash": "e4cac4034dbb60c07e895f9cba36e58e",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275228231290118/e4cac4034dbb60c07e895f9cba36e58e"
+  },
+  {
+    "resourceId": "7406275260284243205",
+    "hash": "0ccfe24dd1cb2aae5decc3a1db0a5c2c",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22paiduiweixun",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275260284243205/0ccfe24dd1cb2aae5decc3a1db0a5c2c"
+  },
+  {
+    "resourceId": "7406275298490125573",
+    "hash": "f4b9c5485bff0e512086b3c9c1bf54ca",
+    "name": "new-model-2d-7ed7dff0-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275298490125573/f4b9c5485bff0e512086b3c9c1bf54ca"
+  },
+  {
+    "resourceId": "7406275337224490246",
+    "hash": "e100dbdfd9e84358d247c5b5962197a9",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275337224490246/e100dbdfd9e84358d247c5b5962197a9"
+  },
+  {
+    "resourceId": "7406275337753038086",
+    "hash": "51c7d4646423fff2ccfbc3314150b43c",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_xiaoqiaobiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275337753038086/51c7d4646423fff2ccfbc3314150b43c"
+  },
+  {
+    "resourceId": "7406275341347491078",
+    "hash": "3577e818eb57f6667aa359b8aa20d3ec",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275341347491078/3577e818eb57f6667aa359b8aa20d3ec"
+  },
+  {
+    "resourceId": "7406275358309305606",
+    "hash": "b9f7bce12073305dcaa15be1ae15830a",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275358309305606/b9f7bce12073305dcaa15be1ae15830a"
+  },
+  {
+    "resourceId": "7406275364344958213",
+    "hash": "2aee6ddcf43e7d7cad032ef9cd4584fc",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275364344958213/2aee6ddcf43e7d7cad032ef9cd4584fc"
+  },
+  {
+    "resourceId": "7406275378282581254",
+    "hash": "20503b8998e2d782c8e31420d8b9e040",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275378282581254/20503b8998e2d782c8e31420d8b9e040"
+  },
+  {
+    "resourceId": "7406275413602864390",
+    "hash": "1d70b2e3939b326a937ed2f5e53052bf",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275413602864390/1d70b2e3939b326a937ed2f5e53052bf"
+  },
+  {
+    "resourceId": "7406275420099824901",
+    "hash": "3def28fb7baa29eb8659eaff6d1d317c",
+    "name": "new-model-2d-makeuproot",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275420099824901/3def28fb7baa29eb8659eaff6d1d317c"
+  },
+  {
+    "resourceId": "7406275449208245509",
+    "hash": "4bfc12d4fb10cf3851423df3284a8d91",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275449208245509/4bfc12d4fb10cf3851423df3284a8d91"
+  },
+  {
+    "resourceId": "7406275459811675397",
+    "hash": "4aa8eb5ee40ff0f463b8f71024473419",
+    "name": "new-model-2d-7c82ef7e-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275459811675397/4aa8eb5ee40ff0f463b8f71024473419"
+  },
+  {
+    "resourceId": "7406275463695568134",
+    "hash": "127e0bf70d065f18660b45688888835d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275463695568134/127e0bf70d065f18660b45688888835d"
+  },
+  {
+    "resourceId": "7406275483169557765",
+    "hash": "4d64a5141911c1c66e0c1a3dc1e58c3a",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275483169557765/4d64a5141911c1c66e0c1a3dc1e58c3a"
+  },
+  {
+    "resourceId": "7406275487842045189",
+    "hash": "7380211292316da1b469f503872f040c",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb8fanhuacc",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275487842045189/7380211292316da1b469f503872f040c"
+  },
+  {
+    "resourceId": "7406275500630396166",
+    "hash": "153c5fbd4a4aa2399f5494c820a5b880",
+    "name": "Editor_Sticker_Config_TAG_5d5dsybbe0bobPbOcdddd1cfbMScA",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275500630396166/153c5fbd4a4aa2399f5494c820a5b880"
+  },
+  {
+    "resourceId": "7406275514291277062",
+    "hash": "3222ee48ac91b13f2ae3f96d7985bf7c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275514291277062/3222ee48ac91b13f2ae3f96d7985bf7c"
+  },
+  {
+    "resourceId": "7406275552522439942",
+    "hash": "37390ef01aa389e2d70b867e389fbafa",
+    "name": "Editor_Sticker_Config_TAG_5d5dsybbe0bobPbOcdddd1cfbMScA",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275552522439942/37390ef01aa389e2d70b867e389fbafa"
+  },
+  {
+    "resourceId": "7406275554011254022",
+    "hash": "b4147a4c79ba1b5edc8cd08e068aeebb",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275554011254022/b4147a4c79ba1b5edc8cd08e068aeebb"
+  },
+  {
+    "resourceId": "7406275555215052037",
+    "hash": "cf40f5cb554381b7bd9870bb033d2a7f",
+    "name": "new-model-2d-498f3820-5927-11ed-b0cf-3e22wanggan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275555215052037/cf40f5cb554381b7bd9870bb033d2a7f"
+  },
+  {
+    "resourceId": "7406275583899962630",
+    "hash": "f73a2250cbec9ab2f384551a421dad0d",
+    "name": "overseas-model-3dbabinvhai",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275583899962630/f73a2250cbec9ab2f384551a421dad0d"
+  },
+  {
+    "resourceId": "7406275613973089541",
+    "hash": "bb43f486ffb797d56e883de07415612a",
+    "name": "5.0.0MACB0227610DA794B739028E1D46F042E01",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275613973089541/bb43f486ffb797d56e883de07415612a"
+  },
+  {
+    "resourceId": "7406275624014204165",
+    "hash": "c1d7d72da46d29cc9dc985b3a53fc516",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275624014204165/c1d7d72da46d29cc9dc985b3a53fc516"
+  },
+  {
+    "resourceId": "7406275635871714565",
+    "hash": "6578a500e7f991d83594d65111f83bef",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275635871714565/6578a500e7f991d83594d65111f83bef"
+  },
+  {
+    "resourceId": "7406275643517848838",
+    "hash": "97f83e1ca839d3c686f41001d162e749",
+    "name": "AlgorithmGraph_vdHHdEddkdcbrbKchb3cOydTdvcdb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275643517848838/97f83e1ca839d3c686f41001d162e749"
+  },
+  {
+    "resourceId": "7406275659539942662",
+    "hash": "ef172c78cd6ae8ca8ad40270ba5a00a1",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275659539942662/ef172c78cd6ae8ca8ad40270ba5a00a1"
+  },
+  {
+    "resourceId": "7406275665940532485",
+    "hash": "2672ec7924b75f536446626369fd680b",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_mashengbiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275665940532485/2672ec7924b75f536446626369fd680b"
+  },
+  {
+    "resourceId": "7406275668859768070",
+    "hash": "81f4874ea627ddc8d49098eeae9c1ad2",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275668859768070/81f4874ea627ddc8d49098eeae9c1ad2"
+  },
+  {
+    "resourceId": "7406275685850893573",
+    "hash": "ed62e6dc7d65e2a9bcc1da68a58ec1d7",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275685850893573/ed62e6dc7d65e2a9bcc1da68a58ec1d7"
+  },
+  {
+    "resourceId": "7406275693396380934",
+    "hash": "1b8980593f53f667ff74fd68cb6fa6c8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275693396380934/1b8980593f53f667ff74fd68cb6fa6c8"
+  },
+  {
+    "resourceId": "7406275697976642822",
+    "hash": "ec915e44188cac822cf5604b014e4395",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fdanzhuanggongshi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275697976642822/ec915e44188cac822cf5604b014e4395"
+  },
+  {
+    "resourceId": "7406275699348098309",
+    "hash": "8a6c4d4df5bcbbe7fce13961251e73f2",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275699348098309/8a6c4d4df5bcbbe7fce13961251e73f2"
+  },
+  {
+    "resourceId": "7406275728582413573",
+    "hash": "894531c2b8f8b8fcf7974918055c08c7",
+    "name": "overseas-model-3dcherrycola",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275728582413573/894531c2b8f8b8fcf7974918055c08c7"
+  },
+  {
+    "resourceId": "7406275746551041286",
+    "hash": "e75e2725bdc98a1d38ae1664f8acd759",
+    "name": "2022-09-28_15-39-51_inner_tag__1__billliaom",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275746551041286/e75e2725bdc98a1d38ae1664f8acd759"
+  },
+  {
+    "resourceId": "7406275774145383686",
+    "hash": "93c4758b00a92b2c92ff91f0169bfbf3",
+    "name": "legacy-model-2d-60c45f20-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275774145383686/93c4758b00a92b2c92ff91f0169bfbf3"
+  },
+  {
+    "resourceId": "7406275776082873606",
+    "hash": "c7bd97f6b5fea445ed8321a7a60070c2",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275776082873606/c7bd97f6b5fea445ed8321a7a60070c2"
+  },
+  {
+    "resourceId": "7406275800690871557",
+    "hash": "c872301726a2bf0c3140c9cb5dcc1162",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275800690871557/c872301726a2bf0c3140c9cb5dcc1162"
+  },
+  {
+    "resourceId": "7406275815354174725",
+    "hash": "d728138d88b69bbfb181a83e331306cf",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275815354174725/d728138d88b69bbfb181a83e331306cf"
+  },
+  {
+    "resourceId": "7406275840419319045",
+    "hash": "6893307dca2f02664a3efbcbedc99ebe",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275840419319045/6893307dca2f02664a3efbcbedc99ebe"
+  },
+  {
+    "resourceId": "7406275850984836357",
+    "hash": "d89ac9e06b7965b5565fa647fd29cb5f",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85amaoxi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275850984836357/d89ac9e06b7965b5565fa647fd29cb5f"
+  },
+  {
+    "resourceId": "7406275869406252293",
+    "hash": "72adfaf151e7a41ba07ef80f2099855d",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275869406252293/72adfaf151e7a41ba07ef80f2099855d"
+  },
+  {
+    "resourceId": "7406275871641849093",
+    "hash": "1663d05e29e7c3cda97ba4d6440881a5",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275871641849093/1663d05e29e7c3cda97ba4d6440881a5"
+  },
+  {
+    "resourceId": "7406275876322807045",
+    "hash": "a3920e0507e773429a71f5235c927ccd",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275876322807045/a3920e0507e773429a71f5235c927ccd"
+  },
+  {
+    "resourceId": "7406275882400189701",
+    "hash": "95742e5d510e20abab5b28b9c42f3799",
+    "name": "Editor_Sticker_Config_TAG_6dbd10IcZdobBbwcrkcQb8Fbc7d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275882400189701/95742e5d510e20abab5b28b9c42f3799"
+  },
+  {
+    "resourceId": "7406275892801981701",
+    "hash": "358c56a7a8c14cd8bb6bde4ddca600ee",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275892801981701/358c56a7a8c14cd8bb6bde4ddca600ee"
+  },
+  {
+    "resourceId": "7406276146087628037",
+    "hash": "c9fe89a93002dd608ddbe3b9ac445199",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276146087628037/c9fe89a93002dd608ddbe3b9ac445199"
+  },
+  {
+    "resourceId": "7406276172650138886",
+    "hash": "bbc7e564bcd56626495a38f1ee751443",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276172650138886/bbc7e564bcd56626495a38f1ee751443"
+  },
+  {
+    "resourceId": "7406276175556873478",
+    "hash": "7cfb80a4b20fbc9d3a733ffaafde4ee2",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyueyuansheng",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276175556873478/7cfb80a4b20fbc9d3a733ffaafde4ee2"
+  },
+  {
+    "resourceId": "7406276190476029190",
+    "hash": "2bc750d1bdbf4296d1273e2daab19bda",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276190476029190/2bc750d1bdbf4296d1273e2daab19bda"
+  },
+  {
+    "resourceId": "7406276193089047814",
+    "hash": "fc5bb1fefa2570ed7ba3a2549a20318a",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fchunriyinhua429jianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276193089047814/fc5bb1fefa2570ed7ba3a2549a20318a"
+  },
+  {
+    "resourceId": "7406276198688460037",
+    "hash": "9f3d6fae8c06b4ec855dcf25aee692ef",
+    "name": "feb3b558d24011eea6267c10c9cleangirl",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276198688460037/9f3d6fae8c06b4ec855dcf25aee692ef"
+  },
+  {
+    "resourceId": "7406276205927763205",
+    "hash": "baca3c16c7d414eb33f7b86352ac6c37",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276205927763205/baca3c16c7d414eb33f7b86352ac6c37"
+  },
+  {
+    "resourceId": "7406276209371286789",
+    "hash": "fa1ae4847fbb3c1e66076543c7812451",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276209371286789/fa1ae4847fbb3c1e66076543c7812451"
+  },
+  {
+    "resourceId": "7406276231253003526",
+    "hash": "009d3d290c7aec0f30ce35f6e2bd7074",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276231253003526/009d3d290c7aec0f30ce35f6e2bd7074"
+  },
+  {
+    "resourceId": "7406276232733625605",
+    "hash": "a36c52aee6b997d4f2bf83a1b06710f0",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276232733625605/a36c52aee6b997d4f2bf83a1b06710f0"
+  },
+  {
+    "resourceId": "7406276283208092933",
+    "hash": "e63dc49a28977f3457bf3eff40d952e1",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276283208092933/e63dc49a28977f3457bf3eff40d952e1"
+  },
+  {
+    "resourceId": "7406276382361259270",
+    "hash": "48355b1887a2533e93d1aab62eeac3d4",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276382361259270/48355b1887a2533e93d1aab62eeac3d4"
+  },
+  {
+    "resourceId": "7406276401969597702",
+    "hash": "a49369117eda099cc1b964196303af45",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276401969597702/a49369117eda099cc1b964196303af45"
+  },
+  {
+    "resourceId": "7406276478528228614",
+    "hash": "9f2c137e4b7d2675d243d0d33dbb6125",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276478528228614/9f2c137e4b7d2675d243d0d33dbb6125"
+  },
+  {
+    "resourceId": "7406276505581423878",
+    "hash": "e0867b835876eef5f2decb1a9b25ad62",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276505581423878/e0867b835876eef5f2decb1a9b25ad62"
+  },
+  {
+    "resourceId": "7406276515991670021",
+    "hash": "c3b24ff4fdef4dbe52f69df46cf3af55",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276515991670021/c3b24ff4fdef4dbe52f69df46cf3af55"
+  },
+  {
+    "resourceId": "7406276516641770758",
+    "hash": "d0dc1a6d90750f8052dab07c5d759095",
+    "name": "overseas-model-timburton",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276516641770758/d0dc1a6d90750f8052dab07c5d759095"
+  },
+  {
+    "resourceId": "7406276545725189382",
+    "hash": "796ba6589262c46827a53d2f59aef6ad",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276545725189382/796ba6589262c46827a53d2f59aef6ad"
+  },
+  {
+    "resourceId": "7406276566361083142",
+    "hash": "085dc5ab1966263b71d57aa212db748c",
+    "name": "overseas-model-coquette0513",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276566361083142/085dc5ab1966263b71d57aa212db748c"
+  },
+  {
+    "resourceId": "7406276587173301509",
+    "hash": "286912d1829957151e1a24084e5a93ab",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85rehongjiu",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276587173301509/286912d1829957151e1a24084e5a93ab"
+  },
+  {
+    "resourceId": "7406276588708351237",
+    "hash": "89a86a28d7ed7595371a397316d75074",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276588708351237/89a86a28d7ed7595371a397316d75074"
+  },
+  {
+    "resourceId": "7406276590855900421",
+    "hash": "eb8f4360c4c4ac9e008050d682f2105d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276590855900421/eb8f4360c4c4ac9e008050d682f2105d"
+  },
+  {
+    "resourceId": "7406276656614116613",
+    "hash": "37063398bdf5a5d57affd03ec01e546e",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276656614116613/37063398bdf5a5d57affd03ec01e546e"
+  },
+  {
+    "resourceId": "7408387021586042118",
+    "hash": "9b76f61461adec71381935c454d95c1c",
+    "name": "2021_08_25_11_53_13_f8d5da51055711ec9db6acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408387021586042118/9b76f61461adec71381935c454d95c1c"
+  },
+  {
+    "resourceId": "7408393532802731270",
+    "hash": "3d12170bb03d8acd5302eeb9d9f10415",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393532802731270/3d12170bb03d8acd5302eeb9d9f10415"
+  },
+  {
+    "resourceId": "7408393562729106693",
+    "hash": "b0d27c4b37b1e91333582a08c68cfcff",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393562729106693/b0d27c4b37b1e91333582a08c68cfcff"
+  },
+  {
+    "resourceId": "7408393578776481030",
+    "hash": "8972e8c2456a1e70afd5083a2d8c70c6",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393578776481030/8972e8c2456a1e70afd5083a2d8c70c6"
+  },
+  {
+    "resourceId": "7408393594375064837",
+    "hash": "9b7136a0e1c03d7bc6deeb8b4f4aa5f1",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393594375064837/9b7136a0e1c03d7bc6deeb8b4f4aa5f1"
+  },
+  {
+    "resourceId": "7408393601262177541",
+    "hash": "c912f82e20b28834bc84b061ca31774f",
+    "name": "new-model-3d-5e27ae02-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393601262177541/c912f82e20b28834bc84b061ca31774f"
+  },
+  {
+    "resourceId": "7408393608132300038",
+    "hash": "11d39eefff5ba8fb136b5cc1d93d11bb",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393608132300038/11d39eefff5ba8fb136b5cc1d93d11bb"
+  },
+  {
+    "resourceId": "7408393651212258565",
+    "hash": "fbca58375dffd228d34d243a3866b334",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393651212258565/fbca58375dffd228d34d243a3866b334"
+  },
+  {
+    "resourceId": "7408393684028329221",
+    "hash": "b1c572c928b7fe5c1a04dc2b632752da",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393684028329221/b1c572c928b7fe5c1a04dc2b632752da"
+  },
+  {
+    "resourceId": "7408393706023243013",
+    "hash": "1097ba540609affc17f2cfd7f48c6b64",
+    "name": "Editor_Sticker_Config_TAG_RcScKczdnbtbbnc7cMcbfdBmdDdTd",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393706023243013/1097ba540609affc17f2cfd7f48c6b64"
+  },
+  {
+    "resourceId": "7408393724490960133",
+    "hash": "865458af69821315e275bcd66d46b534",
+    "name": "Editor_Sticker_Config_TAG_bc3bodvckcRbhbrcCc2chb07cQcNbe",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393724490960133/865458af69821315e275bcd66d46b534"
+  },
+  {
+    "resourceId": "7408393759580327174",
+    "hash": "cffe61d5c741d7f11ff30aca406c589a",
+    "name": "Editor_Sticker_Config_TAG_bc3bodvckcRbhbrcCc2chb07cQcNbe",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393759580327174/cffe61d5c741d7f11ff30aca406c589a"
+  },
+  {
+    "resourceId": "7408393760280792325",
+    "hash": "98bf1ce167ad0e1913c2738e719f86f4",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393760280792325/98bf1ce167ad0e1913c2738e719f86f4"
+  },
+  {
+    "resourceId": "7408409671482002693",
+    "hash": "089cfe917e27f8569321dee513982308",
+    "name": "Editor_Sticker_Config_TAG_1bNDdsbVMhbxecRbRcAdjbAbQbJb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409671482002693/089cfe917e27f8569321dee513982308"
+  },
+  {
+    "resourceId": "7408409682705927429",
+    "hash": "6010b1ed648fd569364376dc7722dddb",
+    "name": "2021_08_19_12_02_25_438db50200a211ec9626acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409682705927429/6010b1ed648fd569364376dc7722dddb"
+  },
+  {
+    "resourceId": "7408409685415578885",
+    "hash": "1d17d59bcdbce6111645a7f98d14c0b7",
+    "name": "Editor_Sticker_Config_TAG_1bNDdsbVMhbxecRbRcAdjbAbQbJb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409685415578885/1d17d59bcdbce6111645a7f98d14c0b7"
+  },
+  {
+    "resourceId": "7408409703832620293",
+    "hash": "f28e53a942adbdca36712c22eb8a7508",
+    "name": "FaceReshapeV3",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409703832620293/f28e53a942adbdca36712c22eb8a7508"
+  },
+  {
+    "resourceId": "7408409772950637830",
+    "hash": "fc98382d703c678505c2fc1a0b2d5cc7",
+    "name": "legacy-model-3d-5714c668-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409772950637830/fc98382d703c678505c2fc1a0b2d5cc7"
+  },
+  {
+    "resourceId": "7408409861995760902",
+    "hash": "c212b76156e48e08ee4d94f03a2a8723",
+    "name": "Editor_Sticker_Config_TAG_vdZzczbGbidobRbFcubDbcRcbdid8b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409861995760902/c212b76156e48e08ee4d94f03a2a8723"
+  },
+  {
+    "resourceId": "7408409876940049670",
+    "hash": "be71bb0ae5a474c3adc72ddd9dc77274",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409876940049670/be71bb0ae5a474c3adc72ddd9dc77274"
+  },
+  {
+    "resourceId": "7408409931176512774",
+    "hash": "78bb98c3b2b680df155c69120460ffaf",
+    "name": "2022_08_15_20_10_22_3cd7b2cc1c9311edbbedacde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409931176512774/78bb98c3b2b680df155c69120460ffaf"
+  },
+  {
+    "resourceId": "7408429665007783173",
+    "hash": "d7a2cace0b7d3d25ade77b7521256273",
+    "name": "new-model-3d-c54d9eba-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429665007783173/d7a2cace0b7d3d25ade77b7521256273"
+  },
+  {
+    "resourceId": "7408429706824912133",
+    "hash": "c22cc72b6099e10e027a89a9c7920821",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429706824912133/c22cc72b6099e10e027a89a9c7920821"
+  },
+  {
+    "resourceId": "7408429709882559749",
+    "hash": "f335e7a8f2e629deb01107188f9ceecb",
+    "name": "legacy-model-3d-c73b7148-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429709882559749/f335e7a8f2e629deb01107188f9ceecb"
+  },
+  {
+    "resourceId": "7408429758876273925",
+    "hash": "1309d3ae22dd93d5b5a61bf4b80c193f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429758876273925/1309d3ae22dd93d5b5a61bf4b80c193f"
+  },
+  {
+    "resourceId": "7408429769001323782",
+    "hash": "3cb88fbdfd2e9b2c0cd4d34a72f91743",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429769001323782/3cb88fbdfd2e9b2c0cd4d34a72f91743"
+  },
+  {
+    "resourceId": "7408429836730977542",
+    "hash": "3cb8994fa65c349935c900a0e7be47ef",
+    "name": "2022_08_15_20_10_22_3cd7b2cc1c9311edbbedacde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429836730977542/3cb8994fa65c349935c900a0e7be47ef"
+  },
+  {
+    "resourceId": "7408429885527543045",
+    "hash": "c25078678b01d31423f1b29b00170604",
+    "name": "Editor_Sticker_Config_TAG_4dEb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429885527543045/c25078678b01d31423f1b29b00170604"
+  },
+  {
+    "resourceId": "7408429894306106629",
+    "hash": "ed98ad89411f1761d935540226d6fc6f",
+    "name": "legacy-model-3d-43e952de-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429894306106629/ed98ad89411f1761d935540226d6fc6f"
+  },
+  {
+    "resourceId": "7408429911431597318",
+    "hash": "9aae998d68fd89d0960a7aee75586713",
+    "name": "Editor_Sticker_Config_TAG_Icb6bFc0d9bbbSdzcgShbUcxbwd1c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429911431597318/9aae998d68fd89d0960a7aee75586713"
+  },
+  {
+    "resourceId": "7408429934198279429",
+    "hash": "86137bf0dbbacbca4b3a7fbfc6edd62d",
+    "name": "Editor_Sticker_Config_TAG_Icb6bFc0d9bbbSdzcgShbUcxbwd1c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429934198279429/86137bf0dbbacbca4b3a7fbfc6edd62d"
+  },
+  {
+    "resourceId": "7408429966150470917",
+    "hash": "22510b58b68337b3f578ad94e7e19bdc",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429966150470917/22510b58b68337b3f578ad94e7e19bdc"
+  },
+  {
+    "resourceId": "7408429981803482373",
+    "hash": "6059f4c7706d69a2fc2813c914ecc116",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429981803482373/6059f4c7706d69a2fc2813c914ecc116"
+  },
+  {
+    "resourceId": "7408430025562852613",
+    "hash": "e00ae893872a8368e281d80bc013abf1",
+    "name": "new-model-3d-558c4d84-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430025562852613/e00ae893872a8368e281d80bc013abf1"
+  },
+  {
+    "resourceId": "7408430057363950854",
+    "hash": "6cd4790bde3ffbc3af956071c184435c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430057363950854/6cd4790bde3ffbc3af956071c184435c"
+  },
+  {
+    "resourceId": "7408430059444325638",
+    "hash": "4ddbd72fbdbefbba88d0e48c3cc8d2e3",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430059444325638/4ddbd72fbdbefbba88d0e48c3cc8d2e3"
+  },
+  {
+    "resourceId": "7408430097012722949",
+    "hash": "5d0225605b46ed1c3afc2ede06b45dd8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430097012722949/5d0225605b46ed1c3afc2ede06b45dd8"
+  },
+  {
+    "resourceId": "7408430163215666438",
+    "hash": "c25078678b01d31423f1b29b00170604",
+    "name": "Editor_Sticker_Config_TAG_4dEb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430163215666438/c25078678b01d31423f1b29b00170604"
+  },
+  {
+    "resourceId": "7408430179154038021",
+    "hash": "034ff65ea17f544d9a2e181562cc908c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430179154038021/034ff65ea17f544d9a2e181562cc908c"
+  },
+  {
+    "resourceId": "7408430252050959621",
+    "hash": "16e9f924eb8e892986680eb8f0da5ed6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430252050959621/16e9f924eb8e892986680eb8f0da5ed6"
+  },
+  {
+    "resourceId": "7408430331314932998",
+    "hash": "be45ed558778e3e13f612f643685dd6b",
+    "name": "legacy-model-3d-c6c87710-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430331314932998/be45ed558778e3e13f612f643685dd6b"
+  },
+  {
+    "resourceId": "7408430338122321158",
+    "hash": "8134923ea3bc7170a9817c3c446fc4f4",
+    "name": "legacy-model-3d-4d293116-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430338122321158/8134923ea3bc7170a9817c3c446fc4f4"
+  },
+  {
+    "resourceId": "7408430370003356933",
+    "hash": "38c5fa8a6aae9ddfb01512b2fe7268f8",
+    "name": "new-model-3d-5b76cf08-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430370003356933/38c5fa8a6aae9ddfb01512b2fe7268f8"
+  },
+  {
+    "resourceId": "7408430420167019781",
+    "hash": "ac95fba4095c39cd6676efce65a51e1d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430420167019781/ac95fba4095c39cd6676efce65a51e1d"
+  },
+  {
+    "resourceId": "7408430461774613766",
+    "hash": "8c6885317803ce70308de5003c61154d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430461774613766/8c6885317803ce70308de5003c61154d"
+  },
+  {
+    "resourceId": "7408430463921949958",
+    "hash": "6010b1ed648fd569364376dc7722dddb",
+    "name": "2021_08_19_12_02_25_438db50200a211ec9626acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430463921949958/6010b1ed648fd569364376dc7722dddb"
+  },
+  {
+    "resourceId": "7408430512072609029",
+    "hash": "465a1d9f0a3ea06ab7eef6b0e73193a7",
+    "name": "Editor_Sticker_Config_TAG_89VbqQbskbzbyc7dCbUbObPdB001",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430512072609029/465a1d9f0a3ea06ab7eef6b0e73193a7"
+  },
+  {
+    "resourceId": "7408430545371286789",
+    "hash": "b425d257fff38df780374ba7470c697a",
+    "name": "Editor_Sticker_Config_TAG_HdubcdceMc8dkbddnsbTc9b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430545371286789/b425d257fff38df780374ba7470c697a"
+  },
+  {
+    "resourceId": "7408430549741620485",
+    "hash": "123c4ef9e19681ec7874a1d2e12db7fb",
+    "name": "Editor_Sticker_Config_TAG_HdubcdceMc8dkbddnsbTc9b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430549741620485/123c4ef9e19681ec7874a1d2e12db7fb"
+  },
+  {
+    "resourceId": "7408430587381419270",
+    "hash": "0229e8136fd1637aca6acefdb3f48e40",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430587381419270/0229e8136fd1637aca6acefdb3f48e40"
+  },
+  {
+    "resourceId": "7408430748551679238",
+    "hash": "53d2abccbf228f1c2698fe5e2d00bc25",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430748551679238/53d2abccbf228f1c2698fe5e2d00bc25"
+  },
+  {
+    "resourceId": "7408430752670567686",
+    "hash": "8faca7f8b283fd332d9a6d48d48d554c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430752670567686/8faca7f8b283fd332d9a6d48d48d554c"
+  },
+  {
+    "resourceId": "7408430875815333125",
+    "hash": "7117f587a9a6f4cae7239fb6e0e53e4f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430875815333125/7117f587a9a6f4cae7239fb6e0e53e4f"
+  },
+  {
+    "resourceId": "7408622694922456325",
+    "hash": "de330e0711817ed71cb099e0f4a6d13b",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922456325/de330e0711817ed71cb099e0f4a6d13b"
+  },
+  {
+    "resourceId": "7408622694922472709",
+    "hash": "df956ae3455a2ce9fe4492126e174698",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922472709/df956ae3455a2ce9fe4492126e174698"
+  },
+  {
+    "resourceId": "7408622694922489093",
+    "hash": "e25b249b36957f7a93630e76a2c6a958",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922489093/e25b249b36957f7a93630e76a2c6a958"
+  },
+  {
+    "resourceId": "7408622694922505477",
+    "hash": "e0e46271507c5ba80cc245764767dbca",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922505477/e0e46271507c5ba80cc245764767dbca"
+  },
+  {
+    "resourceId": "7408622694922521861",
+    "hash": "3ceca71c5e3fd1102b2d87270a2321a4",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922521861/3ceca71c5e3fd1102b2d87270a2321a4"
+  },
+  {
+    "resourceId": "7408622694922538245",
+    "hash": "31fce94de5565e0d031c6daa93adccb5",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922538245/31fce94de5565e0d031c6daa93adccb5"
+  },
+  {
+    "resourceId": "7409873342792043781",
+    "hash": "7ea9db818289cf323dc4eff20e79a23f",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7409873342792043781/7ea9db818289cf323dc4eff20e79a23f"
+  },
+  {
+    "resourceId": "7426678351957332497",
+    "hash": "3381cda21304c1eb4664f3bdfe945869",
+    "name": "Editojianyingruihuakdlderc8nbUd8cjjbRd0dKcQdnd",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7426678351957332497/3381cda21304c1eb4664f3bdfe945869"
+  },
+  {
+    "resourceId": "7434502159204356609",
+    "hash": "107711a55b5260cbe491cad54c8d1d12",
+    "name": "2022_01_27_15_33_37_8f783d1e9c2a231ebb393787b8ad47f2a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7434502159204356609/107711a55b5260cbe491cad54c8d1d12"
+  },
+  {
+    "resourceId": "7441089848431201591",
+    "hash": "88ececb129d81a7f3da3a42c178b9461",
+    "name": "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7441089848431201591/88ececb129d81a7f3da3a42c178b9461"
+  },
+  {
+    "resourceId": "7442287977864106497",
+    "hash": "138bb98faf97cb00a770bc807533a6a7",
+    "name": "AE2Effect_20241127154214950",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7442287977864106497/138bb98faf97cb00a770bc807533a6a7"
+  },
+  {
+    "resourceId": "7445181021638627841",
+    "hash": "78dd31f63641e75b877034ed3ec03d26",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7445181021638627841/78dd31f63641e75b877034ed3ec03d26"
+  },
+  {
+    "resourceId": "7447410598653989392",
+    "hash": "280689bce9b5bed17de423b835ae0609",
+    "name": "legacy-model-2d-813d2d0e-5927-11ed-b0cf-3e22fb85aea1xiaomonv",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7447410598653989392/280689bce9b5bed17de423b835ae0609"
+  },
+  {
+    "resourceId": "7451153375279714817",
+    "hash": "4108c2d8c91ac1d47b2e8b28361359b2",
+    "name": "Editor_Sticker_Config_TAG_xbtpH2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7451153375279714817/4108c2d8c91ac1d47b2e8b28361359b2"
+  },
+  {
+    "resourceId": "7451535589339304465",
+    "hash": "47f7a2d93348de0cc3363f8bed9e27b8",
+    "name": "AE2Effect_20241130153927982",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7451535589339304465/47f7a2d93348de0cc3363f8bed9e27b8"
+  },
+  {
+    "resourceId": "7457014907897123345",
+    "hash": "673103ae8a9270062d9b547024922ba4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aeashdf",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457014907897123345/673103ae8a9270062d9b547024922ba4"
+  },
+  {
+    "resourceId": "7457015196641399313",
+    "hash": "ed27953f54e4bb430c46f600dcfdd998",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1cleanmk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457015196641399313/ed27953f54e4bb430c46f600dcfdd998"
+  },
+  {
+    "resourceId": "7457043183327777297",
+    "hash": "3417b6a73881596e319792a847f9e438",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1sjhm",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457043183327777297/3417b6a73881596e319792a847f9e438"
+  },
+  {
+    "resourceId": "7457053938768941585",
+    "hash": "f79d6c70bf0d0433b5b8445fb2ff3553",
+    "name": "Editor_Sticker_Config_TAG_xbtpH2f",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457053938768941585/f79d6c70bf0d0433b5b8445fb2ff3553"
+  },
+  {
+    "resourceId": "7457140369411543568",
+    "hash": "a0b1f8c6ca0406c499b66f884dac8a6f",
+    "name": "legacy-model-2d-6321eeb8-5927-11ed-b0cf-3e22fb85aea1xind",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457140369411543568/a0b1f8c6ca0406c499b66f884dac8a6f"
+  },
+  {
+    "resourceId": "7457140465427550737",
+    "hash": "84b1afd037a2c9b55d83d91ccc266306",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1rxdn",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457140465427550737/84b1afd037a2c9b55d83d91ccc266306"
+  },
+  {
+    "resourceId": "7457425031321096705",
+    "hash": "609c663aaed71cd3916f443b71c3abbd",
+    "name": "new-model-3d-660e6bce-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031321096705/609c663aaed71cd3916f443b71c3abbd"
+  },
+  {
+    "resourceId": "7457425031321113104",
+    "hash": "968f554c011139b1dafbacd3d01acb5e",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb8fanhua",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031321113104/968f554c011139b1dafbacd3d01acb5e"
+  },
+  {
+    "resourceId": "7457425031325291009",
+    "hash": "e93a478954895d0f4b5d8fac2ce8bdd3",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyuehuijianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291009/e93a478954895d0f4b5d8fac2ce8bdd3"
+  },
+  {
+    "resourceId": "7457425031325291024",
+    "hash": "7cf7a2ab35c99bb5a17da5d88595e668",
+    "name": "new-model-3d-660e6bce-5927-11ed-b0cf-3e22fb85aea1meilade3d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291024/7cf7a2ab35c99bb5a17da5d88595e668"
+  },
+  {
+    "resourceId": "7457425031325291025",
+    "hash": "3780abcd8889778ad2bec2d33c2e30b5",
+    "name": "legacy-model-2d-6321eeb8-5927-11ed-b0cf-3e22fb85aea1zia",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291025/3780abcd8889778ad2bec2d33c2e30b5"
+  },
+  {
+    "resourceId": "7457425031325307408",
+    "hash": "0ef488e77e845b479ea0772265bd27dc",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325307408/0ef488e77e845b479ea0772265bd27dc"
+  },
+  {
+    "resourceId": "7458192043064431105",
+    "hash": "76a18f1052df96b6857bf5bde0323fc4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7458192043064431105/76a18f1052df96b6857bf5bde0323fc4"
+  },
+  {
+    "resourceId": "7459237715624595984",
+    "hash": "624ec14b416564533ab02c4a054dc7c7",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1zaoc",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715624595984/624ec14b416564533ab02c4a054dc7c7"
+  },
+  {
+    "resourceId": "7459237715624612368",
+    "hash": "7ce44b71bd86c3dacad10de3a442b1ee",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1xiaribaikaishui",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715624612368/7ce44b71bd86c3dacad10de3a442b1ee"
+  },
+  {
+    "resourceId": "7459237715628790273",
+    "hash": "375b799b124a7213c4d5b15f64144435",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628790273/375b799b124a7213c4d5b15f64144435"
+  },
+  {
+    "resourceId": "7459237715628790289",
+    "hash": "05586058cf81358fadacfff98f657855",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1blsn",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628790289/05586058cf81358fadacfff98f657855"
+  },
+  {
+    "resourceId": "7459237715628806673",
+    "hash": "ef6c6a45d56bda0df317d08276c08be4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aeashdfcoldfeeling",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628806673/ef6c6a45d56bda0df317d08276c08be4"
+  },
+  {
+    "resourceId": "7459237715628823057",
+    "hash": "e93a478954895d0f4b5d8fac2ce8bdd3",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyuehuijianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628823057/e93a478954895d0f4b5d8fac2ce8bdd3"
+  },
+  {
+    "resourceId": "7459237715632984592",
+    "hash": "1d6fb8b619b83837fcbd619b41a18ec0",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1bainz",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715632984592/1d6fb8b619b83837fcbd619b41a18ec0"
+  },
+  {
+    "resourceId": "7459237715633000977",
+    "hash": "76fbe2cb9d0cbe5a1be0e2a74a40064e",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1ss",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715633000977/76fbe2cb9d0cbe5a1be0e2a74a40064e"
+  },
+  {
+    "resourceId": "7459237715641373185",
+    "hash": "bd1c9b2ecc78740b2b79b2875275e500",
+    "name": "new-model-2d-7ed7dff0-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715641373185/bd1c9b2ecc78740b2b79b2875275e500"
+  },
+  {
+    "resourceId": "7460346731012559377",
+    "hash": "79a3e8e3cfa6a02bc7065dd7d856b69d",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460346731012559377/79a3e8e3cfa6a02bc7065dd7d856b69d"
+  },
+  {
+    "resourceId": "7460351813082944016",
+    "hash": "5c09bfcce17ece9a45b61b546f3cf017",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460351813082944016/5c09bfcce17ece9a45b61b546f3cf017"
+  },
+  {
+    "resourceId": "7460351813087138320",
+    "hash": "5b8cb8e8974c91398d54a46fafe15a3c",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460351813087138320/5b8cb8e8974c91398d54a46fafe15a3c"
+  },
+  {
+    "resourceId": "7480476382338813239",
+    "hash": "ccd56f031f17b773af5f03961641827a",
+    "name": "AE2Effect_20250306204809639",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7480476382338813239/ccd56f031f17b773af5f03961641827a"
+  },
+  {
+    "resourceId": "7495962407844449537",
+    "hash": "745d3233374d8dcd1a457a90971cad21",
+    "name": "AE2Effect_20250418203705026",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7495962407844449537/745d3233374d8dcd1a457a90971cad21"
+  },
+  {
+    "resourceId": "7501974767453474064",
+    "hash": "26e574bcfa176c3c1a1f7fd5df0a4996",
+    "name": "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7501974767453474064/26e574bcfa176c3c1a1f7fd5df0a4996"
+  },
+  {
+    "resourceId": "7502287385028218129",
+    "hash": "0d42c31d8e3fc1896a1aa9f4225ac51c",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7502287385028218129/0d42c31d8e3fc1896a1aa9f4225ac51c"
+  },
+  {
+    "resourceId": "7503485016869997840",
+    "hash": "35b02b951accd187d30a834d759b8230",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7503485016869997840/35b02b951accd187d30a834d759b8230"
+  },
+  {
+    "resourceId": "7508922327808167169",
+    "hash": "eadfafcbf94451c907fda9a9f6308ce7",
+    "name": "AE2Effect_20250527204452902",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7508922327808167169/eadfafcbf94451c907fda9a9f6308ce7"
+  },
+  {
+    "resourceId": "7517581737665285377",
+    "hash": "1979c9a8ff435be88516a014a14f7197",
+    "name": "BCE-DEMO-3FAAA9BA-D2A0-47B9-88EC-C839056A8C23",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7517581737665285377/1979c9a8ff435be88516a014a14f7197"
+  },
+  {
+    "resourceId": "7519366465762430261",
+    "hash": "69feb2d23e597a2bede7804ade92d4ad",
+    "name": "AE2Effect_20250624122120335",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7519366465762430261/69feb2d23e597a2bede7804ade92d4ad"
+  },
+  {
+    "resourceId": "7522416272844295441",
+    "hash": "567c8f354d92f03366df5ca07d42ec1a",
+    "name": "AE2Effect_20250630155851814",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7522416272844295441/567c8f354d92f03366df5ca07d42ec1a"
+  },
+  {
+    "resourceId": "7526842552562109757",
+    "hash": "aa2c2f7bcb32839d1aa95139887a104f",
+    "name": "AE2Effect_20250714144508430",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7526842552562109757/aa2c2f7bcb32839d1aa95139887a104f"
+  },
+  {
+    "resourceId": "7527183959193685264",
+    "hash": "d8d3201fa6c77f369501cf4baae130ab",
+    "name": "Editor_Sticker_Config_TAG_Aweme_ClarityItem_and_FoundationItem",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7527183959193685264/d8d3201fa6c77f369501cf4baae130ab"
+  },
+  {
+    "resourceId": "7530628010894953781",
+    "hash": "14e9599d5bada94a830976d584c686f4",
+    "name": "AE2Effect_20250724193224028",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530628010894953781/14e9599d5bada94a830976d584c686f4"
+  },
+  {
+    "resourceId": "7530777262594034960",
+    "hash": "86c01bcaf9ed35d98ca1f2f6211d26bb",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530777262594034960/86c01bcaf9ed35d98ca1f2f6211d26bb"
+  },
+  {
+    "resourceId": "7530798138743983377",
+    "hash": "474a6fb0586dcb305e6f77e728ec2fe5",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530798138743983377/474a6fb0586dcb305e6f77e728ec2fe5"
+  },
+  {
+    "resourceId": "7530851408782871824",
+    "hash": "ba2bd0926ff9b333375da5c142c50471",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530851408782871824/ba2bd0926ff9b333375da5c142c50471"
+  },
+  {
+    "resourceId": "7535359333308075280",
+    "hash": "9460ffaa6f9be720be5d5a8e8270497b",
+    "name": "AE2Effect_20250805114857581",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7535359333308075280/9460ffaa6f9be720be5d5a8e8270497b"
+  },
+  {
+    "resourceId": "7538694539930799377",
+    "hash": "20e4135f901edb74ef60d7bcd6e2794e",
+    "name": "AE2Effect_20250812125630986",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7538694539930799377/20e4135f901edb74ef60d7bcd6e2794e"
+  },
+  {
+    "resourceId": "7539545099059973437",
+    "hash": "d96350ecee36d167cc236a12f0c5d7ca",
+    "name": "AE2Effect_20250817212425229",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7539545099059973437/d96350ecee36d167cc236a12f0c5d7ca"
+  },
+  {
+    "resourceId": "7542315478119648529",
+    "hash": "8a452f686ef013984ae4c5661825f05a",
+    "name": "AE2Effect_20250822105556088",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7542315478119648529/8a452f686ef013984ae4c5661825f05a"
+  },
+  {
+    "resourceId": "7543202833881992501",
+    "hash": "7bfbeeb39abb81687b7105ccd656c785",
+    "name": "AE2Effect_20250825153101491",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7543202833881992501/7bfbeeb39abb81687b7105ccd656c785"
+  },
+  {
+    "resourceId": "7544051826593697077",
+    "hash": "d6586901ec5a39e584d8f77a4f4d6925",
+    "name": "AE2Effect_20250830000210572",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7544051826593697077/d6586901ec5a39e584d8f77a4f4d6925"
+  },
+  {
+    "resourceId": "7551684553568488705",
+    "hash": "c7223279b6225fdf811681c0be1e94bf",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7551684553568488705/c7223279b6225fdf811681c0be1e94bf"
+  },
+  {
+    "resourceId": "7565808235912137989",
+    "hash": "292e5fb8ceef369f4a5bad90908c358c",
+    "name": "AE2Effect_20251022204627634",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7565808235912137989/292e5fb8ceef369f4a5bad90908c358c"
+  },
+  {
+    "resourceId": "7566934858857975045",
+    "hash": "c1bce258b66fbe0db944750ca68f7276",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7566934858857975045/c1bce258b66fbe0db944750ca68f7276"
+  },
+  {
+    "resourceId": "7569907635462409477",
+    "hash": "fce32f138685e44a0d5dcb97a25783dd",
+    "name": "AE2Effect_20251107171450186",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7569907635462409477/fce32f138685e44a0d5dcb97a25783dd"
+  },
+  {
+    "resourceId": "7571407386737478920",
+    "hash": "900783e5d4dcd1830bc9188450ec7cf8",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7571407386737478920/900783e5d4dcd1830bc9188450ec7cf8"
+  },
+  {
+    "resourceId": "7573582539848240389",
+    "hash": "ccb66c42d6070bbb2bef9b33881e575d",
+    "name": "AE2Effect_20251117140116892",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7573582539848240389/ccb66c42d6070bbb2bef9b33881e575d"
+  },
+  {
+    "resourceId": "7574375685008051461",
+    "hash": "f4672df97840b5ea93ac249bbf7d3532",
+    "name": "AE2Effect_20251119192311451",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7574375685008051461/f4672df97840b5ea93ac249bbf7d3532"
+  },
+  {
+    "resourceId": "7581727241059503378",
+    "hash": "6f18c3fae8ed13ce24702927f410a423",
+    "name": "AE2Effect_20251203172850086",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7581727241059503378/6f18c3fae8ed13ce24702927f410a423"
+  },
+  {
+    "resourceId": "7583954946282933509",
+    "hash": "99f60daab1600085c00643d1ef145d12",
+    "name": "AE2Effect_20251215150126915",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7583954946282933509/99f60daab1600085c00643d1ef145d12"
+  },
+  {
+    "resourceId": "7589041004934597941",
+    "hash": "85452fea4304424403734c7cc782c27b",
+    "name": "AE2Effect_20251229102051988",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7589041004934597941/85452fea4304424403734c7cc782c27b"
+  },
+  {
+    "resourceId": "7597348329353121029",
+    "hash": "5d07a7ff8c6aa88933d9ac85827bfb3e",
+    "name": "AE2Effect_20260120164823257",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7597348329353121029/5d07a7ff8c6aa88933d9ac85827bfb3e"
+  },
+  {
+    "resourceId": "7598471787764141329",
+    "hash": "cfadcbd2e3be8136b919828fa407cd1b",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7598471787764141329/cfadcbd2e3be8136b919828fa407cd1b"
+  },
+  {
+    "resourceId": "7599559007442898192",
+    "hash": "c3977c908afdb85cf8a543c7cd5f3d79",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599559007442898192/c3977c908afdb85cf8a543c7cd5f3d79"
+  },
+  {
+    "resourceId": "7599560105813888309",
+    "hash": "212eedfd100f11fbfa06f9bb133b1ef0",
+    "name": "AE2Effect_20260126181826991",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599560105813888309/212eedfd100f11fbfa06f9bb133b1ef0"
+  },
+  {
+    "resourceId": "7599958252255792391",
+    "hash": "76ec52bd690cdbba54143c2657d50acc",
+    "name": "AE2Effect_20260127163820060",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599958252255792391/76ec52bd690cdbba54143c2657d50acc"
+  },
+  {
+    "resourceId": "7600307672784882949",
+    "hash": "3bffd414145a3b6abc1244a6cf3e7891",
+    "name": "AE2Effect_20260128170803851",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7600307672784882949/3bffd414145a3b6abc1244a6cf3e7891"
+  },
+  {
+    "resourceId": "7601074858440625422",
+    "hash": "22422285bd962246fec7d57d189f4a10",
+    "name": "AE2Effect_20260130164828246",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7601074858440625422/22422285bd962246fec7d57d189f4a10"
+  },
+  {
+    "resourceId": "7601760881114107141",
+    "hash": "8917a74749428d1d643899fd441865c5",
+    "name": "AE2Effect_20260201150145578",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7601760881114107141/8917a74749428d1d643899fd441865c5"
+  },
+  {
+    "resourceId": "7605621782975876360",
+    "hash": "6157f30b0e92983a4812f0694c7891a4",
+    "name": "AE2Effect_20260211215242828",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7605621782975876360/6157f30b0e92983a4812f0694c7891a4"
+  },
+  {
+    "resourceId": "7608369093216980231",
+    "hash": "71239202ac0d1872fe279085e8fe9f4e",
+    "name": "AE2Effect_20260219073525343",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7608369093216980231/71239202ac0d1872fe279085e8fe9f4e"
+  },
+  {
+    "resourceId": "7608796542719446277",
+    "hash": "84611827cd649500955668313af5deaf",
+    "name": "AE2Effect_20260220135848118",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7608796542719446277/84611827cd649500955668313af5deaf"
+  },
+  {
+    "resourceId": "7610499695256964357",
+    "hash": "8e9bf147b0f286b0950389d3316f249a",
+    "name": "AE2Effect_20260225053754500",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7610499695256964357/8e9bf147b0f286b0950389d3316f249a"
+  },
+  {
+    "resourceId": "7611183424732187957",
+    "hash": "386faff660d169ddb91e6570d1e06451",
+    "name": "AE2Effect_20260226234444160",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7611183424732187957/386faff660d169ddb91e6570d1e06451"
+  },
+  {
+    "resourceId": "7613985304919215413",
+    "hash": "626a4ffd0cfa3d7b3f5d08ad1ce0b427",
+    "name": "AE2Effect_20260306145127673",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7613985304919215413/626a4ffd0cfa3d7b3f5d08ad1ce0b427"
+  },
+  {
+    "resourceId": "7615628684610784517",
+    "hash": "23893fcee94d7238242e8c5e74c8dbcb",
+    "name": "AE2Effect_20260311010230753",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7615628684610784517/23893fcee94d7238242e8c5e74c8dbcb"
+  },
+  {
+    "resourceId": "7615725555651988754",
+    "hash": "026788f09d53d522b3e379af18f76a4f",
+    "name": "AE2Effect_20260311033101559",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7615725555651988754/026788f09d53d522b3e379af18f76a4f"
+  },
+  {
+    "resourceId": "7616400885123386629",
+    "hash": "a95924f1342619cacb1990cd9d8fc5d2",
+    "name": "AE2Effect_20260313015255480",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7616400885123386629/a95924f1342619cacb1990cd9d8fc5d2"
+  },
+  {
+    "resourceId": "7616744587331243282",
+    "hash": "1ee35bd99f4d525d1798579ec09b5697",
+    "name": "AE2Effect_20260313212025669",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7616744587331243282/1ee35bd99f4d525d1798579ec09b5697"
+  },
+  {
+    "resourceId": "7617003997647342866",
+    "hash": "712805ac8b9da1796127090211203c3c",
+    "name": "AE2Effect_20260314141003980",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7617003997647342866/712805ac8b9da1796127090211203c3c"
+  },
+  {
+    "resourceId": "7617481836192632117",
+    "hash": "5b8b381e6af98905f3d6f390a3226c56",
+    "name": "AE2Effect_20260316012403472",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7617481836192632117/5b8b381e6af98905f3d6f390a3226c56"
+  },
+  {
+    "resourceId": "7618052774390975749",
+    "hash": "edb26563f31134be9ec68707fdc55c30",
+    "name": "AE2Effect_20260317140431811",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618052774390975749/edb26563f31134be9ec68707fdc55c30"
+  },
+  {
+    "resourceId": "7618407219289312517",
+    "hash": "c85e6a196c354ff4352eb2b8b8e95d4f",
+    "name": "AE2Effect_20260318155341193",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618407219289312517/c85e6a196c354ff4352eb2b8b8e95d4f"
+  },
+  {
+    "resourceId": "7618594939512868149",
+    "hash": "9667e48504751442a839fa9f8ee29559",
+    "name": "AE2Effect_20260319024530209",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618594939512868149/9667e48504751442a839fa9f8ee29559"
+  },
+  {
+    "resourceId": "7620683144995343634",
+    "hash": "6b8836a92e64fc1b1363ae26134e1ba2",
+    "name": "AE2Effect_20260319120406624",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7620683144995343634/6b8836a92e64fc1b1363ae26134e1ba2"
+  },
+  {
+    "resourceId": "7621464656728575252",
+    "hash": "db4718f55ecf86ebb76834553a035007",
+    "name": "AE2Effect_20260326095731794",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7621464656728575252/db4718f55ecf86ebb76834553a035007"
+  },
+  {
+    "resourceId": "7621491987836914961",
+    "hash": "afedb9dbf32756efe7a7d3cdc9fb3ce3",
+    "name": "AE2Effect_20260326172403109",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7621491987836914961/afedb9dbf32756efe7a7d3cdc9fb3ce3"
+  },
+  {
+    "resourceId": "7622286458916818177",
+    "hash": "ffcff63eac9c46f381e2c26539a94590",
+    "name": "AE2Effect_20260328152118835",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622286458916818177/ffcff63eac9c46f381e2c26539a94590"
+  },
+  {
+    "resourceId": "7622686758790024465",
+    "hash": "c8576cb3b097315703516363c83bd7cd",
+    "name": "AE2Effect_20260329214138843",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622686758790024465/c8576cb3b097315703516363c83bd7cd"
+  },
+  {
+    "resourceId": "7622886285966888200",
+    "hash": "4d7fe96f9ce00083cd59013f562ee58b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622886285966888200/4d7fe96f9ce00083cd59013f562ee58b"
+  },
+  {
+    "resourceId": "7623292866051329301",
+    "hash": "3f614f329f99191d674a3ee322ae3be7",
+    "name": "AE2Effect_20260331125054516",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7623292866051329301/3f614f329f99191d674a3ee322ae3be7"
+  },
+  {
+    "resourceId": "7626228965283319041",
+    "hash": "fcf79f3925efa553e2b835ab38a04f6b",
+    "name": "AE2Effect_20260406100203246",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7626228965283319041/fcf79f3925efa553e2b835ab38a04f6b"
+  },
+  {
+    "resourceId": "7626316046303120658",
+    "hash": "0cac64a37d7821c22a94862b4782057a",
+    "name": "AE2Effect_20260408165345336",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7626316046303120658/0cac64a37d7821c22a94862b4782057a"
+  },
+  {
+    "resourceId": "7662676640153046290",
+    "hash": "07ba0ed9c54b3680950ddc29f0288745",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7662676640153046290/07ba0ed9c54b3680950ddc29f0288745"
+  },
+  {
+    "resourceId": "7662678507964697876",
+    "hash": "3a6d479b85e061d90bd41c3538afdd5b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7662678507964697876/3a6d479b85e061d90bd41c3538afdd5b"
+  },
+  {
+    "resourceId": "7665019554170490119",
+    "hash": "6812dc85c10e97ea7ea705de000620b5",
+    "name": "AE2Effect_20260721235024800",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665019554170490119/6812dc85c10e97ea7ea705de000620b5"
+  },
+  {
+    "resourceId": "7665360758036811015",
+    "hash": "5c268ba53b9a671a46f12372ecc93866",
+    "name": "AE2Effect_20260722215722628",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665360758036811015/5c268ba53b9a671a46f12372ecc93866"
+  },
+  {
+    "resourceId": "7665972868726934804",
+    "hash": "09b58f09e8c441941f571ba2860b0651",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665972868726934804/09b58f09e8c441941f571ba2860b0651"
+  },
+  {
+    "resourceId": "7666595071428463890",
+    "hash": "ba1c05ea246c29046f35ebefd98dcd1c",
+    "name": "AE2Effect_20260726033905871",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7666595071428463890/ba1c05ea246c29046f35ebefd98dcd1c"
+  },
+  {
+    "resourceId": "7668225382784519431",
+    "hash": "42e05806241b56a2d7f3c135aedf3b5a",
+    "name": "45986fe8457b11ee88067c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7668225382784519431/42e05806241b56a2d7f3c135aedf3b5a"
+  },
+  {
+    "resourceId": "7668540420699278600",
+    "hash": "4c8f5f7bfd7091c32b525095a494181a",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7668540420699278600/4c8f5f7bfd7091c32b525095a494181a"
+  },
+  {
+    "resourceId": "7669911373777833232",
+    "hash": "c1089709ca36f018c500a5dbfce4c76c",
+    "name": "AE2Effect_20260803235958124",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7669911373777833232/c1089709ca36f018c500a5dbfce4c76c"
+  },
+  {
+    "resourceId": "7670205470195551496",
+    "hash": "288bd766febb5c794d4553b4a1ac9fa1",
+    "name": "AE2Effect_20260805012929111",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7670205470195551496/288bd766febb5c794d4553b4a1ac9fa1"
+  },
+  {
+    "resourceId": "7670439320217505044",
+    "hash": "ebf214a4bbe45025a5b88a0f97bf3747",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7670439320217505044/ebf214a4bbe45025a5b88a0f97bf3747"
+  },
+  {
+    "resourceId": "7673047276423531794",
+    "hash": "a85fd2b29cce090ef48ed83bea8603aa",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7673047276423531794/a85fd2b29cce090ef48ed83bea8603aa"
+  },
+  {
+    "resourceId": "7673428174771899656",
+    "hash": "ff29cafee68193e84cd79560e0e60edb",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7673428174771899656/ff29cafee68193e84cd79560e0e60edb"
+  },
+  {
+    "resourceId": "7674969858848591125",
+    "hash": "0d801a4fc0520a97434906aa5dbf530d",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7674969858848591125/0d801a4fc0520a97434906aa5dbf530d"
+  },
+  {
+    "resourceId": "7675214686257712404",
+    "hash": "166e889ca90c68d27fc01eeed97cd5aa",
+    "name": "AE2Effect_20260815220629064",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7675214686257712404/166e889ca90c68d27fc01eeed97cd5aa"
+  },
+  {
+    "resourceId": "7676765029395483920",
+    "hash": "af35c90c49cc6ca0b8553a68bfe26dbd",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7676765029395483920/af35c90c49cc6ca0b8553a68bfe26dbd"
+  },
+  {
+    "resourceId": "7677549080112794900",
+    "hash": "798edf71d5027fd7355dbc93aab833de",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7677549080112794900/798edf71d5027fd7355dbc93aab833de"
+  },
+  {
+    "resourceId": "7677624630173125896",
+    "hash": "41567f0a80e13025774d99467f2fa77f",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7677624630173125896/41567f0a80e13025774d99467f2fa77f"
+  },
+  {
+    "resourceId": "7678572490972597511",
+    "hash": "e4cc4738fe35c9aead02589a9906100e",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678572490972597511/e4cc4738fe35c9aead02589a9906100e"
+  },
+  {
+    "resourceId": "7678631038066625800",
+    "hash": "634edfa3e3dda80ede2900da12c09717",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678631038066625800/634edfa3e3dda80ede2900da12c09717"
+  },
+  {
+    "resourceId": "7678642071741189396",
+    "hash": "98135e3b7626cc274047be26be4d0c5c",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678642071741189396/98135e3b7626cc274047be26be4d0c5c"
+  },
+  {
+    "resourceId": "7678660673257147656",
+    "hash": "d7daa258ee901c65d5fe47de518fd8ae",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678660673257147656/d7daa258ee901c65d5fe47de518fd8ae"
+  },
+  {
+    "resourceId": "7678855201331170580",
+    "hash": "0ed420f6dfcfb95d110ff3e82bc9777b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678855201331170580/0ed420f6dfcfb95d110ff3e82bc9777b"
+  },
+  {
+    "resourceId": "7678945556470828308",
+    "hash": "3202c9a05a2aa1836017f3a5ff1fd1bb",
+    "name": "AE2Effect_20260823144829240",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678945556470828308/3202c9a05a2aa1836017f3a5ff1fd1bb"
+  },
+  {
+    "resourceId": "7678979640282598677",
+    "hash": "8adfde2284f88ca638ba19ecca85f5ea",
+    "name": "AE2Effect_20260828172009225",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678979640282598677/8adfde2284f88ca638ba19ecca85f5ea"
+  },
+  {
+    "resourceId": "7678985001031027989",
+    "hash": "54079133dcea9ffb0dcccfa1a32334e4",
+    "name": "AE2Effect_20260828152626160",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678985001031027989/54079133dcea9ffb0dcccfa1a32334e4"
+  },
+  {
+    "resourceId": "881339",
+    "hash": "e9301bacebc6dc444aa4e6f835dd4a31",
+    "name": "AmazingAuto_d7122df996c495d66df70cd2698c2156",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/881339/e9301bacebc6dc444aa4e6f835dd4a31"
+  },
+  {
+    "resourceId": "1036120041",
+    "hash": "7e3c26bd14a0b68a84fee058db7f1ade",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120041/7e3c26bd14a0b68a84fee058db7f1ade"
+  },
+  {
+    "resourceId": "1036120042",
+    "hash": "6e7fa46ea829d76af5c4b45b3af75696",
+    "name": "rect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120042/6e7fa46ea829d76af5c4b45b3af75696"
+  },
+  {
+    "resourceId": "1036120043",
+    "hash": "756373427cbe82b997760cac8c9bb107",
+    "name": "circle",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120043/756373427cbe82b997760cac8c9bb107"
+  },
+  {
+    "resourceId": "1036120044",
+    "hash": "8d6ca013cc94eaf89f0b889432efd31c",
+    "name": "linear",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120044/8d6ca013cc94eaf89f0b889432efd31c"
+  },
+  {
+    "resourceId": "1036120045",
+    "hash": "9ee4e93af66335a75843446555efd8a6",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120045/9ee4e93af66335a75843446555efd8a6"
+  },
+  {
+    "resourceId": "1036120046",
+    "hash": "0a294934a14e5956965a554987b559d7",
+    "name": "mirror",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1036120046/0a294934a14e5956965a554987b559d7"
+  },
+  {
+    "resourceId": "1068046536",
+    "hash": "4c6a0ef5de6a844342d40330e00c59eb",
+    "name": "linear",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046536/4c6a0ef5de6a844342d40330e00c59eb"
+  },
+  {
+    "resourceId": "1068046537",
+    "hash": "02b8999168d121538a98ea59127483ef",
+    "name": "rect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046537/02b8999168d121538a98ea59127483ef"
+  },
+  {
+    "resourceId": "1068046538",
+    "hash": "cfa1154e4873fda2c09716c8aa546236",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046538/cfa1154e4873fda2c09716c8aa546236"
+  },
+  {
+    "resourceId": "1068046539",
+    "hash": "95ac211c99063c41b86b9b63742f4a6d",
+    "name": "mirror",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046539/95ac211c99063c41b86b9b63742f4a6d"
+  },
+  {
+    "resourceId": "1068046540",
+    "hash": "3ab1c47350d987c8ad415497e020a38b",
+    "name": "circle",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046540/3ab1c47350d987c8ad415497e020a38b"
+  },
+  {
+    "resourceId": "1068046541",
+    "hash": "7e3c26bd14a0b68a84fee058db7f1ade",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046541/7e3c26bd14a0b68a84fee058db7f1ade"
+  },
+  {
+    "resourceId": "1068046543",
+    "hash": "9ee4e93af66335a75843446555efd8a6",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1068046543/9ee4e93af66335a75843446555efd8a6"
+  },
+  {
+    "resourceId": "1220399934",
+    "hash": "ada210b1e21e860006c8324db359d8a3",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1220399934/ada210b1e21e860006c8324db359d8a3"
+  },
+  {
+    "resourceId": "1220408588",
+    "hash": "ada210b1e21e860006c8324db359d8a3",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/1220408588/ada210b1e21e860006c8324db359d8a3"
+  },
+  {
+    "resourceId": "4381462",
+    "hash": "b033ea56618d5b0f098071fb326bb02a",
+    "name": "2023_02_03_19_26_15_9225ff50a3b511edb4479a74e0f57e8a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4381462/b033ea56618d5b0f098071fb326bb02a"
+  },
+  {
+    "resourceId": "4381463",
+    "hash": "7b53f4c008c4c684fccf8c7d4d46cc92",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4381463/7b53f4c008c4c684fccf8c7d4d46cc92"
+  },
+  {
+    "resourceId": "4711700586",
+    "hash": "d3eb0298b2b1c345c123470c9194c8ad",
+    "name": "star",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/4711700586/d3eb0298b2b1c345c123470c9194c8ad"
+  },
+  {
+    "resourceId": "670865",
+    "hash": "6f18fb242b64f9641da79aa773a33687",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/670865/6f18fb242b64f9641da79aa773a33687"
+  },
+  {
+    "resourceId": "670877",
+    "hash": "4cfd965c25e33c7df9b2c1b3b4cbdf31",
+    "name": "AmazingAuto_9f781fcbf4c7b20edf72cf5b75078c92",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/670877/4cfd965c25e33c7df9b2c1b3b4cbdf31"
+  },
+  {
+    "resourceId": "6724845376098013708",
+    "hash": "b033ea56618d5b0f098071fb326bb02a",
+    "name": "2023_02_03_19_26_15_9225ff50a3b511edb4479a74e0f57e8a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6724845376098013708/b033ea56618d5b0f098071fb326bb02a"
+  },
+  {
+    "resourceId": "6724845717472416269",
+    "hash": "7b53f4c008c4c684fccf8c7d4d46cc92",
+    "name": "AmazingAuto_bb93d4823ac4859c75b961029855db85",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6724845717472416269/7b53f4c008c4c684fccf8c7d4d46cc92"
+  },
+  {
+    "resourceId": "6726711296063967748",
+    "hash": "837bf042dc2b29a82fbb0cde8bbfc6fc",
+    "name": "AmazingAuto_9f781fcbf4c7b20edf72cf5b75078c92",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6726711296063967748/837bf042dc2b29a82fbb0cde8bbfc6fc"
+  },
+  {
+    "resourceId": "6858191510865711629",
+    "hash": "e9301bacebc6dc444aa4e6f835dd4a31",
+    "name": "AmazingAuto_d7122df996c495d66df70cd2698c2156",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/6858191510865711629/e9301bacebc6dc444aa4e6f835dd4a31"
+  },
+  {
+    "resourceId": "7083799735387050498",
+    "hash": "11494a507063eb58ead29c9a0e658fc8",
+    "name": "Editor_Sticker_Config_TAG_jdSbG8bTcWdobJecndkcAsd4Hc4c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7083799735387050498/11494a507063eb58ead29c9a0e658fc8"
+  },
+  {
+    "resourceId": "7194814295517958657",
+    "hash": "b1985a36a9c9ecd0395004fb85ab9097",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7194814295517958657/b1985a36a9c9ecd0395004fb85ab9097"
+  },
+  {
+    "resourceId": "7194814374001775105",
+    "hash": "13fd5bb6c22236bb299c266428395180",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7194814374001775105/13fd5bb6c22236bb299c266428395180"
+  },
+  {
+    "resourceId": "7198424967803834881",
+    "hash": "3a0fd76188f0955a96b967a9cce139b3",
+    "name": "AmazingAuto_f367780846c65ec68ff06012ae35fe9a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7198424967803834881/3a0fd76188f0955a96b967a9cce139b3"
+  },
+  {
+    "resourceId": "7241034488325607937",
+    "hash": "5e9ca6bcc2a29c19b2fb9a2d3b217f44",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0570C",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7241034488325607937/5e9ca6bcc2a29c19b2fb9a2d3b217f44"
+  },
+  {
+    "resourceId": "7241034586971443713",
+    "hash": "7f546620febfe6bd96881cb842b61bec",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7241034586971443713/7f546620febfe6bd96881cb842b61bec"
+  },
+  {
+    "resourceId": "7289393505166692866",
+    "hash": "0cef35f4090468586ca961c4baa51c83",
+    "name": "CreateByScript__2022_04_07_14_47_44_a0b2854eb63e11eca601acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7289393505166692866/0cef35f4090468586ca961c4baa51c83"
+  },
+  {
+    "resourceId": "7291923867235258882",
+    "hash": "95462badbbb87bd7dc4e1d7b04e58306",
+    "name": "Editor_Sticker_Config_TAG_wd20230612nxs_dianguang",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7291923867235258882/95462badbbb87bd7dc4e1d7b04e58306"
+  },
+  {
+    "resourceId": "7297208322564821506",
+    "hash": "c49dc3466423aa089c78e96cb582a764",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7297208322564821506/c49dc3466423aa089c78e96cb582a764"
+  },
+  {
+    "resourceId": "7297208498499097090",
+    "hash": "9fb47b707f085de151d89a921fbc5cdd",
+    "name": "76D57C3E-8713-4F50-9D36-94Fzise381A0571B",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7297208498499097090/9fb47b707f085de151d89a921fbc5cdd"
+  },
+  {
+    "resourceId": "7301690894971834881",
+    "hash": "b977315213335e028ee6d25ae0f67661",
+    "name": "2023_11_15_21_48_70a958a0581b4015cda941aabf3166c2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7301690894971834881/b977315213335e028ee6d25ae0f67661"
+  },
+  {
+    "resourceId": "7338723334563041793",
+    "hash": "f8217aa95e0a67eed36effcf72e7bc16",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7338723334563041793/f8217aa95e0a67eed36effcf72e7bc16"
+  },
+  {
+    "resourceId": "7367637998579487248",
+    "hash": "9c7e9af83b4e4effc689afcd35febcd5",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7367637998579487248/9c7e9af83b4e4effc689afcd35febcd5"
+  },
+  {
+    "resourceId": "7369530763454190081",
+    "hash": "5de0a0ed7f0bd78bf63f434439b07202",
+    "name": "matting",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7369530763454190081/5de0a0ed7f0bd78bf63f434439b07202"
+  },
+  {
+    "resourceId": "7394445460133384705",
+    "hash": "43be3756d5f8988ade333be730e7950d",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fjuziqishui",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7394445460133384705/43be3756d5f8988ade333be730e7950d"
+  },
+  {
+    "resourceId": "7395466266540084486",
+    "hash": "815fe4564516ccb104dd6a12682e6ac2",
+    "name": "1b8439c2057311ef807f7c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395466266540084486/815fe4564516ccb104dd6a12682e6ac2"
+  },
+  {
+    "resourceId": "7395471447835151622",
+    "hash": "67d6996f98e260bded2ce9e06caa426c",
+    "name": "c5e1e0ce65a311eeac9a7c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395471447835151622/67d6996f98e260bded2ce9e06caa426c"
+  },
+  {
+    "resourceId": "7395474293095763206",
+    "hash": "5fd07aa6f1051732b710181c578cc2ce",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7395474293095763206/5fd07aa6f1051732b710181c578cc2ce"
+  },
+  {
+    "resourceId": "7399466453944093957",
+    "hash": "be1c0676764ee83d32b63afc46272c28",
+    "name": "GESticker_exposure_reduce_20191202_142223",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399466453944093957/be1c0676764ee83d32b63afc46272c28"
+  },
+  {
+    "resourceId": "7399467149846121734",
+    "hash": "b7abe840af4f942b11e0ccda971d4df7",
+    "name": "Editor_Sticker_Config_TAG_lde2Fb2bHjbucfc7Bg0dSdZbib202009251626",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399467149846121734/b7abe840af4f942b11e0ccda971d4df7"
+  },
+  {
+    "resourceId": "7399469054718741765",
+    "hash": "a299b022ab4d7a1830ac72dce3d21d95",
+    "name": "jian-xian-kai-mu",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7399469054718741765/a299b022ab4d7a1830ac72dce3d21d95"
+  },
+  {
+    "resourceId": "7406274848898583813",
+    "hash": "3058b95c1064b998c81e7f4bb5cc17df",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1qingtougan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274848898583813/3058b95c1064b998c81e7f4bb5cc17df"
+  },
+  {
+    "resourceId": "7406274861477219590",
+    "hash": "c5bf6c4df93488e8803b646baa9fca08",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fdanrenzhuang63jianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274861477219590/c5bf6c4df93488e8803b646baa9fca08"
+  },
+  {
+    "resourceId": "7406274867105926406",
+    "hash": "d0696f4e244d3ca9945f233e26bc2689",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274867105926406/d0696f4e244d3ca9945f233e26bc2689"
+  },
+  {
+    "resourceId": "7406274871811919110",
+    "hash": "46dec5de0e4dad6bfa81636d71530f41",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274871811919110/46dec5de0e4dad6bfa81636d71530f41"
+  },
+  {
+    "resourceId": "7406274883337964806",
+    "hash": "fa81c3da32f52eb9676f4ff87a760383",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274883337964806/fa81c3da32f52eb9676f4ff87a760383"
+  },
+  {
+    "resourceId": "7406274909426552069",
+    "hash": "e8f25000cf7890348809c80a5622148e",
+    "name": "overseas-model-3dtangmeixiannv",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274909426552069/e8f25000cf7890348809c80a5622148e"
+  },
+  {
+    "resourceId": "7406274917844585733",
+    "hash": "4c7fb4c468cb3974afc8cddad665e5f6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274917844585733/4c7fb4c468cb3974afc8cddad665e5f6"
+  },
+  {
+    "resourceId": "7406274923083074822",
+    "hash": "cf0b131897e47e265ac3f20e742d6c71",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_tuofengbiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274923083074822/cf0b131897e47e265ac3f20e742d6c71"
+  },
+  {
+    "resourceId": "7406274967505046790",
+    "hash": "6991e25cc45bd9e91501a21aac419806",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274967505046790/6991e25cc45bd9e91501a21aac419806"
+  },
+  {
+    "resourceId": "7406274977802161413",
+    "hash": "e5bb3a0eb2b510d2e651f3c95557c094",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274977802161413/e5bb3a0eb2b510d2e651f3c95557c094"
+  },
+  {
+    "resourceId": "7406274987881008389",
+    "hash": "3d99c2b3caa2b97885d73a79f5aa8e7f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406274987881008389/3d99c2b3caa2b97885d73a79f5aa8e7f"
+  },
+  {
+    "resourceId": "7406275011327151365",
+    "hash": "0e74d8d9739ee72017116c963446167d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275011327151365/0e74d8d9739ee72017116c963446167d"
+  },
+  {
+    "resourceId": "7406275013055139078",
+    "hash": "01e593a081e9d83a1d395a0b2bc52b5f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275013055139078/01e593a081e9d83a1d395a0b2bc52b5f"
+  },
+  {
+    "resourceId": "7406275031136832774",
+    "hash": "6e73061652a2aded9a47e44901c6b135",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275031136832774/6e73061652a2aded9a47e44901c6b135"
+  },
+  {
+    "resourceId": "7406275033196268806",
+    "hash": "116c1a695f45f18db98e748d7e4972ec",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1taxi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275033196268806/116c1a695f45f18db98e748d7e4972ec"
+  },
+  {
+    "resourceId": "7406275061491010821",
+    "hash": "3ea115b69e5ec2f6121ab20b7e962be8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275061491010821/3ea115b69e5ec2f6121ab20b7e962be8"
+  },
+  {
+    "resourceId": "7406275063676243206",
+    "hash": "c7baf7d720e864b650680adfb12b86b6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275063676243206/c7baf7d720e864b650680adfb12b86b6"
+  },
+  {
+    "resourceId": "7406275067019037957",
+    "hash": "66385dee490adeb789f061070da7d526",
+    "name": "legacy-model-2d-6b21cb88-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275067019037957/66385dee490adeb789f061070da7d526"
+  },
+  {
+    "resourceId": "7406275072958172421",
+    "hash": "d764552d7a92af5a4c4d0d4b664e6fde",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275072958172421/d764552d7a92af5a4c4d0d4b664e6fde"
+  },
+  {
+    "resourceId": "7406275081007074565",
+    "hash": "78ca534e33e0460635326589e48dccf7",
+    "name": "overseas-model-3dlatte",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275081007074565/78ca534e33e0460635326589e48dccf7"
+  },
+  {
+    "resourceId": "7406275155275664645",
+    "hash": "5f7b475e2a564170edaf9dbf5a21f961",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275155275664645/5f7b475e2a564170edaf9dbf5a21f961"
+  },
+  {
+    "resourceId": "7406275174242340102",
+    "hash": "b4b0586a654ae45253a300c63ab38225",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275174242340102/b4b0586a654ae45253a300c63ab38225"
+  },
+  {
+    "resourceId": "7406275174573591814",
+    "hash": "86a749f15191fe2197ec2cab4d691113",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fwuhuaguo",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275174573591814/86a749f15191fe2197ec2cab4d691113"
+  },
+  {
+    "resourceId": "7406275177702575365",
+    "hash": "867d58c16f65ee1f75beace79e00d7ac",
+    "name": "overseas-model-softglam0517",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275177702575365/867d58c16f65ee1f75beace79e00d7ac"
+  },
+  {
+    "resourceId": "7406275199672372485",
+    "hash": "83a4fed2f7df8ea4addc6c34cba31ded",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1cleanmk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275199672372485/83a4fed2f7df8ea4addc6c34cba31ded"
+  },
+  {
+    "resourceId": "7406275199949131014",
+    "hash": "cadf8134f7fb699f5b6fade68e465c65",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275199949131014/cadf8134f7fb699f5b6fade68e465c65"
+  },
+  {
+    "resourceId": "7406275203912764677",
+    "hash": "9ac827f704c4332aa82a075d6c9bd0c9",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275203912764677/9ac827f704c4332aa82a075d6c9bd0c9"
+  },
+  {
+    "resourceId": "7406275213500878086",
+    "hash": "eb7b11e03f9e7e61222111ff5a488ba5",
+    "name": "overseas-model-3dnatural",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275213500878086/eb7b11e03f9e7e61222111ff5a488ba5"
+  },
+  {
+    "resourceId": "7406275228231290118",
+    "hash": "e4cac4034dbb60c07e895f9cba36e58e",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275228231290118/e4cac4034dbb60c07e895f9cba36e58e"
+  },
+  {
+    "resourceId": "7406275260284243205",
+    "hash": "0ccfe24dd1cb2aae5decc3a1db0a5c2c",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22paiduiweixun",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275260284243205/0ccfe24dd1cb2aae5decc3a1db0a5c2c"
+  },
+  {
+    "resourceId": "7406275298490125573",
+    "hash": "f4b9c5485bff0e512086b3c9c1bf54ca",
+    "name": "new-model-2d-7ed7dff0-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275298490125573/f4b9c5485bff0e512086b3c9c1bf54ca"
+  },
+  {
+    "resourceId": "7406275337224490246",
+    "hash": "e100dbdfd9e84358d247c5b5962197a9",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275337224490246/e100dbdfd9e84358d247c5b5962197a9"
+  },
+  {
+    "resourceId": "7406275337753038086",
+    "hash": "51c7d4646423fff2ccfbc3314150b43c",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_xiaoqiaobiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275337753038086/51c7d4646423fff2ccfbc3314150b43c"
+  },
+  {
+    "resourceId": "7406275341347491078",
+    "hash": "3577e818eb57f6667aa359b8aa20d3ec",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275341347491078/3577e818eb57f6667aa359b8aa20d3ec"
+  },
+  {
+    "resourceId": "7406275358309305606",
+    "hash": "b9f7bce12073305dcaa15be1ae15830a",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275358309305606/b9f7bce12073305dcaa15be1ae15830a"
+  },
+  {
+    "resourceId": "7406275364344958213",
+    "hash": "2aee6ddcf43e7d7cad032ef9cd4584fc",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275364344958213/2aee6ddcf43e7d7cad032ef9cd4584fc"
+  },
+  {
+    "resourceId": "7406275378282581254",
+    "hash": "20503b8998e2d782c8e31420d8b9e040",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275378282581254/20503b8998e2d782c8e31420d8b9e040"
+  },
+  {
+    "resourceId": "7406275413602864390",
+    "hash": "1d70b2e3939b326a937ed2f5e53052bf",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275413602864390/1d70b2e3939b326a937ed2f5e53052bf"
+  },
+  {
+    "resourceId": "7406275420099824901",
+    "hash": "3def28fb7baa29eb8659eaff6d1d317c",
+    "name": "new-model-2d-makeuproot",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275420099824901/3def28fb7baa29eb8659eaff6d1d317c"
+  },
+  {
+    "resourceId": "7406275449208245509",
+    "hash": "4bfc12d4fb10cf3851423df3284a8d91",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275449208245509/4bfc12d4fb10cf3851423df3284a8d91"
+  },
+  {
+    "resourceId": "7406275459811675397",
+    "hash": "4aa8eb5ee40ff0f463b8f71024473419",
+    "name": "new-model-2d-7c82ef7e-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275459811675397/4aa8eb5ee40ff0f463b8f71024473419"
+  },
+  {
+    "resourceId": "7406275463695568134",
+    "hash": "127e0bf70d065f18660b45688888835d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275463695568134/127e0bf70d065f18660b45688888835d"
+  },
+  {
+    "resourceId": "7406275483169557765",
+    "hash": "4d64a5141911c1c66e0c1a3dc1e58c3a",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275483169557765/4d64a5141911c1c66e0c1a3dc1e58c3a"
+  },
+  {
+    "resourceId": "7406275487842045189",
+    "hash": "7380211292316da1b469f503872f040c",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb8fanhuacc",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275487842045189/7380211292316da1b469f503872f040c"
+  },
+  {
+    "resourceId": "7406275500630396166",
+    "hash": "153c5fbd4a4aa2399f5494c820a5b880",
+    "name": "Editor_Sticker_Config_TAG_5d5dsybbe0bobPbOcdddd1cfbMScA",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275500630396166/153c5fbd4a4aa2399f5494c820a5b880"
+  },
+  {
+    "resourceId": "7406275514291277062",
+    "hash": "3222ee48ac91b13f2ae3f96d7985bf7c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275514291277062/3222ee48ac91b13f2ae3f96d7985bf7c"
+  },
+  {
+    "resourceId": "7406275552522439942",
+    "hash": "37390ef01aa389e2d70b867e389fbafa",
+    "name": "Editor_Sticker_Config_TAG_5d5dsybbe0bobPbOcdddd1cfbMScA",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275552522439942/37390ef01aa389e2d70b867e389fbafa"
+  },
+  {
+    "resourceId": "7406275554011254022",
+    "hash": "b4147a4c79ba1b5edc8cd08e068aeebb",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275554011254022/b4147a4c79ba1b5edc8cd08e068aeebb"
+  },
+  {
+    "resourceId": "7406275555215052037",
+    "hash": "cf40f5cb554381b7bd9870bb033d2a7f",
+    "name": "new-model-2d-498f3820-5927-11ed-b0cf-3e22wanggan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275555215052037/cf40f5cb554381b7bd9870bb033d2a7f"
+  },
+  {
+    "resourceId": "7406275583899962630",
+    "hash": "f73a2250cbec9ab2f384551a421dad0d",
+    "name": "overseas-model-3dbabinvhai",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275583899962630/f73a2250cbec9ab2f384551a421dad0d"
+  },
+  {
+    "resourceId": "7406275613973089541",
+    "hash": "bb43f486ffb797d56e883de07415612a",
+    "name": "5.0.0MACB0227610DA794B739028E1D46F042E01",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275613973089541/bb43f486ffb797d56e883de07415612a"
+  },
+  {
+    "resourceId": "7406275624014204165",
+    "hash": "c1d7d72da46d29cc9dc985b3a53fc516",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275624014204165/c1d7d72da46d29cc9dc985b3a53fc516"
+  },
+  {
+    "resourceId": "7406275635871714565",
+    "hash": "6578a500e7f991d83594d65111f83bef",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275635871714565/6578a500e7f991d83594d65111f83bef"
+  },
+  {
+    "resourceId": "7406275643517848838",
+    "hash": "97f83e1ca839d3c686f41001d162e749",
+    "name": "AlgorithmGraph_vdHHdEddkdcbrbKchb3cOydTdvcdb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275643517848838/97f83e1ca839d3c686f41001d162e749"
+  },
+  {
+    "resourceId": "7406275659539942662",
+    "hash": "ef172c78cd6ae8ca8ad40270ba5a00a1",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275659539942662/ef172c78cd6ae8ca8ad40270ba5a00a1"
+  },
+  {
+    "resourceId": "7406275665940532485",
+    "hash": "2672ec7924b75f536446626369fd680b",
+    "name": "2022_06_28_16_45_44_b2a9ecaef6be11ec94c03e22fb85a5_mashengbiV2",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275665940532485/2672ec7924b75f536446626369fd680b"
+  },
+  {
+    "resourceId": "7406275668859768070",
+    "hash": "81f4874ea627ddc8d49098eeae9c1ad2",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275668859768070/81f4874ea627ddc8d49098eeae9c1ad2"
+  },
+  {
+    "resourceId": "7406275685850893573",
+    "hash": "ed62e6dc7d65e2a9bcc1da68a58ec1d7",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275685850893573/ed62e6dc7d65e2a9bcc1da68a58ec1d7"
+  },
+  {
+    "resourceId": "7406275693396380934",
+    "hash": "1b8980593f53f667ff74fd68cb6fa6c8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275693396380934/1b8980593f53f667ff74fd68cb6fa6c8"
+  },
+  {
+    "resourceId": "7406275697976642822",
+    "hash": "ec915e44188cac822cf5604b014e4395",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fdanzhuanggongshi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275697976642822/ec915e44188cac822cf5604b014e4395"
+  },
+  {
+    "resourceId": "7406275699348098309",
+    "hash": "8a6c4d4df5bcbbe7fce13961251e73f2",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275699348098309/8a6c4d4df5bcbbe7fce13961251e73f2"
+  },
+  {
+    "resourceId": "7406275728582413573",
+    "hash": "894531c2b8f8b8fcf7974918055c08c7",
+    "name": "overseas-model-3dcherrycola",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275728582413573/894531c2b8f8b8fcf7974918055c08c7"
+  },
+  {
+    "resourceId": "7406275746551041286",
+    "hash": "e75e2725bdc98a1d38ae1664f8acd759",
+    "name": "2022-09-28_15-39-51_inner_tag__1__billliaom",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275746551041286/e75e2725bdc98a1d38ae1664f8acd759"
+  },
+  {
+    "resourceId": "7406275774145383686",
+    "hash": "93c4758b00a92b2c92ff91f0169bfbf3",
+    "name": "legacy-model-2d-60c45f20-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275774145383686/93c4758b00a92b2c92ff91f0169bfbf3"
+  },
+  {
+    "resourceId": "7406275776082873606",
+    "hash": "c7bd97f6b5fea445ed8321a7a60070c2",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275776082873606/c7bd97f6b5fea445ed8321a7a60070c2"
+  },
+  {
+    "resourceId": "7406275800690871557",
+    "hash": "c872301726a2bf0c3140c9cb5dcc1162",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275800690871557/c872301726a2bf0c3140c9cb5dcc1162"
+  },
+  {
+    "resourceId": "7406275815354174725",
+    "hash": "d728138d88b69bbfb181a83e331306cf",
+    "name": "Test",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275815354174725/d728138d88b69bbfb181a83e331306cf"
+  },
+  {
+    "resourceId": "7406275840419319045",
+    "hash": "6893307dca2f02664a3efbcbedc99ebe",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275840419319045/6893307dca2f02664a3efbcbedc99ebe"
+  },
+  {
+    "resourceId": "7406275850984836357",
+    "hash": "d89ac9e06b7965b5565fa647fd29cb5f",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85amaoxi",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275850984836357/d89ac9e06b7965b5565fa647fd29cb5f"
+  },
+  {
+    "resourceId": "7406275869406252293",
+    "hash": "72adfaf151e7a41ba07ef80f2099855d",
+    "name": "Editor_Sticker_Config_TAG_fbEch5d9dNdmbcbNcsccbJc3bYdHbec",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275869406252293/72adfaf151e7a41ba07ef80f2099855d"
+  },
+  {
+    "resourceId": "7406275871641849093",
+    "hash": "1663d05e29e7c3cda97ba4d6440881a5",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275871641849093/1663d05e29e7c3cda97ba4d6440881a5"
+  },
+  {
+    "resourceId": "7406275876322807045",
+    "hash": "a3920e0507e773429a71f5235c927ccd",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275876322807045/a3920e0507e773429a71f5235c927ccd"
+  },
+  {
+    "resourceId": "7406275882400189701",
+    "hash": "95742e5d510e20abab5b28b9c42f3799",
+    "name": "Editor_Sticker_Config_TAG_6dbd10IcZdobBbwcrkcQb8Fbc7d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275882400189701/95742e5d510e20abab5b28b9c42f3799"
+  },
+  {
+    "resourceId": "7406275892801981701",
+    "hash": "358c56a7a8c14cd8bb6bde4ddca600ee",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406275892801981701/358c56a7a8c14cd8bb6bde4ddca600ee"
+  },
+  {
+    "resourceId": "7406276146087628037",
+    "hash": "c9fe89a93002dd608ddbe3b9ac445199",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276146087628037/c9fe89a93002dd608ddbe3b9ac445199"
+  },
+  {
+    "resourceId": "7406276172650138886",
+    "hash": "bbc7e564bcd56626495a38f1ee751443",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276172650138886/bbc7e564bcd56626495a38f1ee751443"
+  },
+  {
+    "resourceId": "7406276175556873478",
+    "hash": "7cfb80a4b20fbc9d3a733ffaafde4ee2",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyueyuansheng",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276175556873478/7cfb80a4b20fbc9d3a733ffaafde4ee2"
+  },
+  {
+    "resourceId": "7406276190476029190",
+    "hash": "2bc750d1bdbf4296d1273e2daab19bda",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276190476029190/2bc750d1bdbf4296d1273e2daab19bda"
+  },
+  {
+    "resourceId": "7406276193089047814",
+    "hash": "fc5bb1fefa2570ed7ba3a2549a20318a",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fchunriyinhua429jianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276193089047814/fc5bb1fefa2570ed7ba3a2549a20318a"
+  },
+  {
+    "resourceId": "7406276198688460037",
+    "hash": "9f3d6fae8c06b4ec855dcf25aee692ef",
+    "name": "feb3b558d24011eea6267c10c9cleangirl",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276198688460037/9f3d6fae8c06b4ec855dcf25aee692ef"
+  },
+  {
+    "resourceId": "7406276205927763205",
+    "hash": "baca3c16c7d414eb33f7b86352ac6c37",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276205927763205/baca3c16c7d414eb33f7b86352ac6c37"
+  },
+  {
+    "resourceId": "7406276209371286789",
+    "hash": "fa1ae4847fbb3c1e66076543c7812451",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276209371286789/fa1ae4847fbb3c1e66076543c7812451"
+  },
+  {
+    "resourceId": "7406276231253003526",
+    "hash": "009d3d290c7aec0f30ce35f6e2bd7074",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276231253003526/009d3d290c7aec0f30ce35f6e2bd7074"
+  },
+  {
+    "resourceId": "7406276232733625605",
+    "hash": "a36c52aee6b997d4f2bf83a1b06710f0",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276232733625605/a36c52aee6b997d4f2bf83a1b06710f0"
+  },
+  {
+    "resourceId": "7406276283208092933",
+    "hash": "e63dc49a28977f3457bf3eff40d952e1",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276283208092933/e63dc49a28977f3457bf3eff40d952e1"
+  },
+  {
+    "resourceId": "7406276382361259270",
+    "hash": "48355b1887a2533e93d1aab62eeac3d4",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276382361259270/48355b1887a2533e93d1aab62eeac3d4"
+  },
+  {
+    "resourceId": "7406276401969597702",
+    "hash": "a49369117eda099cc1b964196303af45",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276401969597702/a49369117eda099cc1b964196303af45"
+  },
+  {
+    "resourceId": "7406276478528228614",
+    "hash": "9f2c137e4b7d2675d243d0d33dbb6125",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276478528228614/9f2c137e4b7d2675d243d0d33dbb6125"
+  },
+  {
+    "resourceId": "7406276505581423878",
+    "hash": "e0867b835876eef5f2decb1a9b25ad62",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276505581423878/e0867b835876eef5f2decb1a9b25ad62"
+  },
+  {
+    "resourceId": "7406276515991670021",
+    "hash": "c3b24ff4fdef4dbe52f69df46cf3af55",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276515991670021/c3b24ff4fdef4dbe52f69df46cf3af55"
+  },
+  {
+    "resourceId": "7406276516641770758",
+    "hash": "d0dc1a6d90750f8052dab07c5d759095",
+    "name": "overseas-model-timburton",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276516641770758/d0dc1a6d90750f8052dab07c5d759095"
+  },
+  {
+    "resourceId": "7406276545725189382",
+    "hash": "796ba6589262c46827a53d2f59aef6ad",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276545725189382/796ba6589262c46827a53d2f59aef6ad"
+  },
+  {
+    "resourceId": "7406276566361083142",
+    "hash": "085dc5ab1966263b71d57aa212db748c",
+    "name": "overseas-model-coquette0513",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276566361083142/085dc5ab1966263b71d57aa212db748c"
+  },
+  {
+    "resourceId": "7406276587173301509",
+    "hash": "286912d1829957151e1a24084e5a93ab",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85rehongjiu",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276587173301509/286912d1829957151e1a24084e5a93ab"
+  },
+  {
+    "resourceId": "7406276588708351237",
+    "hash": "89a86a28d7ed7595371a397316d75074",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276588708351237/89a86a28d7ed7595371a397316d75074"
+  },
+  {
+    "resourceId": "7406276590855900421",
+    "hash": "eb8f4360c4c4ac9e008050d682f2105d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276590855900421/eb8f4360c4c4ac9e008050d682f2105d"
+  },
+  {
+    "resourceId": "7406276656614116613",
+    "hash": "37063398bdf5a5d57affd03ec01e546e",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7406276656614116613/37063398bdf5a5d57affd03ec01e546e"
+  },
+  {
+    "resourceId": "7408387021586042118",
+    "hash": "9b76f61461adec71381935c454d95c1c",
+    "name": "2021_08_25_11_53_13_f8d5da51055711ec9db6acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408387021586042118/9b76f61461adec71381935c454d95c1c"
+  },
+  {
+    "resourceId": "7408393532802731270",
+    "hash": "3d12170bb03d8acd5302eeb9d9f10415",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393532802731270/3d12170bb03d8acd5302eeb9d9f10415"
+  },
+  {
+    "resourceId": "7408393562729106693",
+    "hash": "b0d27c4b37b1e91333582a08c68cfcff",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393562729106693/b0d27c4b37b1e91333582a08c68cfcff"
+  },
+  {
+    "resourceId": "7408393578776481030",
+    "hash": "8972e8c2456a1e70afd5083a2d8c70c6",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393578776481030/8972e8c2456a1e70afd5083a2d8c70c6"
+  },
+  {
+    "resourceId": "7408393594375064837",
+    "hash": "9b7136a0e1c03d7bc6deeb8b4f4aa5f1",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393594375064837/9b7136a0e1c03d7bc6deeb8b4f4aa5f1"
+  },
+  {
+    "resourceId": "7408393601262177541",
+    "hash": "c912f82e20b28834bc84b061ca31774f",
+    "name": "new-model-3d-5e27ae02-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393601262177541/c912f82e20b28834bc84b061ca31774f"
+  },
+  {
+    "resourceId": "7408393608132300038",
+    "hash": "11d39eefff5ba8fb136b5cc1d93d11bb",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393608132300038/11d39eefff5ba8fb136b5cc1d93d11bb"
+  },
+  {
+    "resourceId": "7408393651212258565",
+    "hash": "fbca58375dffd228d34d243a3866b334",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393651212258565/fbca58375dffd228d34d243a3866b334"
+  },
+  {
+    "resourceId": "7408393684028329221",
+    "hash": "b1c572c928b7fe5c1a04dc2b632752da",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393684028329221/b1c572c928b7fe5c1a04dc2b632752da"
+  },
+  {
+    "resourceId": "7408393706023243013",
+    "hash": "1097ba540609affc17f2cfd7f48c6b64",
+    "name": "Editor_Sticker_Config_TAG_RcScKczdnbtbbnc7cMcbfdBmdDdTd",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393706023243013/1097ba540609affc17f2cfd7f48c6b64"
+  },
+  {
+    "resourceId": "7408393724490960133",
+    "hash": "865458af69821315e275bcd66d46b534",
+    "name": "Editor_Sticker_Config_TAG_bc3bodvckcRbhbrcCc2chb07cQcNbe",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393724490960133/865458af69821315e275bcd66d46b534"
+  },
+  {
+    "resourceId": "7408393759580327174",
+    "hash": "cffe61d5c741d7f11ff30aca406c589a",
+    "name": "Editor_Sticker_Config_TAG_bc3bodvckcRbhbrcCc2chb07cQcNbe",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393759580327174/cffe61d5c741d7f11ff30aca406c589a"
+  },
+  {
+    "resourceId": "7408393760280792325",
+    "hash": "98bf1ce167ad0e1913c2738e719f86f4",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408393760280792325/98bf1ce167ad0e1913c2738e719f86f4"
+  },
+  {
+    "resourceId": "7408409671482002693",
+    "hash": "089cfe917e27f8569321dee513982308",
+    "name": "Editor_Sticker_Config_TAG_1bNDdsbVMhbxecRbRcAdjbAbQbJb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409671482002693/089cfe917e27f8569321dee513982308"
+  },
+  {
+    "resourceId": "7408409682705927429",
+    "hash": "6010b1ed648fd569364376dc7722dddb",
+    "name": "2021_08_19_12_02_25_438db50200a211ec9626acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409682705927429/6010b1ed648fd569364376dc7722dddb"
+  },
+  {
+    "resourceId": "7408409685415578885",
+    "hash": "1d17d59bcdbce6111645a7f98d14c0b7",
+    "name": "Editor_Sticker_Config_TAG_1bNDdsbVMhbxecRbRcAdjbAbQbJb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409685415578885/1d17d59bcdbce6111645a7f98d14c0b7"
+  },
+  {
+    "resourceId": "7408409703832620293",
+    "hash": "f28e53a942adbdca36712c22eb8a7508",
+    "name": "FaceReshapeV3",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409703832620293/f28e53a942adbdca36712c22eb8a7508"
+  },
+  {
+    "resourceId": "7408409772950637830",
+    "hash": "fc98382d703c678505c2fc1a0b2d5cc7",
+    "name": "legacy-model-3d-5714c668-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409772950637830/fc98382d703c678505c2fc1a0b2d5cc7"
+  },
+  {
+    "resourceId": "7408409861995760902",
+    "hash": "c212b76156e48e08ee4d94f03a2a8723",
+    "name": "Editor_Sticker_Config_TAG_vdZzczbGbidobRbFcubDbcRcbdid8b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409861995760902/c212b76156e48e08ee4d94f03a2a8723"
+  },
+  {
+    "resourceId": "7408409876940049670",
+    "hash": "be71bb0ae5a474c3adc72ddd9dc77274",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409876940049670/be71bb0ae5a474c3adc72ddd9dc77274"
+  },
+  {
+    "resourceId": "7408409931176512774",
+    "hash": "78bb98c3b2b680df155c69120460ffaf",
+    "name": "2022_08_15_20_10_22_3cd7b2cc1c9311edbbedacde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408409931176512774/78bb98c3b2b680df155c69120460ffaf"
+  },
+  {
+    "resourceId": "7408429665007783173",
+    "hash": "d7a2cace0b7d3d25ade77b7521256273",
+    "name": "new-model-3d-c54d9eba-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429665007783173/d7a2cace0b7d3d25ade77b7521256273"
+  },
+  {
+    "resourceId": "7408429706824912133",
+    "hash": "c22cc72b6099e10e027a89a9c7920821",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429706824912133/c22cc72b6099e10e027a89a9c7920821"
+  },
+  {
+    "resourceId": "7408429709882559749",
+    "hash": "f335e7a8f2e629deb01107188f9ceecb",
+    "name": "legacy-model-3d-c73b7148-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429709882559749/f335e7a8f2e629deb01107188f9ceecb"
+  },
+  {
+    "resourceId": "7408429758876273925",
+    "hash": "1309d3ae22dd93d5b5a61bf4b80c193f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429758876273925/1309d3ae22dd93d5b5a61bf4b80c193f"
+  },
+  {
+    "resourceId": "7408429769001323782",
+    "hash": "3cb88fbdfd2e9b2c0cd4d34a72f91743",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429769001323782/3cb88fbdfd2e9b2c0cd4d34a72f91743"
+  },
+  {
+    "resourceId": "7408429836730977542",
+    "hash": "3cb8994fa65c349935c900a0e7be47ef",
+    "name": "2022_08_15_20_10_22_3cd7b2cc1c9311edbbedacde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429836730977542/3cb8994fa65c349935c900a0e7be47ef"
+  },
+  {
+    "resourceId": "7408429885527543045",
+    "hash": "c25078678b01d31423f1b29b00170604",
+    "name": "Editor_Sticker_Config_TAG_4dEb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429885527543045/c25078678b01d31423f1b29b00170604"
+  },
+  {
+    "resourceId": "7408429894306106629",
+    "hash": "ed98ad89411f1761d935540226d6fc6f",
+    "name": "legacy-model-3d-43e952de-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429894306106629/ed98ad89411f1761d935540226d6fc6f"
+  },
+  {
+    "resourceId": "7408429911431597318",
+    "hash": "9aae998d68fd89d0960a7aee75586713",
+    "name": "Editor_Sticker_Config_TAG_Icb6bFc0d9bbbSdzcgShbUcxbwd1c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429911431597318/9aae998d68fd89d0960a7aee75586713"
+  },
+  {
+    "resourceId": "7408429934198279429",
+    "hash": "86137bf0dbbacbca4b3a7fbfc6edd62d",
+    "name": "Editor_Sticker_Config_TAG_Icb6bFc0d9bbbSdzcgShbUcxbwd1c",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429934198279429/86137bf0dbbacbca4b3a7fbfc6edd62d"
+  },
+  {
+    "resourceId": "7408429966150470917",
+    "hash": "22510b58b68337b3f578ad94e7e19bdc",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429966150470917/22510b58b68337b3f578ad94e7e19bdc"
+  },
+  {
+    "resourceId": "7408429981803482373",
+    "hash": "6059f4c7706d69a2fc2813c914ecc116",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408429981803482373/6059f4c7706d69a2fc2813c914ecc116"
+  },
+  {
+    "resourceId": "7408430025562852613",
+    "hash": "e00ae893872a8368e281d80bc013abf1",
+    "name": "new-model-3d-558c4d84-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430025562852613/e00ae893872a8368e281d80bc013abf1"
+  },
+  {
+    "resourceId": "7408430057363950854",
+    "hash": "6cd4790bde3ffbc3af956071c184435c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430057363950854/6cd4790bde3ffbc3af956071c184435c"
+  },
+  {
+    "resourceId": "7408430059444325638",
+    "hash": "4ddbd72fbdbefbba88d0e48c3cc8d2e3",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430059444325638/4ddbd72fbdbefbba88d0e48c3cc8d2e3"
+  },
+  {
+    "resourceId": "7408430097012722949",
+    "hash": "5d0225605b46ed1c3afc2ede06b45dd8",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430097012722949/5d0225605b46ed1c3afc2ede06b45dd8"
+  },
+  {
+    "resourceId": "7408430163215666438",
+    "hash": "c25078678b01d31423f1b29b00170604",
+    "name": "Editor_Sticker_Config_TAG_4dEb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430163215666438/c25078678b01d31423f1b29b00170604"
+  },
+  {
+    "resourceId": "7408430179154038021",
+    "hash": "034ff65ea17f544d9a2e181562cc908c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430179154038021/034ff65ea17f544d9a2e181562cc908c"
+  },
+  {
+    "resourceId": "7408430252050959621",
+    "hash": "16e9f924eb8e892986680eb8f0da5ed6",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430252050959621/16e9f924eb8e892986680eb8f0da5ed6"
+  },
+  {
+    "resourceId": "7408430331314932998",
+    "hash": "be45ed558778e3e13f612f643685dd6b",
+    "name": "legacy-model-3d-c6c87710-52cf-11ed-9ffd-acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430331314932998/be45ed558778e3e13f612f643685dd6b"
+  },
+  {
+    "resourceId": "7408430338122321158",
+    "hash": "8134923ea3bc7170a9817c3c446fc4f4",
+    "name": "legacy-model-3d-4d293116-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430338122321158/8134923ea3bc7170a9817c3c446fc4f4"
+  },
+  {
+    "resourceId": "7408430370003356933",
+    "hash": "38c5fa8a6aae9ddfb01512b2fe7268f8",
+    "name": "new-model-3d-5b76cf08-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430370003356933/38c5fa8a6aae9ddfb01512b2fe7268f8"
+  },
+  {
+    "resourceId": "7408430420167019781",
+    "hash": "ac95fba4095c39cd6676efce65a51e1d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430420167019781/ac95fba4095c39cd6676efce65a51e1d"
+  },
+  {
+    "resourceId": "7408430461774613766",
+    "hash": "8c6885317803ce70308de5003c61154d",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430461774613766/8c6885317803ce70308de5003c61154d"
+  },
+  {
+    "resourceId": "7408430463921949958",
+    "hash": "6010b1ed648fd569364376dc7722dddb",
+    "name": "2021_08_19_12_02_25_438db50200a211ec9626acde48001122",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430463921949958/6010b1ed648fd569364376dc7722dddb"
+  },
+  {
+    "resourceId": "7408430512072609029",
+    "hash": "465a1d9f0a3ea06ab7eef6b0e73193a7",
+    "name": "Editor_Sticker_Config_TAG_89VbqQbskbzbyc7dCbUbObPdB001",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430512072609029/465a1d9f0a3ea06ab7eef6b0e73193a7"
+  },
+  {
+    "resourceId": "7408430545371286789",
+    "hash": "b425d257fff38df780374ba7470c697a",
+    "name": "Editor_Sticker_Config_TAG_HdubcdceMc8dkbddnsbTc9b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430545371286789/b425d257fff38df780374ba7470c697a"
+  },
+  {
+    "resourceId": "7408430549741620485",
+    "hash": "123c4ef9e19681ec7874a1d2e12db7fb",
+    "name": "Editor_Sticker_Config_TAG_HdubcdceMc8dkbddnsbTc9b",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430549741620485/123c4ef9e19681ec7874a1d2e12db7fb"
+  },
+  {
+    "resourceId": "7408430587381419270",
+    "hash": "0229e8136fd1637aca6acefdb3f48e40",
+    "name": "Qinyan",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430587381419270/0229e8136fd1637aca6acefdb3f48e40"
+  },
+  {
+    "resourceId": "7408430748551679238",
+    "hash": "53d2abccbf228f1c2698fe5e2d00bc25",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430748551679238/53d2abccbf228f1c2698fe5e2d00bc25"
+  },
+  {
+    "resourceId": "7408430752670567686",
+    "hash": "8faca7f8b283fd332d9a6d48d48d554c",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430752670567686/8faca7f8b283fd332d9a6d48d48d554c"
+  },
+  {
+    "resourceId": "7408430875815333125",
+    "hash": "7117f587a9a6f4cae7239fb6e0e53e4f",
+    "name": "new-model-2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408430875815333125/7117f587a9a6f4cae7239fb6e0e53e4f"
+  },
+  {
+    "resourceId": "7408622694922456325",
+    "hash": "de330e0711817ed71cb099e0f4a6d13b",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922456325/de330e0711817ed71cb099e0f4a6d13b"
+  },
+  {
+    "resourceId": "7408622694922472709",
+    "hash": "df956ae3455a2ce9fe4492126e174698",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922472709/df956ae3455a2ce9fe4492126e174698"
+  },
+  {
+    "resourceId": "7408622694922489093",
+    "hash": "e25b249b36957f7a93630e76a2c6a958",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922489093/e25b249b36957f7a93630e76a2c6a958"
+  },
+  {
+    "resourceId": "7408622694922505477",
+    "hash": "e0e46271507c5ba80cc245764767dbca",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922505477/e0e46271507c5ba80cc245764767dbca"
+  },
+  {
+    "resourceId": "7408622694922521861",
+    "hash": "3ceca71c5e3fd1102b2d87270a2321a4",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922521861/3ceca71c5e3fd1102b2d87270a2321a4"
+  },
+  {
+    "resourceId": "7408622694922538245",
+    "hash": "31fce94de5565e0d031c6daa93adccb5",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7408622694922538245/31fce94de5565e0d031c6daa93adccb5"
+  },
+  {
+    "resourceId": "7409873342792043781",
+    "hash": "7ea9db818289cf323dc4eff20e79a23f",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7409873342792043781/7ea9db818289cf323dc4eff20e79a23f"
+  },
+  {
+    "resourceId": "7426678351957332497",
+    "hash": "3381cda21304c1eb4664f3bdfe945869",
+    "name": "Editojianyingruihuakdlderc8nbUd8cjjbRd0dKcQdnd",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7426678351957332497/3381cda21304c1eb4664f3bdfe945869"
+  },
+  {
+    "resourceId": "7434502159204356609",
+    "hash": "107711a55b5260cbe491cad54c8d1d12",
+    "name": "2022_01_27_15_33_37_8f783d1e9c2a231ebb393787b8ad47f2a",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7434502159204356609/107711a55b5260cbe491cad54c8d1d12"
+  },
+  {
+    "resourceId": "7441089848431201591",
+    "hash": "88ececb129d81a7f3da3a42c178b9461",
+    "name": "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7441089848431201591/88ececb129d81a7f3da3a42c178b9461"
+  },
+  {
+    "resourceId": "7442287977864106497",
+    "hash": "138bb98faf97cb00a770bc807533a6a7",
+    "name": "AE2Effect_20241127154214950",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7442287977864106497/138bb98faf97cb00a770bc807533a6a7"
+  },
+  {
+    "resourceId": "7445181021638627841",
+    "hash": "78dd31f63641e75b877034ed3ec03d26",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7445181021638627841/78dd31f63641e75b877034ed3ec03d26"
+  },
+  {
+    "resourceId": "7447410598653989392",
+    "hash": "280689bce9b5bed17de423b835ae0609",
+    "name": "legacy-model-2d-813d2d0e-5927-11ed-b0cf-3e22fb85aea1xiaomonv",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7447410598653989392/280689bce9b5bed17de423b835ae0609"
+  },
+  {
+    "resourceId": "7451153375279714817",
+    "hash": "4108c2d8c91ac1d47b2e8b28361359b2",
+    "name": "Editor_Sticker_Config_TAG_xbtpH2d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7451153375279714817/4108c2d8c91ac1d47b2e8b28361359b2"
+  },
+  {
+    "resourceId": "7451535589339304465",
+    "hash": "47f7a2d93348de0cc3363f8bed9e27b8",
+    "name": "AE2Effect_20241130153927982",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7451535589339304465/47f7a2d93348de0cc3363f8bed9e27b8"
+  },
+  {
+    "resourceId": "7457014907897123345",
+    "hash": "673103ae8a9270062d9b547024922ba4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aeashdf",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457014907897123345/673103ae8a9270062d9b547024922ba4"
+  },
+  {
+    "resourceId": "7457015196641399313",
+    "hash": "ed27953f54e4bb430c46f600dcfdd998",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1cleanmk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457015196641399313/ed27953f54e4bb430c46f600dcfdd998"
+  },
+  {
+    "resourceId": "7457043183327777297",
+    "hash": "3417b6a73881596e319792a847f9e438",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1sjhm",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457043183327777297/3417b6a73881596e319792a847f9e438"
+  },
+  {
+    "resourceId": "7457053938768941585",
+    "hash": "f79d6c70bf0d0433b5b8445fb2ff3553",
+    "name": "Editor_Sticker_Config_TAG_xbtpH2f",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457053938768941585/f79d6c70bf0d0433b5b8445fb2ff3553"
+  },
+  {
+    "resourceId": "7457140369411543568",
+    "hash": "a0b1f8c6ca0406c499b66f884dac8a6f",
+    "name": "legacy-model-2d-6321eeb8-5927-11ed-b0cf-3e22fb85aea1xind",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457140369411543568/a0b1f8c6ca0406c499b66f884dac8a6f"
+  },
+  {
+    "resourceId": "7457140465427550737",
+    "hash": "84b1afd037a2c9b55d83d91ccc266306",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1rxdn",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457140465427550737/84b1afd037a2c9b55d83d91ccc266306"
+  },
+  {
+    "resourceId": "7457425031321096705",
+    "hash": "609c663aaed71cd3916f443b71c3abbd",
+    "name": "new-model-3d-660e6bce-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031321096705/609c663aaed71cd3916f443b71c3abbd"
+  },
+  {
+    "resourceId": "7457425031321113104",
+    "hash": "968f554c011139b1dafbacd3d01acb5e",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb8fanhua",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031321113104/968f554c011139b1dafbacd3d01acb5e"
+  },
+  {
+    "resourceId": "7457425031325291009",
+    "hash": "e93a478954895d0f4b5d8fac2ce8bdd3",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyuehuijianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291009/e93a478954895d0f4b5d8fac2ce8bdd3"
+  },
+  {
+    "resourceId": "7457425031325291024",
+    "hash": "7cf7a2ab35c99bb5a17da5d88595e668",
+    "name": "new-model-3d-660e6bce-5927-11ed-b0cf-3e22fb85aea1meilade3d",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291024/7cf7a2ab35c99bb5a17da5d88595e668"
+  },
+  {
+    "resourceId": "7457425031325291025",
+    "hash": "3780abcd8889778ad2bec2d33c2e30b5",
+    "name": "legacy-model-2d-6321eeb8-5927-11ed-b0cf-3e22fb85aea1zia",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325291025/3780abcd8889778ad2bec2d33c2e30b5"
+  },
+  {
+    "resourceId": "7457425031325307408",
+    "hash": "0ef488e77e845b479ea0772265bd27dc",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7457425031325307408/0ef488e77e845b479ea0772265bd27dc"
+  },
+  {
+    "resourceId": "7458192043064431105",
+    "hash": "76a18f1052df96b6857bf5bde0323fc4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7458192043064431105/76a18f1052df96b6857bf5bde0323fc4"
+  },
+  {
+    "resourceId": "7459237715624595984",
+    "hash": "624ec14b416564533ab02c4a054dc7c7",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1zaoc",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715624595984/624ec14b416564533ab02c4a054dc7c7"
+  },
+  {
+    "resourceId": "7459237715624612368",
+    "hash": "7ce44b71bd86c3dacad10de3a442b1ee",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1xiaribaikaishui",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715624612368/7ce44b71bd86c3dacad10de3a442b1ee"
+  },
+  {
+    "resourceId": "7459237715628790273",
+    "hash": "375b799b124a7213c4d5b15f64144435",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628790273/375b799b124a7213c4d5b15f64144435"
+  },
+  {
+    "resourceId": "7459237715628790289",
+    "hash": "05586058cf81358fadacfff98f657855",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1blsn",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628790289/05586058cf81358fadacfff98f657855"
+  },
+  {
+    "resourceId": "7459237715628806673",
+    "hash": "ef6c6a45d56bda0df317d08276c08be4",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aeashdfcoldfeeling",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628806673/ef6c6a45d56bda0df317d08276c08be4"
+  },
+  {
+    "resourceId": "7459237715628823057",
+    "hash": "e93a478954895d0f4b5d8fac2ce8bdd3",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fxindongyuehuijianying",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715628823057/e93a478954895d0f4b5d8fac2ce8bdd3"
+  },
+  {
+    "resourceId": "7459237715632984592",
+    "hash": "1d6fb8b619b83837fcbd619b41a18ec0",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1bainz",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715632984592/1d6fb8b619b83837fcbd619b41a18ec0"
+  },
+  {
+    "resourceId": "7459237715633000977",
+    "hash": "76fbe2cb9d0cbe5a1be0e2a74a40064e",
+    "name": "new-model-2d-8907433a-5927-11ed-b0cf-3e22fb85aea1ss",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715633000977/76fbe2cb9d0cbe5a1be0e2a74a40064e"
+  },
+  {
+    "resourceId": "7459237715641373185",
+    "hash": "bd1c9b2ecc78740b2b79b2875275e500",
+    "name": "new-model-2d-7ed7dff0-5927-11ed-b0cf-3e22fb85aea1",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7459237715641373185/bd1c9b2ecc78740b2b79b2875275e500"
+  },
+  {
+    "resourceId": "7460346731012559377",
+    "hash": "79a3e8e3cfa6a02bc7065dd7d856b69d",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460346731012559377/79a3e8e3cfa6a02bc7065dd7d856b69d"
+  },
+  {
+    "resourceId": "7460351813082944016",
+    "hash": "5c09bfcce17ece9a45b61b546f3cf017",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460351813082944016/5c09bfcce17ece9a45b61b546f3cf017"
+  },
+  {
+    "resourceId": "7460351813087138320",
+    "hash": "5b8cb8e8974c91398d54a46fafe15a3c",
+    "name": "9.2.1MAC22F5A3A911E64CDFB9C54BC3594C891A12345655",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7460351813087138320/5b8cb8e8974c91398d54a46fafe15a3c"
+  },
+  {
+    "resourceId": "7480476382338813239",
+    "hash": "ccd56f031f17b773af5f03961641827a",
+    "name": "AE2Effect_20250306204809639",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7480476382338813239/ccd56f031f17b773af5f03961641827a"
+  },
+  {
+    "resourceId": "7495962407844449537",
+    "hash": "745d3233374d8dcd1a457a90971cad21",
+    "name": "AE2Effect_20250418203705026",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7495962407844449537/745d3233374d8dcd1a457a90971cad21"
+  },
+  {
+    "resourceId": "7501974767453474064",
+    "hash": "26e574bcfa176c3c1a1f7fd5df0a4996",
+    "name": "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7501974767453474064/26e574bcfa176c3c1a1f7fd5df0a4996"
+  },
+  {
+    "resourceId": "7502287385028218129",
+    "hash": "0d42c31d8e3fc1896a1aa9f4225ac51c",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7502287385028218129/0d42c31d8e3fc1896a1aa9f4225ac51c"
+  },
+  {
+    "resourceId": "7503485016869997840",
+    "hash": "35b02b951accd187d30a834d759b8230",
+    "name": "AE2Effect",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7503485016869997840/35b02b951accd187d30a834d759b8230"
+  },
+  {
+    "resourceId": "7508922327808167169",
+    "hash": "eadfafcbf94451c907fda9a9f6308ce7",
+    "name": "AE2Effect_20250527204452902",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7508922327808167169/eadfafcbf94451c907fda9a9f6308ce7"
+  },
+  {
+    "resourceId": "7517581737665285377",
+    "hash": "1979c9a8ff435be88516a014a14f7197",
+    "name": "BCE-DEMO-3FAAA9BA-D2A0-47B9-88EC-C839056A8C23",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7517581737665285377/1979c9a8ff435be88516a014a14f7197"
+  },
+  {
+    "resourceId": "7519366465762430261",
+    "hash": "69feb2d23e597a2bede7804ade92d4ad",
+    "name": "AE2Effect_20250624122120335",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7519366465762430261/69feb2d23e597a2bede7804ade92d4ad"
+  },
+  {
+    "resourceId": "7522416272844295441",
+    "hash": "567c8f354d92f03366df5ca07d42ec1a",
+    "name": "AE2Effect_20250630155851814",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7522416272844295441/567c8f354d92f03366df5ca07d42ec1a"
+  },
+  {
+    "resourceId": "7526842552562109757",
+    "hash": "aa2c2f7bcb32839d1aa95139887a104f",
+    "name": "AE2Effect_20250714144508430",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7526842552562109757/aa2c2f7bcb32839d1aa95139887a104f"
+  },
+  {
+    "resourceId": "7527183959193685264",
+    "hash": "d8d3201fa6c77f369501cf4baae130ab",
+    "name": "Editor_Sticker_Config_TAG_Aweme_ClarityItem_and_FoundationItem",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7527183959193685264/d8d3201fa6c77f369501cf4baae130ab"
+  },
+  {
+    "resourceId": "7530628010894953781",
+    "hash": "14e9599d5bada94a830976d584c686f4",
+    "name": "AE2Effect_20250724193224028",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530628010894953781/14e9599d5bada94a830976d584c686f4"
+  },
+  {
+    "resourceId": "7530777262594034960",
+    "hash": "86c01bcaf9ed35d98ca1f2f6211d26bb",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530777262594034960/86c01bcaf9ed35d98ca1f2f6211d26bb"
+  },
+  {
+    "resourceId": "7530798138743983377",
+    "hash": "474a6fb0586dcb305e6f77e728ec2fe5",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530798138743983377/474a6fb0586dcb305e6f77e728ec2fe5"
+  },
+  {
+    "resourceId": "7530851408782871824",
+    "hash": "ba2bd0926ff9b333375da5c142c50471",
+    "name": "Editor_Sticker_Config_TAG_wdOcebHdeucbbkbAcWdLdnblboLJckk",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7530851408782871824/ba2bd0926ff9b333375da5c142c50471"
+  },
+  {
+    "resourceId": "7535359333308075280",
+    "hash": "9460ffaa6f9be720be5d5a8e8270497b",
+    "name": "AE2Effect_20250805114857581",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7535359333308075280/9460ffaa6f9be720be5d5a8e8270497b"
+  },
+  {
+    "resourceId": "7538694539930799377",
+    "hash": "20e4135f901edb74ef60d7bcd6e2794e",
+    "name": "AE2Effect_20250812125630986",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7538694539930799377/20e4135f901edb74ef60d7bcd6e2794e"
+  },
+  {
+    "resourceId": "7539545099059973437",
+    "hash": "d96350ecee36d167cc236a12f0c5d7ca",
+    "name": "AE2Effect_20250817212425229",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7539545099059973437/d96350ecee36d167cc236a12f0c5d7ca"
+  },
+  {
+    "resourceId": "7542315478119648529",
+    "hash": "8a452f686ef013984ae4c5661825f05a",
+    "name": "AE2Effect_20250822105556088",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7542315478119648529/8a452f686ef013984ae4c5661825f05a"
+  },
+  {
+    "resourceId": "7543202833881992501",
+    "hash": "7bfbeeb39abb81687b7105ccd656c785",
+    "name": "AE2Effect_20250825153101491",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7543202833881992501/7bfbeeb39abb81687b7105ccd656c785"
+  },
+  {
+    "resourceId": "7544051826593697077",
+    "hash": "d6586901ec5a39e584d8f77a4f4d6925",
+    "name": "AE2Effect_20250830000210572",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7544051826593697077/d6586901ec5a39e584d8f77a4f4d6925"
+  },
+  {
+    "resourceId": "7551684553568488705",
+    "hash": "c7223279b6225fdf811681c0be1e94bf",
+    "name": "05d5e017-bcff-11eb-a04a-acde480011220",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7551684553568488705/c7223279b6225fdf811681c0be1e94bf"
+  },
+  {
+    "resourceId": "7565808235912137989",
+    "hash": "292e5fb8ceef369f4a5bad90908c358c",
+    "name": "AE2Effect_20251022204627634",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7565808235912137989/292e5fb8ceef369f4a5bad90908c358c"
+  },
+  {
+    "resourceId": "7566934858857975045",
+    "hash": "c1bce258b66fbe0db944750ca68f7276",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7566934858857975045/c1bce258b66fbe0db944750ca68f7276"
+  },
+  {
+    "resourceId": "7569907635462409477",
+    "hash": "fce32f138685e44a0d5dcb97a25783dd",
+    "name": "AE2Effect_20251107171450186",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7569907635462409477/fce32f138685e44a0d5dcb97a25783dd"
+  },
+  {
+    "resourceId": "7571407386737478920",
+    "hash": "900783e5d4dcd1830bc9188450ec7cf8",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7571407386737478920/900783e5d4dcd1830bc9188450ec7cf8"
+  },
+  {
+    "resourceId": "7573582539848240389",
+    "hash": "ccb66c42d6070bbb2bef9b33881e575d",
+    "name": "AE2Effect_20251117140116892",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7573582539848240389/ccb66c42d6070bbb2bef9b33881e575d"
+  },
+  {
+    "resourceId": "7574375685008051461",
+    "hash": "f4672df97840b5ea93ac249bbf7d3532",
+    "name": "AE2Effect_20251119192311451",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7574375685008051461/f4672df97840b5ea93ac249bbf7d3532"
+  },
+  {
+    "resourceId": "7581727241059503378",
+    "hash": "6f18c3fae8ed13ce24702927f410a423",
+    "name": "AE2Effect_20251203172850086",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7581727241059503378/6f18c3fae8ed13ce24702927f410a423"
+  },
+  {
+    "resourceId": "7583954946282933509",
+    "hash": "99f60daab1600085c00643d1ef145d12",
+    "name": "AE2Effect_20251215150126915",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7583954946282933509/99f60daab1600085c00643d1ef145d12"
+  },
+  {
+    "resourceId": "7589041004934597941",
+    "hash": "85452fea4304424403734c7cc782c27b",
+    "name": "AE2Effect_20251229102051988",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7589041004934597941/85452fea4304424403734c7cc782c27b"
+  },
+  {
+    "resourceId": "7597348329353121029",
+    "hash": "5d07a7ff8c6aa88933d9ac85827bfb3e",
+    "name": "AE2Effect_20260120164823257",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7597348329353121029/5d07a7ff8c6aa88933d9ac85827bfb3e"
+  },
+  {
+    "resourceId": "7598471787764141329",
+    "hash": "cfadcbd2e3be8136b919828fa407cd1b",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7598471787764141329/cfadcbd2e3be8136b919828fa407cd1b"
+  },
+  {
+    "resourceId": "7599559007442898192",
+    "hash": "c3977c908afdb85cf8a543c7cd5f3d79",
+    "name": "",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599559007442898192/c3977c908afdb85cf8a543c7cd5f3d79"
+  },
+  {
+    "resourceId": "7599560105813888309",
+    "hash": "212eedfd100f11fbfa06f9bb133b1ef0",
+    "name": "AE2Effect_20260126181826991",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599560105813888309/212eedfd100f11fbfa06f9bb133b1ef0"
+  },
+  {
+    "resourceId": "7599958252255792391",
+    "hash": "76ec52bd690cdbba54143c2657d50acc",
+    "name": "AE2Effect_20260127163820060",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7599958252255792391/76ec52bd690cdbba54143c2657d50acc"
+  },
+  {
+    "resourceId": "7600307672784882949",
+    "hash": "3bffd414145a3b6abc1244a6cf3e7891",
+    "name": "AE2Effect_20260128170803851",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7600307672784882949/3bffd414145a3b6abc1244a6cf3e7891"
+  },
+  {
+    "resourceId": "7601074858440625422",
+    "hash": "22422285bd962246fec7d57d189f4a10",
+    "name": "AE2Effect_20260130164828246",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7601074858440625422/22422285bd962246fec7d57d189f4a10"
+  },
+  {
+    "resourceId": "7601760881114107141",
+    "hash": "8917a74749428d1d643899fd441865c5",
+    "name": "AE2Effect_20260201150145578",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7601760881114107141/8917a74749428d1d643899fd441865c5"
+  },
+  {
+    "resourceId": "7605621782975876360",
+    "hash": "6157f30b0e92983a4812f0694c7891a4",
+    "name": "AE2Effect_20260211215242828",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7605621782975876360/6157f30b0e92983a4812f0694c7891a4"
+  },
+  {
+    "resourceId": "7608369093216980231",
+    "hash": "71239202ac0d1872fe279085e8fe9f4e",
+    "name": "AE2Effect_20260219073525343",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7608369093216980231/71239202ac0d1872fe279085e8fe9f4e"
+  },
+  {
+    "resourceId": "7608796542719446277",
+    "hash": "84611827cd649500955668313af5deaf",
+    "name": "AE2Effect_20260220135848118",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7608796542719446277/84611827cd649500955668313af5deaf"
+  },
+  {
+    "resourceId": "7610499695256964357",
+    "hash": "8e9bf147b0f286b0950389d3316f249a",
+    "name": "AE2Effect_20260225053754500",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7610499695256964357/8e9bf147b0f286b0950389d3316f249a"
+  },
+  {
+    "resourceId": "7611183424732187957",
+    "hash": "386faff660d169ddb91e6570d1e06451",
+    "name": "AE2Effect_20260226234444160",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7611183424732187957/386faff660d169ddb91e6570d1e06451"
+  },
+  {
+    "resourceId": "7613985304919215413",
+    "hash": "626a4ffd0cfa3d7b3f5d08ad1ce0b427",
+    "name": "AE2Effect_20260306145127673",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7613985304919215413/626a4ffd0cfa3d7b3f5d08ad1ce0b427"
+  },
+  {
+    "resourceId": "7615628684610784517",
+    "hash": "23893fcee94d7238242e8c5e74c8dbcb",
+    "name": "AE2Effect_20260311010230753",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7615628684610784517/23893fcee94d7238242e8c5e74c8dbcb"
+  },
+  {
+    "resourceId": "7615725555651988754",
+    "hash": "026788f09d53d522b3e379af18f76a4f",
+    "name": "AE2Effect_20260311033101559",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7615725555651988754/026788f09d53d522b3e379af18f76a4f"
+  },
+  {
+    "resourceId": "7616400885123386629",
+    "hash": "a95924f1342619cacb1990cd9d8fc5d2",
+    "name": "AE2Effect_20260313015255480",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7616400885123386629/a95924f1342619cacb1990cd9d8fc5d2"
+  },
+  {
+    "resourceId": "7616744587331243282",
+    "hash": "1ee35bd99f4d525d1798579ec09b5697",
+    "name": "AE2Effect_20260313212025669",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7616744587331243282/1ee35bd99f4d525d1798579ec09b5697"
+  },
+  {
+    "resourceId": "7617003997647342866",
+    "hash": "712805ac8b9da1796127090211203c3c",
+    "name": "AE2Effect_20260314141003980",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7617003997647342866/712805ac8b9da1796127090211203c3c"
+  },
+  {
+    "resourceId": "7617481836192632117",
+    "hash": "5b8b381e6af98905f3d6f390a3226c56",
+    "name": "AE2Effect_20260316012403472",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7617481836192632117/5b8b381e6af98905f3d6f390a3226c56"
+  },
+  {
+    "resourceId": "7618052774390975749",
+    "hash": "edb26563f31134be9ec68707fdc55c30",
+    "name": "AE2Effect_20260317140431811",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618052774390975749/edb26563f31134be9ec68707fdc55c30"
+  },
+  {
+    "resourceId": "7618407219289312517",
+    "hash": "c85e6a196c354ff4352eb2b8b8e95d4f",
+    "name": "AE2Effect_20260318155341193",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618407219289312517/c85e6a196c354ff4352eb2b8b8e95d4f"
+  },
+  {
+    "resourceId": "7618594939512868149",
+    "hash": "9667e48504751442a839fa9f8ee29559",
+    "name": "AE2Effect_20260319024530209",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7618594939512868149/9667e48504751442a839fa9f8ee29559"
+  },
+  {
+    "resourceId": "7620683144995343634",
+    "hash": "6b8836a92e64fc1b1363ae26134e1ba2",
+    "name": "AE2Effect_20260319120406624",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7620683144995343634/6b8836a92e64fc1b1363ae26134e1ba2"
+  },
+  {
+    "resourceId": "7621464656728575252",
+    "hash": "db4718f55ecf86ebb76834553a035007",
+    "name": "AE2Effect_20260326095731794",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7621464656728575252/db4718f55ecf86ebb76834553a035007"
+  },
+  {
+    "resourceId": "7621491987836914961",
+    "hash": "afedb9dbf32756efe7a7d3cdc9fb3ce3",
+    "name": "AE2Effect_20260326172403109",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7621491987836914961/afedb9dbf32756efe7a7d3cdc9fb3ce3"
+  },
+  {
+    "resourceId": "7622286458916818177",
+    "hash": "ffcff63eac9c46f381e2c26539a94590",
+    "name": "AE2Effect_20260328152118835",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622286458916818177/ffcff63eac9c46f381e2c26539a94590"
+  },
+  {
+    "resourceId": "7622686758790024465",
+    "hash": "c8576cb3b097315703516363c83bd7cd",
+    "name": "AE2Effect_20260329214138843",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622686758790024465/c8576cb3b097315703516363c83bd7cd"
+  },
+  {
+    "resourceId": "7622886285966888200",
+    "hash": "4d7fe96f9ce00083cd59013f562ee58b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7622886285966888200/4d7fe96f9ce00083cd59013f562ee58b"
+  },
+  {
+    "resourceId": "7623292866051329301",
+    "hash": "3f614f329f99191d674a3ee322ae3be7",
+    "name": "AE2Effect_20260331125054516",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7623292866051329301/3f614f329f99191d674a3ee322ae3be7"
+  },
+  {
+    "resourceId": "7626228965283319041",
+    "hash": "fcf79f3925efa553e2b835ab38a04f6b",
+    "name": "AE2Effect_20260406100203246",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7626228965283319041/fcf79f3925efa553e2b835ab38a04f6b"
+  },
+  {
+    "resourceId": "7626316046303120658",
+    "hash": "0cac64a37d7821c22a94862b4782057a",
+    "name": "AE2Effect_20260408165345336",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7626316046303120658/0cac64a37d7821c22a94862b4782057a"
+  },
+  {
+    "resourceId": "7662676640153046290",
+    "hash": "07ba0ed9c54b3680950ddc29f0288745",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7662676640153046290/07ba0ed9c54b3680950ddc29f0288745"
+  },
+  {
+    "resourceId": "7662678507964697876",
+    "hash": "3a6d479b85e061d90bd41c3538afdd5b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7662678507964697876/3a6d479b85e061d90bd41c3538afdd5b"
+  },
+  {
+    "resourceId": "7665019554170490119",
+    "hash": "6812dc85c10e97ea7ea705de000620b5",
+    "name": "AE2Effect_20260721235024800",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665019554170490119/6812dc85c10e97ea7ea705de000620b5"
+  },
+  {
+    "resourceId": "7665360758036811015",
+    "hash": "5c268ba53b9a671a46f12372ecc93866",
+    "name": "AE2Effect_20260722215722628",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665360758036811015/5c268ba53b9a671a46f12372ecc93866"
+  },
+  {
+    "resourceId": "7665972868726934804",
+    "hash": "09b58f09e8c441941f571ba2860b0651",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7665972868726934804/09b58f09e8c441941f571ba2860b0651"
+  },
+  {
+    "resourceId": "7666595071428463890",
+    "hash": "ba1c05ea246c29046f35ebefd98dcd1c",
+    "name": "AE2Effect_20260726033905871",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7666595071428463890/ba1c05ea246c29046f35ebefd98dcd1c"
+  },
+  {
+    "resourceId": "7668225382784519431",
+    "hash": "42e05806241b56a2d7f3c135aedf3b5a",
+    "name": "45986fe8457b11ee88067c10c9c055a5",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7668225382784519431/42e05806241b56a2d7f3c135aedf3b5a"
+  },
+  {
+    "resourceId": "7668540420699278600",
+    "hash": "4c8f5f7bfd7091c32b525095a494181a",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7668540420699278600/4c8f5f7bfd7091c32b525095a494181a"
+  },
+  {
+    "resourceId": "7669911373777833232",
+    "hash": "c1089709ca36f018c500a5dbfce4c76c",
+    "name": "AE2Effect_20260803235958124",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7669911373777833232/c1089709ca36f018c500a5dbfce4c76c"
+  },
+  {
+    "resourceId": "7670205470195551496",
+    "hash": "288bd766febb5c794d4553b4a1ac9fa1",
+    "name": "AE2Effect_20260805012929111",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7670205470195551496/288bd766febb5c794d4553b4a1ac9fa1"
+  },
+  {
+    "resourceId": "7670439320217505044",
+    "hash": "ebf214a4bbe45025a5b88a0f97bf3747",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7670439320217505044/ebf214a4bbe45025a5b88a0f97bf3747"
+  },
+  {
+    "resourceId": "7673047276423531794",
+    "hash": "a85fd2b29cce090ef48ed83bea8603aa",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7673047276423531794/a85fd2b29cce090ef48ed83bea8603aa"
+  },
+  {
+    "resourceId": "7673428174771899656",
+    "hash": "ff29cafee68193e84cd79560e0e60edb",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7673428174771899656/ff29cafee68193e84cd79560e0e60edb"
+  },
+  {
+    "resourceId": "7674969858848591125",
+    "hash": "0d801a4fc0520a97434906aa5dbf530d",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7674969858848591125/0d801a4fc0520a97434906aa5dbf530d"
+  },
+  {
+    "resourceId": "7675214686257712404",
+    "hash": "166e889ca90c68d27fc01eeed97cd5aa",
+    "name": "AE2Effect_20260815220629064",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7675214686257712404/166e889ca90c68d27fc01eeed97cd5aa"
+  },
+  {
+    "resourceId": "7676765029395483920",
+    "hash": "af35c90c49cc6ca0b8553a68bfe26dbd",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7676765029395483920/af35c90c49cc6ca0b8553a68bfe26dbd"
+  },
+  {
+    "resourceId": "7677549080112794900",
+    "hash": "798edf71d5027fd7355dbc93aab833de",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7677549080112794900/798edf71d5027fd7355dbc93aab833de"
+  },
+  {
+    "resourceId": "7677624630173125896",
+    "hash": "41567f0a80e13025774d99467f2fa77f",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7677624630173125896/41567f0a80e13025774d99467f2fa77f"
+  },
+  {
+    "resourceId": "7678572490972597511",
+    "hash": "e4cc4738fe35c9aead02589a9906100e",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678572490972597511/e4cc4738fe35c9aead02589a9906100e"
+  },
+  {
+    "resourceId": "7678631038066625800",
+    "hash": "634edfa3e3dda80ede2900da12c09717",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678631038066625800/634edfa3e3dda80ede2900da12c09717"
+  },
+  {
+    "resourceId": "7678642071741189396",
+    "hash": "98135e3b7626cc274047be26be4d0c5c",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678642071741189396/98135e3b7626cc274047be26be4d0c5c"
+  },
+  {
+    "resourceId": "7678660673257147656",
+    "hash": "d7daa258ee901c65d5fe47de518fd8ae",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678660673257147656/d7daa258ee901c65d5fe47de518fd8ae"
+  },
+  {
+    "resourceId": "7678855201331170580",
+    "hash": "0ed420f6dfcfb95d110ff3e82bc9777b",
+    "name": "AlgorithmGraph_7bdbHcdcscQkbEdcc9cIlcNdvTdtb",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678855201331170580/0ed420f6dfcfb95d110ff3e82bc9777b"
+  },
+  {
+    "resourceId": "7678945556470828308",
+    "hash": "3202c9a05a2aa1836017f3a5ff1fd1bb",
+    "name": "AE2Effect_20260823144829240",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678945556470828308/3202c9a05a2aa1836017f3a5ff1fd1bb"
+  },
+  {
+    "resourceId": "7678979640282598677",
+    "hash": "8adfde2284f88ca638ba19ecca85f5ea",
+    "name": "AE2Effect_20260828172009225",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678979640282598677/8adfde2284f88ca638ba19ecca85f5ea"
+  },
+  {
+    "resourceId": "7678985001031027989",
+    "hash": "54079133dcea9ffb0dcccfa1a32334e4",
+    "name": "AE2Effect_20260828152626160",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/7678985001031027989/54079133dcea9ffb0dcccfa1a32334e4"
+  },
+  {
+    "resourceId": "881339",
+    "hash": "e9301bacebc6dc444aa4e6f835dd4a31",
+    "name": "AmazingAuto_d7122df996c495d66df70cd2698c2156",
+    "type": "",
+    "path": "/Users/macbookprom1pro/Documents/capcut-mcp-custom/assets/effect/881339/e9301bacebc6dc444aa4e6f835dd4a31"
+  }
+]

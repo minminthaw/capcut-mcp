@@ -1,0 +1,80 @@
+{
+   "effect": [
+      {
+         "name": "CenterCrop",
+         "vertexShader": "resource1/shader/CenterCrop.vert",
+         "vUniforms": [],
+         "fragmentShader": "resource1/shader/CenterCrop.frag",
+         "fUniforms": [
+            {
+               "name": "blendTexture",
+               "type": 1,
+               "refreshInterval": 1,
+               "data": [
+                  "resource1/texture/clipname1_001.png"
+               ]
+            },
+            {
+               "name": "baseTexWidth",
+               "type": 200
+            },
+            {
+               "name": "baseTexHeight",
+               "type": 201
+            },
+            {
+               "name": "fullBlendTexSize",
+               "type": 4,
+               "data": [
+                  500.0,
+                  500.0
+               ]
+            },
+            {
+               "name": "blendMode",
+               "type": 2,
+               "data": [
+                  0
+               ]
+            },
+            {
+               "name": "alphaFactor",
+               "type": 3,
+               "data": [
+                  1.0
+               ]
+            },
+            {
+               "name": "timer",
+               "type": 3,
+               "data": [
+                  0.0
+               ]
+            },
+            {
+               "name": "progress",
+               "type": 3007,
+               "timeType": 2,
+               "keyframes": [
+                  {
+                     "time": 0.0,
+                     "value": 0.0,
+                     "function": "Linear"
+                  },
+                  {
+                     "time": 1.0,
+                     "value": 1.0,
+                     "function": "Linear"
+                  }
+               ]
+            },
+            {
+               "name": "inputImageTexture",
+               "type": 103,
+               "inputTextureIndex": 0
+            }
+         ]
+      }
+   ],
+   "version": 1.0
+}

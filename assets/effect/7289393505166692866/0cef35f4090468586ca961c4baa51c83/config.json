@@ -1,0 +1,20 @@
+{
+    "bALG_BACH_CONFIG": true,
+    "effect": {
+        "Link": [
+            {
+                "defaultEnable": true,
+                "path": "SkinFilter/",
+                "type": "AmazingFeature",
+                "zorder": 2000
+            }
+        ],
+        "model_names": {
+            "skinseg": [
+                "tt_skin_seg"
+            ]
+        }
+    },
+    "name": "CreateByScript__2022_04_07_14_47_44_a0b2854eb63e11eca601acde48001122",
+    "version": "9.8.0"
+}

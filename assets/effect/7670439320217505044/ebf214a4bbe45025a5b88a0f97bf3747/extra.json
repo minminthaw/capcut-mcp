@@ -1,0 +1,43 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "bladeCount",
+                "effect_key_cn": "\u5200\u7247\u6570\u91cf",
+                "type": "float",
+                "default": 4,
+                "min": 2,
+                "max": 8
+            },
+            {
+                "effect_key": "foldSoftness",
+                "effect_key_cn": "\u6298\u53e0\u67d4\u8f6f\u5ea6",
+                "type": "float",
+                "default": 0.15,
+                "min": 0.01,
+                "max": 0.5
+            },
+            {
+                "effect_key": "staggerOffset",
+                "effect_key_cn": "\u4ea4\u9519\u504f\u79fb",
+                "type": "float",
+                "default": 0.06,
+                "min": 0,
+                "max": 0.2
+            }
+        ]
+    }
+}

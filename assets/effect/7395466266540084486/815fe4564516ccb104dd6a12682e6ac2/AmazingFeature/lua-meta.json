@@ -1,0 +1,1052 @@
+[
+    {
+        "ClassName": "LumiManager",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/LumiFamily/LumiManager.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/LumiFamily/LumiManager.lua",
+        "Properties": [
+            {
+                "VarName": "debugTime",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    6.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "autoPlay",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "LumiEffectTrans",
+                "VarType": "Transform",
+                "Comment": ""
+            },
+            {
+                "VarName": "start_render_layer",
+                "VarType": "Int64",
+                "Comment": ""
+            },
+            {
+                "VarName": "start_render_order",
+                "VarType": "Int64",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "PingPongTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onDestroy",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getCameraCount",
+                "Params": [],
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Button",
+                                "RawValue": "",
+                                "Values": [
+                                    "ReRender"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "FuncName": "ReRender",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "registerLumiObj",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateCameraLayerAndOrder",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateRtPingpong",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "initVideoAnimationLua",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiEffect",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/LumiFamily/LumiEffect.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/lua/LumiFamily/LumiEffect.lua",
+        "Properties": [
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onDestroy",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateMaterials",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiAnimSeqLoadAndCrop",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/LumiAnimSeqLoadAndCrop/lua/LumiAnimSeqLoadAndCrop.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/LumiAnimSeqLoadAndCrop/lua/LumiAnimSeqLoadAndCrop.lua",
+        "Properties": [
+            {
+                "VarName": "animSeqType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Video",
+                                    "Image",
+                                    "Texture"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "cropType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Stretch",
+                                    "Fill",
+                                    "Fit"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "edgeType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Tile",
+                                    "Mirror",
+                                    "Clamp",
+                                    "Empty"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "opacity",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "speed",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.001,
+                                    10.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "scale",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    5.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "seqTime",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    100.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "enableVideoAlphaBlend",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "videoFilename",
+                "VarType": "String",
+                "Comment": ""
+            },
+            {
+                "VarName": "animSeq",
+                "VarType": "AnimSeq",
+                "Comment": ""
+            },
+            {
+                "VarName": "seqTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setEffectAttr",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "afterAnimSeqSystemUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "ScriptCompRadialBlur",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/RadialBlur/lua/ScriptCompRadialBlur.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/RadialBlur/lua/ScriptCompRadialBlur.lua",
+        "Properties": [
+            {
+                "VarName": "blurType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Straight Zoom",
+                                    "Fading Zoom",
+                                    "Centered Zoom",
+                                    "Rotate",
+                                    "Scratch",
+                                    "Rotate Fading"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "amount",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    -250.0,
+                                    250.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "quality",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    10.0,
+                                    100.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "center",
+                "VarType": "Vector2f",
+                "Comment": ""
+            },
+            {
+                "VarName": "weightDecay",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "dither",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "borderType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Black",
+                                    "Normal"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "blurAlpha",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "inverseGammaCorrection",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setEffectAttr",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiLayerBlend",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/lumi_blend/lua/LumiLayerBlend.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/lumi_blend/lua/LumiLayerBlend.lua",
+        "Properties": [
+            {
+                "VarName": "blendMode",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Normal",
+                                    "Add",
+                                    "Multiply",
+                                    "Difference",
+                                    "Overlay",
+                                    "Darken",
+                                    "Lighten",
+                                    "SoftLight",
+                                    "HardLight",
+                                    "Hue",
+                                    "Saturation",
+                                    "Color",
+                                    "Screen",
+                                    "ColorBurn",
+                                    "LinearBurn",
+                                    "ColorDodge",
+                                    "LinearDodge",
+                                    "VividLight",
+                                    "LinearLight",
+                                    "PinLight",
+                                    "HardMix",
+                                    "Exclusion",
+                                    "Subtract",
+                                    "Divide",
+                                    "Luminosity",
+                                    "LighterColor",
+                                    "DarkerColor",
+                                    "Dissolve"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "needBlend",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "layerType",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Adjustment",
+                                    "Precomp",
+                                    "Solid",
+                                    "Image",
+                                    "Video",
+                                    "Sequence"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "SourceTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setVisible",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LVFilter",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/lumi_lv_filter/lua/LVFilter.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/lumi_lv_filter/lua/LVFilter.lua",
+        "Properties": [
+            {
+                "VarName": "AEPlugin",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "lutImage",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "uniAlpha",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seekToTime",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiLayerMatte",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/lumi_matte/lua/LumiLayerMatte.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/lumi_matte/lua/LumiLayerMatte.lua",
+        "Properties": [
+            {
+                "VarName": "matteMode",
+                "VarType": "String",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Alpha",
+                                    "Luma",
+                                    "AlphaInverted",
+                                    "LumaInverted"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "MaskTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "LumiExtract",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/lumi_extract/lua/LumiExtract.lua",
+        "FileAbsPath": "/Users/jorgen/EffectMacaron/scriptEffect/AmazingFeature/effects/lumi_extract/lua/LumiExtract.lua",
+        "Properties": [
+            {
+                "VarName": "InputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "OutputTex",
+                "VarType": "Texture",
+                "Comment": ""
+            },
+            {
+                "VarName": "blackField",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    255.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "blackSoft",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    255.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "whiteField",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    255.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "whiteSoft",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    255.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Drag",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "reverse",
+                "VarType": "Bool",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

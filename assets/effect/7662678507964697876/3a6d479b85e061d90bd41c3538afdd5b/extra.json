@@ -1,0 +1,51 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "foldWidth",
+                "effect_key_cn": "\u6298\u53e0\u5bbd\u5ea6",
+                "type": "float",
+                "default": 0.14,
+                "min": 0.03,
+                "max": 0.35
+            },
+            {
+                "effect_key": "shadowStrength",
+                "effect_key_cn": "\u9634\u5f71\u5f3a\u5ea6",
+                "type": "float",
+                "default": 0.35,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "pastelMix",
+                "effect_key_cn": "\u67d4\u548c\u7684\u6df7\u5408",
+                "type": "float",
+                "default": 0.28,
+                "min": 0,
+                "max": 0.8
+            },
+            {
+                "effect_key": "doodleAmount",
+                "effect_key_cn": "\u6d82\u9e26\u91d1\u989d",
+                "type": "float",
+                "default": 0.45,
+                "min": 0,
+                "max": 1
+            }
+        ]
+    }
+}

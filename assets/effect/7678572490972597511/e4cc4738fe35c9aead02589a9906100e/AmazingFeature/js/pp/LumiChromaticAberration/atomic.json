@@ -1,0 +1,69 @@
+{
+  "key": "LumiChromaticAberration",
+  "category": "Color Correction",
+  "desc": "色差效果 - 模拟镜头边缘的 RGB 通道分离，并随画面离中心距离增强色散感。适用于镜头模拟、复古滤镜和轻故障风格。",
+  "preset": [
+    {
+      "name": "none",
+      "desc": "无效果 - 关闭通道分离，保持原始画面。"
+    },
+    {
+      "name": "low",
+      "desc": "低强度 - 轻微边缘色散，适合作为基础镜头质感增强。"
+    },
+    {
+      "name": "medium",
+      "desc": "中强度 - 更明显的均衡 RGB 分离，适合常规复古或镜头效果。"
+    },
+    {
+      "name": "high",
+      "desc": "高强度 - 明显的通道错位和分离，适合强风格化画面。"
+    },
+    {
+      "name": "subtle_lens",
+      "desc": "轻微镜头 - 很轻的边缘色散，适合镜头质感增强而不过分抢眼。"
+    },
+    {
+      "name": "anamorphic_edge",
+      "desc": "变形宽银幕边缘 - 横向偏移更强，适合宽银幕和镜头边缘拉丝感。"
+    },
+    {
+      "name": "glitch_split",
+      "desc": "故障分色 - 强烈通道错位，适合故障、冲击和失真场景。"
+    },
+    {
+      "name": "retro_rgb",
+      "desc": "复古 RGB - 较均衡的红蓝分离，适合 CRT、录像带和复古数字感。"
+    },
+    {
+      "name": "radial_bloom",
+      "desc": "径向散色 - 更强调垂直方向偏移，适合高光晕染和边缘 bloom 感。"
+    }
+  ],
+  "subProperties": [
+    {
+      "name": "offsetX",
+      "desc": "水平偏移量 - 控制 RGB 通道在水平方向的分离程度，正值向右偏移。",
+      "type": "number",
+      "value": 0.5,
+      "min": -1.0,
+      "max": 1.0
+    },
+    {
+      "name": "offsetY",
+      "desc": "垂直偏移量 - 控制 RGB 通道在垂直方向的分离程度，正值向上偏移。",
+      "type": "number",
+      "value": 0.5,
+      "min": -1.0,
+      "max": 1.0
+    },
+    {
+      "name": "intensity",
+      "desc": "色差强度 - 控制整体通道分离的混合强度，0 为无效果，1 为完全应用。",
+      "type": "number",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0
+    }
+  ]
+}

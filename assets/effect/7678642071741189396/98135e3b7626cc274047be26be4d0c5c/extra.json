@@ -1,0 +1,35 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "panelSpread",
+                "effect_key_cn": "panel ",
+                "type": "float",
+                "default": 0.38,
+                "min": 0,
+                "max": 0.8
+            },
+            {
+                "effect_key": "settleStrength",
+                "effect_key_cn": "settle",
+                "type": "float",
+                "default": 0.65,
+                "min": 0,
+                "max": 1
+            }
+        ]
+    }
+}

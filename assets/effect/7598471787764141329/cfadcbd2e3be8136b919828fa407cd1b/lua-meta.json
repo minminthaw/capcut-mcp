@@ -1,0 +1,74 @@
+[
+    {
+        "ClassName": "T1000223187105166356",
+        "Super": "ScriptComponent",
+        "FilePath": "T1000223187105166356.lua",
+        "FileAbsPath": "/Users/nullzhangb/project/\u672a\u547d\u540d\u6587\u4ef6\u5939/\u6298\u53e0\u5165\u573a/T1000223187105166356.lua",
+        "Properties": [
+            {
+                "VarName": "sharedMaterial",
+                "VarType": "Material",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "animate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "animateChar",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seek",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setDuration",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEnter",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onLeave",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "clear",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

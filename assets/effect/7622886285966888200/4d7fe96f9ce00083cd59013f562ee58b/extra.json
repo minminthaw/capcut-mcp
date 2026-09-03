@@ -1,0 +1,43 @@
+{
+    "transition": {
+        "defaultDura": 2.0,
+        "isOverlap": true
+    },
+    "External_Producer": true,
+    "setting": {
+        "lumiai_material_properties": [
+            {
+                "effect_key": "progress",
+                "effect_key_cn": "\u6548\u679c\u8fdb\u5ea6",
+                "type": "float",
+                "default": 0,
+                "min": 0,
+                "max": 1
+            },
+            {
+                "effect_key": "blockCount",
+                "effect_key_cn": "\u5757\u6570",
+                "type": "float",
+                "default": 8,
+                "min": 2,
+                "max": 20
+            },
+            {
+                "effect_key": "driftStrength",
+                "effect_key_cn": "\u6f02\u79fb\u5f3a\u5ea6",
+                "type": "float",
+                "default": 0.5,
+                "min": 0.1,
+                "max": 2
+            },
+            {
+                "effect_key": "blockThickness",
+                "effect_key_cn": "\u5757\u539a\u5ea6",
+                "type": "float",
+                "default": 0.1,
+                "min": 0.01,
+                "max": 0.5
+            }
+        ]
+    }
+}

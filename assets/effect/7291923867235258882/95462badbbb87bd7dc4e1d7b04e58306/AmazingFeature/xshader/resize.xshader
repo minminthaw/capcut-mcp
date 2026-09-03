@@ -1,0 +1,97 @@
+%YAML 1.1
+--- !XShader &1
+name: resize
+guid: {a: 16810216419279308178, b: 4125227339412183208}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5927329960621756665, b: 14661801639387324310}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    inputDims: {x: 0, y: 0}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: 2000
+passes:
+  - __class: Pass
+    name: ""
+    guid: {a: 6575465474563804169, b: 5530777335740508351}
+    shaders:
+      __class: Map
+      gles2:
+        - {localId: 2}
+        - {localId: 3}
+    angleBinaryPrograms:
+      __class: Map
+    semantics:
+      __class: Map
+      position:
+        __class: VertexAttribType
+        value: POSITION
+      texcoord0:
+        __class: VertexAttribType
+        value: TEXCOORD0
+    clearColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    clearDepth: 1
+    clearType:
+      __class: CameraClearType
+      value: DONT
+    renderState:
+      __class: RenderState
+      name: ""
+      guid: {a: 6720898604792807420, b: 12333261426506293897}
+      depthstencil:
+        __class: DepthStencilState
+        name: ""
+        guid: {a: 4054650239698956863, b: 10753423041497663382}
+        depthTestEnable: false
+        depthTestEnableName: ""
+        depthCompareOp:
+          __class: CompareOp
+          value: LESS
+        depthCompareOpName: ""
+        depthWriteEnable: false
+        stencilTestEnable: false
+        stencilTestEnableName: ""
+    useFBOTexture: false
+    useCameraRT: false
+    useFBOFetch: false
+    enableFBOFetch: false
+    isFullScreenShading: false
+    macrosMap:
+      __class: Map
+    preprocess: false
+    passType:
+      __class: PassType
+      value: NORMAL
+    lightMode:
+      __class: LightMode
+      value: NONE
+    clearMoment:
+      __class: PassClearMoment
+      value: CLEAR_BEFORE_RENDERING
+    instanceCount: 0
+--- !Shader &2
+name: ""
+guid: {a: 15942988711084882758, b: 17134342089514616242}
+type:
+  __class: ShaderType
+  value: VERTEX
+sourcePath: xshader/resize.vert
+--- !Shader &3
+name: ""
+guid: {a: 15657728721933576392, b: 6172990154707430075}
+type:
+  __class: ShaderType
+  value: FRAGMENT
+sourcePath: xshader/resize.frag

@@ -1,0 +1,111 @@
+{
+  "name": "132_2143",
+  "objectName": "Plane",
+  "vertexShaderFile": "132_2143.vert",
+  "fragmentShaderFile": "132_2143.frag",
+  "uniforms": {
+    "tDiffuse": {
+      "value": {
+        "metadata": {
+          "version": 4.6,
+          "type": "Texture",
+          "generator": "Texture.toJSON"
+        },
+        "uuid": "e295eda9-efd4-4bfe-bf59-4d575a1e7b84",
+        "name": "",
+        "image": "a0028083-affd-40df-8148-133d41199043",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "colorSpace": "",
+        "minFilter": 1006,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    },
+    "tDiffuse1": {
+      "value": {
+        "metadata": {
+          "version": 4.6,
+          "type": "Texture",
+          "generator": "Texture.toJSON"
+        },
+        "uuid": "e295eda9-efd4-4bfe-bf59-4d575a1e7b84",
+        "name": "",
+        "image": "a0028083-affd-40df-8148-133d41199043",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "colorSpace": "",
+        "minFilter": 1006,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    },
+    "intensity": {
+      "value": 0.0029113099999999903
+    },
+    "ratio": {
+      "value": 1
+    },
+    "progress": {
+      "value": 0.0014556549999999952
+    },
+    "rotationSpeed": {
+      "value": 2
+    },
+    "twistStrength": {
+      "value": 1.5
+    },
+    "edgeSoftness": {
+      "value": 0.1
+    }
+  },
+  "timestamp": "2025-10-28T10:08:59.568Z"
+}
