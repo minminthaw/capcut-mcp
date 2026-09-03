@@ -82,9 +82,10 @@
 }
 ```
 
-> 💡 **Video Understanding အတွက် Model ပြောင်းလဲခြင်း**:
+> 💡 **AI Models နှင့် API Keys သတ်မှတ်ခြင်း**:
 > - **Google Gemini API**: `GEMINI_API_KEY` ထည့်ပြီး `GEMINI_MODEL` တွင် `gemini-2.0-flash`, `gemini-2.5-flash`, `gemini-2.5-pro` စသည်ဖြင့် စိတ်ကြိုက် ပြောင်းနိုင်ပါသည်။
 > - **OpenRouter API**: `OPENROUTER_API_KEY` ထည့်ပြီး `OPENROUTER_MODEL` တွင် `google/gemini-2.0-flash-001`, `openai/gpt-4o`, `qwen/qwen-2.5-vl-72b-instruct:free` စသည်ဖြင့် သုံးနိုင်ပါသည်။
+> - **Magnific AI API**: `MAGNIFIC_API_KEY` ထည့်သွင်းထားပါက Scene အလိုက် 4K/8K Photorealistic B-Roll များကို အလိုအလျောက် Enhance/Upscale လုပ်ပြီး Ken Burns Motion ဖြင့် ထည့်သွင်းပေးနိုင်ပါသည်။
 
 ---
 
@@ -147,7 +148,7 @@ CapCut MCP Custom သည် ကွန်ပျူတာ OS ပေါ်မူတ
 |---|---|---|
 | **Core Editing** | `capcut_add_video`<br>`capcut_add_image`<br>`capcut_add_audio`<br>`capcut_split_segment`<br>`capcut_trim_segment`<br>`capcut_move_segment`<br>`capcut_delete_segment`<br>`capcut_auto_jumpcut` | ရုပ်/သံ ဖိုင်များ တင်ခြင်း၊ အသံတိတ်နေသော Dead Space များကို အလိုအလျောက် ဖြတ်ထုတ်ခြင်း (`auto_jumpcut`)၊ ရွှေ့ပြောင်း/ညှပ်ထုတ်ခြင်း |
 | **Visual FX & Styles** | `capcut_list_effects`<br>`capcut_apply_effect`<br>`capcut_list_transitions`<br>`capcut_apply_transition`<br>`capcut_list_animations`<br>`capcut_apply_animation`<br>`capcut_list_filters`<br>`capcut_apply_filter` | 1800+ Video Effects, 1100+ Transitions, 800+ Animations, 450+ Color Filters (LUTs) များကို ရှာဖွေပြီး ထည့်သွင်းခြင်း |
-| **Motion & Layout** | `capcut_add_keyframe`<br>`capcut_apply_mask`<br>`capcut_set_speed_curve`<br>`capcut_apply_pip_layout`<br>`capcut_apply_chroma_key`<br>`capcut_auto_insert_broll`<br>`capcut_sync_to_beats` | Dynamic Punch-in Zoom Keyframes, Video Masks, Speed Ramping, PiP Facecam Split-Screen, Green Screen, Auto B-Roll Cutaway ထည့်သွင်းခြင်း, Music Beat အလိုက် Cuts/Zoom ချိန်ညှိခြင်း |
+| **Motion & Layout** | `capcut_add_keyframe`<br>`capcut_apply_mask`<br>`capcut_set_speed_curve`<br>`capcut_apply_pip_layout`<br>`capcut_apply_chroma_key`<br>`capcut_auto_insert_broll`<br>`capcut_magnific_enhance_broll`<br>`capcut_sync_to_beats` | Dynamic Punch-in Zoom Keyframes, Video Masks, Speed Ramping, PiP Facecam Split-Screen, Green Screen, Auto B-Roll Cutaway, Magnific AI 4K/8K B-Roll Upscale & Generation, Music Beat ချိန်ညှိခြင်း |
 | **Audio & Voice** | `capcut_set_audio_fade`<br>`capcut_apply_audio_effect`<br>`capcut_auto_duck_bgm`<br>`capcut_normalize_audio` | အသံ Fade In/Out, Voice Filters (Robot, Deep, Echo), စကားပြောချိန် BGM အသံ အလိုအလျောက် တိုးပေးခြင်း (Auto-Ducking), Speech Normalizer |
 | **Overlays & UI** | `capcut_add_subtitles_batch`<br>`capcut_add_dynamic_captions`<br>`capcut_add_progress_bar`<br>`capcut_add_lower_third`<br>`capcut_generate_chapters`<br>`capcut_set_canvas`<br>`capcut_set_canvas_blur`<br>`capcut_inspect_edit` | Bulk Subtitles, Dynamic Word-Highlight (Hormozi Style) စာတန်းများ, Animated Progress Bar (0-100%), Speaker Lower-Third Badge, YouTube Chapter Markers ထုတ်ပေးခြင်း, 9:16 / 16:9 Canvas, Background Blur, Edit Analytics စစ်ဆေးခြင်း |
 | **Video Understanding & Semantic AI Director** | `capcut_analyze_video_understanding`<br>`capcut_find_visual_scenes`<br>`capcut_semantic_edit` | ဗီဒီယို၏ ရုပ်မြင်ကွင်း၊ မျက်နှာအမူအရာ (ငိုခြင်း၊ စိတ်လှုပ်ရှားခြင်း) များကို Multimodal AI ဖြင့် ခွဲခြမ်းစိတ်ဖြာပြီး Visual Query (ဥပမာ - "ငိုတဲ့ အပိုင်း", "phone demo") ဖြင့် Effect/Filter/Zoom တိုက်ရိုက် ခိုင်းစေတည်းဖြတ်ခြင်း |

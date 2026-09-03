@@ -10,6 +10,7 @@ import { resolveItem, searchCatalog } from './registry/registry.js';
 import { getCachedResourcePath } from './registry/cache.js';
 import { getAssetsIndex } from './sync_assets.js';
 import { extractVideoFrames, analyzeVideoWithAI, findScenesByQuery, generateHeuristicSceneMap } from './video_understanding.js';
+import { enhanceWithMagnific } from './magnific.js';
 
 // ---- where the drafts live (override with CAPCUT_DRAFTS_DIR) ----
 const STD_WIN = path.join(os.homedir(), 'AppData/Local/CapCut/User Data/Projects/com.lveditor.draft');
@@ -1697,6 +1698,46 @@ export class CapCutDraft {
       brollTrackIndex,
       totalInserted: inserted.length,
       insertions: inserted,
+    };
+  }
+
+  // ---------- Magnific AI B-Roll Enhancer ----------
+  async enhanceAndInsertBroll(opts = {}) {
+    const atSec = Number(opts.startSec || opts.atSec || 0);
+    const durSec = Number(opts.durSec || opts.durationSec || 3.5);
+    const prompt = opts.prompt || 'Cinematic B-Roll stock scene';
+
+    const enhanced = await enhanceWithMagnific({
+      sourceImagePath: opts.sourceImage || opts.sourceImagePath,
+      prompt,
+      apiKey: opts.apiKey,
+      creativity: opts.creativity,
+      hdr: opts.hdr,
+      scaleFactor: opts.scaleFactor || '2x',
+      outputDir: opts.outputDir
+    });
+
+    const brollRes = this.autoInsertBroll([
+      { filePath: enhanced.filePath, startSec: atSec, durSec }
+    ], { trackIndex: opts.trackIndex });
+
+    const segId = brollRes.insertions[0]?.segmentId;
+
+    if (opts.kenBurns !== false && segId) {
+      this.addKeyframe(segId, 'scale', [
+        { timeOffsetSec: 0, value: 1.0 },
+        { timeOffsetSec: durSec, value: 1.08 }
+      ]);
+    }
+
+    return {
+      segmentId: segId,
+      brollTrackIndex: brollRes.brollTrackIndex,
+      filePath: enhanced.filePath,
+      provider: enhanced.provider,
+      startSec: atSec,
+      durationSec: durSec,
+      kenBurnsApplied: opts.kenBurns !== false
     };
   }
 

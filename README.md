@@ -97,6 +97,7 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 | `GEMINI_MODEL` | `gemini-2.0-flash` | Multimodal model name (e.g. `gemini-2.0-flash`, `gemini-2.5-flash`, `gemini-2.5-pro`) |
 | `OPENROUTER_API_KEY` | *(optional)* | OpenRouter API key for third-party vision models |
 | `OPENROUTER_MODEL` | `google/gemini-2.0-flash-001` | OpenRouter model (e.g. `openai/gpt-4o`, `qwen/qwen-2.5-vl-72b-instruct:free`) |
+| `MAGNIFIC_API_KEY` | *(optional)* | Magnific AI API key for 4K/8K photorealistic B-Roll upscaling & generation |
 | `CAPCUT_DRAFTS_DIR` | *(auto-detected)* | Custom path to CapCut drafts directory if not in standard location |
 
 ---
@@ -156,6 +157,7 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 | `capcut_apply_chroma_key` | Green Screen / Chroma Key cutout with intensity & shadow preservation |
 | `capcut_apply_pip_layout` | Picture-in-Picture or Split-Screen layout presets (Corner PiP, 50/50 Split) |
 | `capcut_auto_insert_broll` | Automatically place B-Roll cutaways (videos/images) on an overlay track |
+| `capcut_magnific_enhance_broll` | Generate or upscale cinematic 4K/8K B-Roll with Magnific AI and Ken Burns slow zoom |
 | `capcut_sync_to_beats` | Synchronize timeline edits (cuts or punchy zoom pulses) to music beats |
 | `capcut_set_canvas_blur` | Apply Gaussian background blur or color behind reframed clips |
 | `capcut_set_color_adjustments` | Manual color slider adjustments (brightness, contrast, saturation) |

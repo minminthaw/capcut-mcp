@@ -428,6 +428,24 @@ s.tool('capcut_auto_insert_broll', 'Automatically place B-Roll cutaways (videos/
     trackIndex: z.number().int().optional().describe('target B-Roll video track index (default: track 1)') },
   wrap(async (a) => get(a.draft).autoInsertBroll(a.insertions, { trackIndex: a.trackIndex })));
 
+s.tool('capcut_magnific_enhance_broll', 'Generate or upscale a cinematic 4K/8K B-Roll stock visual using Magnific AI API and insert into timeline with Ken Burns slow zoom.',
+  { draft: z.string(),
+    prompt: z.string().describe('scene description or visual prompt (e.g. "Futuristic AI city skyline with glowing neural network lines")'),
+    sourceImage: z.string().optional().describe('optional local image path to upscale and enhance with Magnific'),
+    startSec: z.number().describe('timeline start time in seconds'),
+    durSec: z.number().optional().describe('duration of B-Roll overlay in seconds (default: 3.5)'),
+    creativity: z.number().optional().describe('Magnific creativity/hallucination slider (0-100, default: 20)'),
+    hdr: z.number().optional().describe('Magnific HDR / clarity boost slider (0-100, default: 50)'),
+    scaleFactor: z.enum(['2x', '4x', '8x']).optional().describe('upscale scale factor (default: "2x")'),
+    kenBurns: z.boolean().optional().describe('whether to apply cinematic slow zoom keyframing (default: true)'),
+    apiKey: z.string().optional().describe('optional Magnific API key override'),
+    trackIndex: z.number().int().optional().describe('target B-Roll video track index (default: track 1)') },
+  wrap(async (a) => get(a.draft).enhanceAndInsertBroll({
+    prompt: a.prompt, sourceImage: a.sourceImage, startSec: a.startSec, durSec: a.durSec,
+    creativity: a.creativity, hdr: a.hdr, scaleFactor: a.scaleFactor, kenBurns: a.kenBurns,
+    apiKey: a.apiKey, trackIndex: a.trackIndex
+  })));
+
 s.tool('capcut_add_dynamic_captions', 'Add modern dynamic word-highlight subtitles (Alex Hormozi style) with pop colors and heavy outline.',
   { draft: z.string(),
     subtitles: z.array(z.object({
