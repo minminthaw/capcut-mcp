@@ -59,7 +59,11 @@ Add to your `claude_desktop_config.json`:
       "command": "node",
       "args": [
         "/ABSOLUTE/PATH/TO/capcut-mcp-custom/src/server.js"
-      ]
+      ],
+      "env": {
+        "GEMINI_API_KEY": "AIzaSy...",
+        "GEMINI_MODEL": "gemini-2.0-flash"
+      }
     }
   }
 }
@@ -75,11 +79,25 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
       "command": "node",
       "args": [
         "/ABSOLUTE/PATH/TO/capcut-mcp-custom/src/server.js"
-      ]
+      ],
+      "env": {
+        "GEMINI_API_KEY": "AIzaSy...",
+        "GEMINI_MODEL": "gemini-2.0-flash"
+      }
     }
   }
 }
 ```
+
+### 🔑 Environment Variables & Model Selection
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `GEMINI_API_KEY` | *(optional)* | Google AI Studio API key for multimodal video frame understanding |
+| `GEMINI_MODEL` | `gemini-2.0-flash` | Multimodal model name (e.g. `gemini-2.0-flash`, `gemini-2.5-flash`, `gemini-2.5-pro`) |
+| `OPENROUTER_API_KEY` | *(optional)* | OpenRouter API key for third-party vision models |
+| `OPENROUTER_MODEL` | `google/gemini-2.0-flash-001` | OpenRouter model (e.g. `openai/gpt-4o`, `qwen/qwen-2.5-vl-72b-instruct:free`) |
+| `CAPCUT_DRAFTS_DIR` | *(auto-detected)* | Custom path to CapCut drafts directory if not in standard location |
 
 ---
 
