@@ -22,10 +22,15 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
 # 1. Check Node.js
-echo -e "${BLUE}[1/5] Checking Node.js...${NC}"
+echo -e "${BLUE}[1/6] Checking Node.js...${NC}"
 if ! command -v node &> /dev/null; then
-    echo -e "${RED}❌ Node.js is not installed! Please install Node.js (v18+) from https://nodejs.org${NC}"
-    exit 1
+    echo -e "${YELLOW}⚠️ Node.js is not found. Attempting automatic installation via Homebrew...${NC}"
+    if command -v brew &> /dev/null; then
+        brew install node
+    else
+        echo -e "${RED}❌ Please download and install Node.js (v18+) from https://nodejs.org${NC}"
+        exit 1
+    fi
 fi
 NODE_VERSION=$(node -v)
 echo -e "${GREEN}✅ Node.js found: ${NODE_VERSION}${NC}"
