@@ -1,89 +1,174 @@
-# capcut-mcp
+# capcut-mcp-custom 🎬✨
 
-An MCP server that lets Claude **read and edit CapCut desktop draft projects** — add/move/trim/split clips, text, audio, images; set transforms; validate; save. It works by cloning real segment/material templates out of an existing draft (the only reliable way to produce valid CapCut JSON), and it saves atomically with a backup and a validation pass.
+An enhanced, high-performance **Model Context Protocol (MCP)** server that empowers AI assistants (Claude Desktop, Antigravity, Cursor, Windsurf, Claude Code) to autonomously read, direct, and edit **CapCut Desktop draft projects** across **macOS** and **Windows**.
 
-> **Free & open source (MIT).** Built by [James Aldrin Boncales](https://jmsldrn.com) for editors who want Claude to drive CapCut for them.
->
-> **Not affiliated with CapCut or ByteDance.** CapCut's draft format is proprietary and undocumented; this tool reads/writes it defensively (clone-from-template, backups, validation), but a CapCut update can shift the schema. **Keep the backups it makes.**
+> **100% Autonomous AI Video Editing Ready:** Supports speech jumpcutting, B-Roll overlays, 1800+ effects, 1100+ transitions, 800+ animations, 450+ LUT filters, keyframe motion zooms, video masking, speed curves, chroma key, smart dialogue BGM auto-ducking, typography subtitles, animated progress bars, and speaker lower-thirds.
 
-## Requirements
-- **Node 18+**
-- **ffmpeg/ffprobe** on PATH (used to read media duration/resolution)
-- **CapCut desktop** (Windows layout assumed; macOS path is auto-detected too)
+---
 
-## Configure (env, optional)
-- `CAPCUT_DRAFTS_DIR` — your CapCut Drafts folder. Auto-detects the standard `%LOCALAPPDATA%\CapCut\...` (Windows) / `~/Movies/CapCut/...` (macOS) locations; **set this if your drafts live elsewhere** (e.g. a different drive).
-- `CAPCUT_TEMPLATE_DRAFT` — name of a draft that contains video **and text** layers, used to harvest templates when the draft you're editing lacks one. **Default `0723` is the author's own draft and won't exist on your machine** — set this to one of *your* drafts that has a text layer, or the `capcut_add_text` tool won't work. (Everything else works without it.)
+## 📚 Documentation
+- **[English Setup & Architecture Guide](#installation--configuration)** (below)
+- **[🇲🇲 မြန်မာလို အသေးစိတ် တပ်ဆင်အသုံးပြုနည်း လမ်းညွှန် (Burmese Guide)](docs/SETUP_GUIDE_MY.md)**
+- **[Effects & Transitions Catalog & Resolution Specs](docs/EFFECTS_TRANSITIONS.md)**
 
-## Install
+---
+
+## 💻 Requirements
+- **Node.js 18+** ([nodejs.org](https://nodejs.org))
+- **FFmpeg & FFprobe** on system PATH:
+  - **macOS**: `brew install ffmpeg`
+  - **Windows**: `winget install Gyan.FFmpeg`
+- **CapCut Desktop** (App Store or Official Desktop version)
+
+---
+
+## 🚀 Quick 1-Click Setup (Recommended)
+
+Copy or clone this `capcut-mcp-custom` folder to your target PC, then run the 1-click installer:
+
+### 🍏 macOS / Linux:
 ```bash
-git clone https://github.com/JmsLdrn/capcut-mcp
-cd capcut-mcp
-npm install
+./setup.sh
 ```
-Then register it in Claude Code — **use the absolute path to `src/server.js` on your machine**:
-```bash
-claude mcp add capcut --scope user -- node "/ABSOLUTE/PATH/TO/capcut-mcp/src/server.js"
-```
-…or add a project-scoped `.mcp.json` at your repo root (copy `mcp.json.example` and edit the paths):
+
+### 🪟 Windows:
+Double-click **`setup.bat`** in the folder!
+
+---
+
+*The 1-click script automatically:*
+1. Validates Node.js & FFmpeg prerequisites.
+2. Installs npm dependencies (`npm install`).
+3. Syncs CapCut shader & visual assets for offline rendering (`npm run sync-assets`).
+4. Runs full test suite (37 unit tests).
+5. Generates the exact, ready-to-use JSON config block for your machine.
+
+---
+
+## ⚙️ AI Client Configuration
+
+### 🔹 Option A: Claude Desktop
+Add to your `claude_desktop_config.json`:
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
 ```json
 {
   "mcpServers": {
     "capcut": {
       "command": "node",
-      "args": ["/ABSOLUTE/PATH/TO/capcut-mcp/src/server.js"],
-      "env": { "CAPCUT_DRAFTS_DIR": "", "CAPCUT_TEMPLATE_DRAFT": "" }
+      "args": [
+        "/ABSOLUTE/PATH/TO/capcut-mcp-custom/src/server.js"
+      ]
     }
   }
 }
 ```
-Leave the `env` values blank to auto-detect, or fill them in (see **Configure** above). Restart Claude Code; the tools then appear as `mcp__capcut__*`.
 
-## Workflow (important)
-1. **Close CapCut** on the draft you want to edit. CapCut autosaves on a timer; writing while it's open gets clobbered. `capcut_save` refuses if CapCut is running or the draft's `.locked` file is present (override with `force: true` only if you know it's safe).
-2. Edits are a **session**: `capcut_add_*` / `capcut_move_*` etc. accumulate in memory. Nothing hits disk until **`capcut_save`**.
-3. `capcut_save` writes `draft_content.json` (+ meta) **atomically** after making a `.mcpbak` backup, and runs `capcut_validate`.
-4. Reopen the draft in CapCut.
+### 🔹 Option B: Antigravity / Windsurf / Cursor
+Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 
-All times at the tool boundary are in **seconds** (converted to CapCut's microseconds internally).
+```json
+{
+  "mcpServers": {
+    "capcut": {
+      "command": "node",
+      "args": [
+        "/ABSOLUTE/PATH/TO/capcut-mcp-custom/src/server.js"
+      ]
+    }
+  }
+}
+```
 
-## Tools
-| Tool | Purpose |
+---
+
+## 📁 Drafts Directory Auto-Discovery
+
+`capcut-mcp-custom` automatically detects your CapCut drafts folder across platforms:
+
+| Platform | Default Path |
 |---|---|
-| `capcut_list_drafts` | list drafts + duration + lock status |
-| `capcut_read_timeline` | full read: canvas, fps, tracks, every segment |
-| `capcut_clone_draft` | copy a draft (optionally emptied) for a fresh build |
-| `capcut_add_video / _image / _audio` | place media at a time on a track |
-| `capcut_add_text` | text overlay (needs a text template draft) |
-| `capcut_add_track` | new video/audio/text/sticker track |
-| `capcut_move_segment` | change start time / track |
-| `capcut_trim_segment` | change start / duration / source in-point |
-| `capcut_split_segment` | split at a time |
-| `capcut_delete_segment` | remove |
-| `capcut_set_props` | scale / position / rotation / opacity / volume / speed / visibility |
-| `capcut_raw_patch` | advanced deep-merge escape hatch for undocumented ops |
-| `capcut_validate` | overlaps, duplicate ids, missing media |
-| `capcut_save` / `capcut_discard` | persist / drop the session |
+| **macOS** | `~/Movies/CapCut/User Data/Projects/com.lveditor.draft` |
+| **Windows** | `%LOCALAPPDATA%\CapCut\User Data\Projects\com.lveditor.draft`<br>or `D:\Capcut\CapCut Drafts` |
 
-## Companion skill
-A Claude **skill** ships in [`skills/capcut-reels/`](skills/capcut-reels/SKILL.md). It teaches Claude the full production pipeline these tools were built for — record → captions (WhisperFlow) → motion graphics (HyperFrames) → probe/render (ffprobe/ffmpeg) → assemble & caption the CapCut draft via this MCP. Copy the `capcut-reels` folder into your Claude skills directory to install it.
+*To override with a custom location, set the environment variable `CAPCUT_DRAFTS_DIR`.*
 
-## Guardrails
-- Won't save while CapCut is open (autosave clobber protection).
-- `.mcpbak` backup + atomic temp-then-rename write.
-- Post-edit validation (overlaps, duplicate material ids, layer-order clashes, missing media).
-- New drafts are **cloned from a known-good base**, never built from an empty object.
+---
 
-## Limitations (be honest with these)
-- CapCut's draft format is **proprietary and undocumented**, and changes between CapCut versions. This server is defensive (clone-from-template, backup, validate) but a CapCut update can still shift the schema — keep the backups.
-- **Effects, transitions, animations, and rich text styling are best-effort.** The well-understood ops (place/move/trim/split media + basic text + transforms) are solid; anything exotic should go through `capcut_raw_patch` against a template you've inspected.
-- `capcut_add_text` needs a draft with a text layer to harvest from (`CAPCUT_TEMPLATE_DRAFT`).
+## 🛠️ Complete MCP Tools Reference (35+ Tools)
 
-## Architecture
-- `src/core.js` — pure engine (`CapCutDraft` class + `cloneDraft`/`listDrafts`). Testable without MCP.
-- `src/server.js` — thin MCP stdio server; declares the tools and calls the core.
+### 1. Timeline & Media Ops
+| Tool | Description |
+|---|---|
+| `capcut_list_drafts` | List all local CapCut drafts with duration, fps, resolution, and lock status |
+| `capcut_read_timeline` | Full inspect of timeline tracks, media paths, timeranges, and render layers |
+| `capcut_clone_draft` | Duplicate a draft (optionally emptied) for fresh edits |
+| `capcut_add_video` | Place a video file onto a specified track at a start time |
+| `capcut_add_image` | Place an image/overlay file onto a track with duration |
+| `capcut_add_audio` | Place dialogue, music (BGM), or sound effects (SFX) |
+| `capcut_add_track` | Add a new video, audio, text, sticker, effect, or filter track |
+| `capcut_move_segment` | Move a clip start time or change track index |
+| `capcut_trim_segment` | Trim clip start, duration, or source in-point |
+| `capcut_split_segment` | Split a clip cleanly at an exact timestamp |
+| `capcut_delete_segment` | Remove a segment from a track |
+| `capcut_set_props` | Adjust scale, position X/Y, rotation, opacity, volume, speed, visibility |
+| `capcut_auto_jumpcut` | Automatically slice and ripple-delete silence dead space |
 
-## License & credits
-MIT © 2026 [James Aldrin Boncales](https://jmsldrn.com). Contributions and issues welcome. If this saves you time, a link back to [jmsldrn.com](https://jmsldrn.com) is appreciated — not required.
+### 2. Visual Effects, Transitions & Filters
+| Tool | Description |
+|---|---|
+| `capcut_list_effects` | Search 1800+ scene and character visual effects |
+| `capcut_apply_effect` | Apply visual effect to a clip or as a standalone effect layer track |
+| `capcut_list_transitions` | Search 1100+ video transitions (e.g. Cross Dissolve, Bubble Blur, Flash White) |
+| `capcut_apply_transition` | Apply transition between adjoining clips |
+| `capcut_list_animations` | Search 800+ in/out/loop/group video and text animations |
+| `capcut_apply_animation` | Apply entrance/exit animation with duration |
+| `capcut_list_filters` | Search 450+ color grading looks / LUTs (e.g. Vintage 90s, BW 2) |
+| `capcut_apply_filter` | Apply color filter to clip or as a filter layer track |
+| `capcut_list_stickers` | Search cached CapCut stickers, badges, and emojis |
+| `capcut_add_sticker` | Place sticker onto timeline with scale, position, and rotation |
 
-*Always keep a copy of important drafts before batch-editing. This software is provided "as is", without warranty.*
+### 3. Motion, Framing & Color
+| Tool | Description |
+|---|---|
+| `capcut_add_keyframe` | Add dynamic animation keyframes (scale, position, rotation, opacity, volume) |
+| `capcut_apply_mask` | Apply shape masks (circle, rectangle, linear, mirror, heart, star) with feather |
+| `capcut_set_speed_curve` | Apply speed ramping curves (montage, hero, bullet_time, flash_in, flash_out) |
+| `capcut_apply_chroma_key` | Green Screen / Chroma Key cutout with intensity & shadow preservation |
+| `capcut_apply_pip_layout` | Picture-in-Picture or Split-Screen layout presets (Corner PiP, 50/50 Split) |
+| `capcut_set_canvas_blur` | Apply Gaussian background blur or color behind reframed clips |
+| `capcut_set_color_adjustments` | Manual color slider adjustments (brightness, contrast, saturation) |
+
+### 4. Audio, Subtitles & Formatting
+| Tool | Description |
+|---|---|
+| `capcut_set_audio_fade` | Set audio fade-in and fade-out durations on clips |
+| `capcut_apply_audio_effect` | Apply voice filters and audio scene effects (Robot, Deep, Echo, Chipmunk) |
+| `capcut_auto_duck_bgm` | Automatically duck BGM volume during spoken dialogue |
+| `capcut_normalize_audio` | Normalize dialogue loudness across tracks |
+| `capcut_add_subtitles_batch` | Bulk place styled subtitles with typography, colors, and outlines |
+| `capcut_add_progress_bar` | Add animated video progress bar (0% to 100% fill across timeline) |
+| `capcut_add_lower_third` | Add speaker name and role title badge overlay with animations |
+| `capcut_set_canvas` | Set canvas aspect ratio (9:16 vertical, 16:9 widescreen, 1:1 square) |
+
+### 5. Diagnostics, Validation & Safety
+| Tool | Description |
+|---|---|
+| `capcut_inspect_edit` | Analyze timeline statistics, B-Roll coverage %, cut count, health |
+| `capcut_validate` | Validate timeline overlaps, duplicate IDs, dangling references, missing media |
+| `capcut_raw_patch` | Deep-merge JSON patch escape hatch |
+| `capcut_save` / `capcut_discard` | Persist or revert session with atomic write & `.mcpbak` backup |
+
+---
+
+## 🔒 Safety & Crash Protection
+- **Autosave Protection**: Automatically detects if CapCut Desktop is open to prevent file write collisions.
+- **Dual JSON & Timestamp Synchronization**: Writes both `draft_info.json` and `draft_content.json` and updates `root_meta_info.json` timestamps for modern macOS & Windows CapCut versions.
+- **Atomic Backups**: Creates `.mcpbak` snapshots prior to disk writes.
+
+---
+
+## 📄 License
+MIT License © 2026. Free & Open Source for all video editors and AI engineers.
+# capcut-mcp
