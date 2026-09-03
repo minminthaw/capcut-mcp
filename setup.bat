@@ -1,6 +1,6 @@
 @echo off
 REM ==============================================================================
-REM CapCut MCP Custom - 1-Click Auto Setup for Windows (With Auto-Prerequisites)
+REM CapCut MCP Custom - 1-Click Auto Setup for Windows (Smart Detection)
 REM ==============================================================================
 
 chcp 65001 >nul
@@ -14,15 +14,29 @@ echo.
 
 cd /d "%~dp0"
 
-REM 1. Check & Auto-Install Node.js
+REM 1. Smart Node.js Detection
 echo [1/6] Checking Node.js...
-set "PATH=%PATH%;%ProgramFiles%\nodejs;%ProgramFiles(x86)%\nodejs;%APPDATA%\npm;%LOCALAPPDATA%\Programs\node"
+
+REM Read latest PATH from registry to get any newly installed programs
+for /f "tokens=2*" %%a in ('reg query "HKCU\Environment" /v Path 2^>nul') do set "USER_PATH=%%b"
+for /f "tokens=2*" %%a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v Path 2^>nul') do set "SYS_PATH=%%b"
+set "PATH=%USER_PATH%;%SYS_PATH%;%PATH%;%ProgramFiles%\nodejs;%ProgramFiles(x86)%\nodejs;%APPDATA%\npm;%LOCALAPPDATA%\Programs\node;%APPDATA%\nvm;%LOCALAPPDATA%\scoop\apps\nodejs\current\bin;%ProgramData%\chocolatey\bin"
 
 where node >nul 2>&1
 if %ERRORLEVEL% NEQ 0 (
-    echo [NOTICE] Node.js is not found. Attempting automatic installation...
+    if exist "%ProgramFiles%\nodejs\node.exe" (
+        set "PATH=%ProgramFiles%\nodejs;%PATH%"
+    ) else if exist "%ProgramFiles(x86)%\nodejs\node.exe" (
+        set "PATH=%ProgramFiles(x86)%\nodejs;%PATH%"
+    ) else if exist "%LOCALAPPDATA%\Programs\node\node.exe" (
+        set "PATH=%LOCALAPPDATA%\Programs\node;%PATH%"
+    )
+)
+
+where node >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo [NOTICE] Node.js is not found in system paths. Attempting automatic installation...
     
-    REM Try winget first
     where winget >nul 2>&1
     if !ERRORLEVEL! EQU 0 (
         echo Installing Node.js LTS via winget...
@@ -37,9 +51,8 @@ if %ERRORLEVEL% NEQ 0 (
     where node >nul 2>&1
     if !ERRORLEVEL! NEQ 0 (
         echo.
-        echo [ERROR] Automatic Node.js installation finished, but Node was not yet registered in PATH.
-        echo Please download and run the installer directly from: https://nodejs.org
-        echo Then run setup.bat again!
+        echo [ERROR] Node.js installation completed, but terminal requires restart.
+        echo Please close and reopen setup.bat!
         pause
         exit /b 1
     )
@@ -64,7 +77,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM 3. Install Dependencies
-echo [3/6] Installing npm dependencies...
+echo [3/6] Installing npm dependencies for capcut-mcp...
 call npm install --silent
 if %ERRORLEVEL% NEQ 0 (
     echo [ERROR] npm install failed.
