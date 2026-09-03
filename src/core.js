@@ -1552,6 +1552,7 @@ export class CapCutDraft {
     try {
       const sceneMap = await analyzeVideoWithAI(extracted.frames, {
         apiKey: opts.apiKey,
+        model: opts.model,
         provider: opts.provider || 'gemini',
         transcript: opts.transcript || []
       });

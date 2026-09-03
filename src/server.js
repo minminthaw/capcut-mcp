@@ -392,9 +392,10 @@ s.tool('capcut_analyze_video_understanding', 'Extract keyframes from video and a
     intervalSec: z.number().optional().describe('frame extraction interval in seconds (default: 2)'),
     maxFrames: z.number().int().optional().describe('maximum frames to sample (default: 30)'),
     apiKey: z.string().optional().describe('optional Gemini or OpenRouter API key'),
-    provider: z.enum(['gemini', 'heuristic']).optional().describe('AI analysis provider (default: "gemini")') },
+    model: z.string().optional().describe('custom model name (e.g. "gemini-2.0-flash", "gemini-2.5-flash", "google/gemini-2.0-flash-001", "openai/gpt-4o")'),
+    provider: z.enum(['gemini', 'openrouter', 'heuristic']).optional().describe('AI analysis provider (default: "gemini")') },
   wrap(async (a) => get(a.draft).analyzeVideoUnderstanding(a.videoPath, {
-    intervalSec: a.intervalSec, maxFrames: a.maxFrames, apiKey: a.apiKey, provider: a.provider
+    intervalSec: a.intervalSec, maxFrames: a.maxFrames, apiKey: a.apiKey, model: a.model, provider: a.provider
   })));
 
 s.tool('capcut_find_visual_scenes', 'Search and retrieve timestamped scenes from the video understanding map by visual query or emotion (e.g. "crying", "phone demo", "high energy").',

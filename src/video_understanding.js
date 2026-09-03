@@ -101,11 +101,11 @@ Return ONLY valid JSON matching this schema:
 }
 `;
 
-  // 1. If Gemini API Key is available
-  if (geminiKey && provider === 'gemini') {
+  // 1. Google Gemini API Provider
+  if (provider === 'gemini' && geminiKey) {
     try {
+      const modelName = opts.model || process.env.GEMINI_MODEL || 'gemini-2.0-flash';
       const parts = [{ text: promptText }];
-      // Pick up to 16 sampled frames to stay well within payload limits
       const step = Math.max(1, Math.floor(frames.length / 16));
       for (let i = 0; i < frames.length; i += step) {
         const fr = frames[i];
@@ -117,7 +117,7 @@ Return ONLY valid JSON matching this schema:
         });
       }
 
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiKey}`;
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${geminiKey}`;
       const resp = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -139,7 +139,48 @@ Return ONLY valid JSON matching this schema:
     }
   }
 
-  // 2. Fallback heuristic intelligence if offline or no API key provided
+  // 2. OpenRouter API Provider
+  if (provider === 'openrouter' || (!geminiKey && openrouterKey)) {
+    try {
+      const modelName = opts.model || process.env.OPENROUTER_MODEL || 'google/gemini-2.0-flash-001';
+      const contentParts = [{ type: 'text', text: promptText }];
+      const step = Math.max(1, Math.floor(frames.length / 16));
+      for (let i = 0; i < frames.length; i += step) {
+        const fr = frames[i];
+        contentParts.push({
+          type: 'image_url',
+          image_url: {
+            url: `data:image/jpeg;base64,${fr.base64}`
+          }
+        });
+      }
+
+      const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${openrouterKey}`
+        },
+        body: JSON.stringify({
+          model: modelName,
+          messages: [{ role: 'user', content: contentParts }],
+          response_format: { type: 'json_object' }
+        })
+      });
+
+      if (resp.ok) {
+        const data = await resp.json();
+        const jsonText = data.choices?.[0]?.message?.content;
+        if (jsonText) {
+          return JSON.parse(jsonText);
+        }
+      }
+    } catch (err) {
+      console.warn('[video-understanding] OpenRouter API call error:', err.message);
+    }
+  }
+
+  // 3. Fallback heuristic intelligence if offline or no API key provided
   return generateHeuristicSceneMap(frames, transcript);
 }
 
