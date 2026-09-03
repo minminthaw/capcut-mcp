@@ -9,6 +9,7 @@ import { isCapCutRunning } from './macos.js';
 import { resolveItem, searchCatalog } from './registry/registry.js';
 import { getCachedResourcePath } from './registry/cache.js';
 import { getAssetsIndex } from './sync_assets.js';
+import { extractVideoFrames, analyzeVideoWithAI, findScenesByQuery, generateHeuristicSceneMap } from './video_understanding.js';
 
 // ---- where the drafts live (override with CAPCUT_DRAFTS_DIR) ----
 const STD_WIN = path.join(os.homedir(), 'AppData/Local/CapCut/User Data/Projects/com.lveditor.draft');
@@ -473,8 +474,8 @@ export class CapCutDraft {
     if (isLayer) {
       // Standalone effect layer on an effect track
       const track = this._resolveTrack(opts, 'effect');
-      const atUs = opts.atUs || 0;
-      const durUs = opts.durUs || Math.max(US, this.content.duration - atUs);
+      const atUs = opts.atUs != null ? opts.atUs : (opts.startSec != null ? Math.round(opts.startSec * US) : (opts.atSec != null ? Math.round(opts.atSec * US) : 0));
+      const durUs = opts.durUs != null ? opts.durUs : (opts.durationSec != null ? Math.round(opts.durationSec * US) : (opts.durSec != null ? Math.round(opts.durSec * US) : Math.max(US, this.content.duration - atUs)));
       const effSeg = {
         enable_adjust: true,
         enable_color_correct_adjust: false,
@@ -652,8 +653,8 @@ export class CapCutDraft {
     if (isLayer) {
       // Standalone filter track
       const track = this._resolveTrack(opts, 'filter');
-      const atUs = opts.atUs || 0;
-      const durUs = opts.durUs || Math.max(US, this.content.duration - atUs);
+      const atUs = opts.atUs != null ? opts.atUs : (opts.startSec != null ? Math.round(opts.startSec * US) : (opts.atSec != null ? Math.round(opts.atSec * US) : 0));
+      const durUs = opts.durUs != null ? opts.durUs : (opts.durationSec != null ? Math.round(opts.durationSec * US) : (opts.durSec != null ? Math.round(opts.durSec * US) : Math.max(US, this.content.duration - atUs)));
       const flSeg = {
         enable_adjust: true,
         enable_color_correct_adjust: false,
@@ -1538,6 +1539,114 @@ export class CapCutDraft {
         issues: val.issues,
         warnings: val.warnings,
       },
+    };
+  }
+
+  // ---------- video understanding & semantic AI director ----------
+  async analyzeVideoUnderstanding(videoPath, opts = {}) {
+    const extracted = extractVideoFrames(videoPath, {
+      intervalSec: opts.intervalSec || 2,
+      maxFrames: opts.maxFrames || 30
+    });
+
+    try {
+      const sceneMap = await analyzeVideoWithAI(extracted.frames, {
+        apiKey: opts.apiKey,
+        provider: opts.provider || 'gemini',
+        transcript: opts.transcript || []
+      });
+
+      this.sceneMap = sceneMap;
+      return {
+        videoPath,
+        durationSec: +(this.content.duration / US).toFixed(3),
+        overallMood: sceneMap.overallMood,
+        summary: sceneMap.summary,
+        totalScenes: sceneMap.scenes?.length || 0,
+        scenes: sceneMap.scenes || []
+      };
+    } finally {
+      extracted.cleanup();
+    }
+  }
+
+  findVisualScenes(query, customSceneMap) {
+    const map = customSceneMap || this.sceneMap;
+    if (!map) {
+      throw new Error('Scene map not found. Run analyzeVideoUnderstanding first or provide sceneMap.');
+    }
+    return findScenesByQuery(map, query);
+  }
+
+  applySemanticEdit(query, action = 'filter', params = {}) {
+    const matched = this.findVisualScenes(query, params.sceneMap);
+    if (matched.length === 0) {
+      return { ok: false, message: `No visual scene matching "${query}" found.` };
+    }
+
+    const scene = matched[0];
+    const atSec = params.atSec != null ? params.atSec : scene.startSec;
+    const durSec = params.durSec != null ? params.durSec : +(scene.endSec - scene.startSec).toFixed(2);
+
+    let editResult = null;
+    switch (action.toLowerCase()) {
+      case 'filter':
+      case 'color_filter': {
+        const filterName = params.name || params.filterName || scene.suggestedEdits?.suggestedFilter || 'BW 2';
+        editResult = this.applyFilter(null, filterName, { startSec: atSec, durationSec: durSec, intensity: params.intensity || 80 });
+        break;
+      }
+      case 'effect':
+      case 'video_effect': {
+        const effectName = params.name || params.effectName || scene.suggestedEdits?.suggestedEffects?.[0] || 'Vignette';
+        editResult = this.applyEffect(null, effectName, { startSec: atSec, durationSec: durSec });
+        break;
+      }
+      case 'zoom':
+      case 'punch_in': {
+        const atUs = atSec * US;
+        const mainTrack = (this.content.tracks || []).find(t => t.type === 'video');
+        const seg = (mainTrack?.segments || []).find(s => s.target_timerange.start <= atUs && (s.target_timerange.start + s.target_timerange.duration) > atUs);
+        if (seg) {
+          const scale = params.scale || 1.10;
+          editResult = this.addKeyframe(seg.id, 'scale', [
+            { timeOffsetSec: 0, value: scale },
+            { timeOffsetSec: durSec, value: 1.0 }
+          ]);
+        }
+        break;
+      }
+      case 'lower_third':
+      case 'badge': {
+        const title = params.title || scene.emotion || 'Scene Highlight';
+        const subtitle = params.subtitle || scene.visualDescription?.slice(0, 30) || '';
+        editResult = this.addLowerThird(title, subtitle, { atSec, durSec: Math.min(durSec, 5.0) });
+        break;
+      }
+      case 'canvas_blur': {
+        const atUs = atSec * US;
+        const mainTrack = (this.content.tracks || []).find(t => t.type === 'video');
+        const seg = (mainTrack?.segments || []).find(s => s.target_timerange.start <= atUs && (s.target_timerange.start + s.target_timerange.duration) > atUs);
+        if (seg) {
+          editResult = this.setCanvasBlur(seg.id, { blurRadius: params.blurRadius || 12 });
+        }
+        break;
+      }
+      default:
+        throw new Error(`Unsupported semantic action "${action}". Supported: filter, effect, zoom, lower_third, canvas_blur`);
+    }
+
+    return {
+      ok: true,
+      query,
+      action,
+      matchedScene: {
+        startSec: scene.startSec,
+        endSec: scene.endSec,
+        emotion: scene.emotion,
+        visualDescription: scene.visualDescription
+      },
+      editResult
     };
   }
 

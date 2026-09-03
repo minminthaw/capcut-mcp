@@ -152,7 +152,14 @@ Add to your project's `.gemini/config/mcp_config.json` or Global MCP settings:
 | `capcut_add_lower_third` | Add speaker name and role title badge overlay with animations |
 | `capcut_set_canvas` | Set canvas aspect ratio (9:16 vertical, 16:9 widescreen, 1:1 square) |
 
-### 5. Diagnostics, Validation & Safety
+### 5. Multimodal Video Understanding & Semantic AI Director
+| Tool | Description |
+|---|---|
+| `capcut_analyze_video_understanding` | Extract frames and analyze scene composition, emotion, visual actions, and edits via Multimodal AI |
+| `capcut_find_visual_scenes` | Search timestamped scenes in the video understanding map by visual query or emotion (e.g. "crying", "phone demo") |
+| `capcut_semantic_edit` | Apply editing actions (filter, effect, zoom, lower_third, canvas_blur) matching a visual scene query |
+
+### 6. Diagnostics, Validation & Safety
 | Tool | Description |
 |---|---|
 | `capcut_inspect_edit` | Analyze timeline statistics, B-Roll coverage %, cut count, health |

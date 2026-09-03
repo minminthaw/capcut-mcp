@@ -386,6 +386,35 @@ s.tool('capcut_inspect_edit', 'Analyze and inspect timeline statistics, B-Roll c
   { draft: z.string() },
   wrap(async ({ draft }) => get(draft).inspectEdit()));
 
+s.tool('capcut_analyze_video_understanding', 'Extract keyframes from video and analyze scene composition, emotion, visual actions, and recommended CapCut edits using Multimodal AI.',
+  { draft: z.string(),
+    videoPath: z.string().describe('absolute path to source video file'),
+    intervalSec: z.number().optional().describe('frame extraction interval in seconds (default: 2)'),
+    maxFrames: z.number().int().optional().describe('maximum frames to sample (default: 30)'),
+    apiKey: z.string().optional().describe('optional Gemini or OpenRouter API key'),
+    provider: z.enum(['gemini', 'heuristic']).optional().describe('AI analysis provider (default: "gemini")') },
+  wrap(async (a) => get(a.draft).analyzeVideoUnderstanding(a.videoPath, {
+    intervalSec: a.intervalSec, maxFrames: a.maxFrames, apiKey: a.apiKey, provider: a.provider
+  })));
+
+s.tool('capcut_find_visual_scenes', 'Search and retrieve timestamped scenes from the video understanding map by visual query or emotion (e.g. "crying", "phone demo", "high energy").',
+  { draft: z.string(),
+    query: z.string().describe('visual description or emotion to search for (e.g. "crying", "holding phone", "excited")') },
+  wrap(async (a) => get(a.draft).findVisualScenes(a.query)));
+
+s.tool('capcut_semantic_edit', 'Automatically apply a CapCut editing action (filter, effect, zoom, lower_third, canvas_blur) matching a visual scene query.',
+  { draft: z.string(),
+    query: z.string().describe('visual scene or emotion to match (e.g. "crying moment", "phone screen", "intro")'),
+    action: z.enum(['filter', 'effect', 'zoom', 'lower_third', 'canvas_blur']).describe('editing action to apply'),
+    name: z.string().optional().describe('specific filter or effect name override (e.g. "Vintage 90s", "Soft Vignette")'),
+    scale: z.number().optional().describe('zoom scale factor if action is zoom (e.g. 1.10)'),
+    intensity: z.number().optional().describe('filter intensity (0 to 100)'),
+    title: z.string().optional().describe('title text if action is lower_third'),
+    subtitle: z.string().optional().describe('subtitle text if action is lower_third') },
+  wrap(async (a) => get(a.draft).applySemanticEdit(a.query, a.action, {
+    name: a.name, scale: a.scale, intensity: a.intensity, title: a.title, subtitle: a.subtitle
+  })));
+
 const transport = new StdioServerTransport();
 await s.connect(transport);
 process.stderr.write(`[capcut-mcp] ready. drafts: ${DRAFTS_DIR}\n`);

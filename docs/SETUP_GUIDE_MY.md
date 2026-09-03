@@ -134,6 +134,7 @@ CapCut MCP Custom သည် ကွန်ပျူတာ OS ပေါ်မူတ
 | **Motion & Layout** | `capcut_add_keyframe`<br>`capcut_apply_mask`<br>`capcut_set_speed_curve`<br>`capcut_apply_pip_layout`<br>`capcut_apply_chroma_key` | Dynamic Punch-in Zoom Keyframes, Video Masks (Circle, Rect, Heart), Speed Ramping (Hero, Montage), PiP Facecam Split-Screen, Green Screen ဖောက်ခြင်း |
 | **Audio & Voice** | `capcut_set_audio_fade`<br>`capcut_apply_audio_effect`<br>`capcut_auto_duck_bgm`<br>`capcut_normalize_audio` | အသံ Fade In/Out, Voice Filters (Robot, Deep, Echo), စကားပြောချိန် BGM အသံ အလိုအလျောက် တိုးပေးခြင်း (Auto-Ducking), Speech Normalizer |
 | **Overlays & UI** | `capcut_add_subtitles_batch`<br>`capcut_add_progress_bar`<br>`capcut_add_lower_third`<br>`capcut_set_canvas`<br>`capcut_set_canvas_blur`<br>`capcut_inspect_edit` | Bulk Subtitles ထည့်သွင်းခြင်း, Animated Video Progress Bar (0-100%), Speaker Lower-Third Badge, 9:16 / 16:9 Canvas ပြောင်းခြင်း, Background Blur, Edit Analytics စစ်ဆေးခြင်း |
+| **Video Understanding & Semantic AI Director** | `capcut_analyze_video_understanding`<br>`capcut_find_visual_scenes`<br>`capcut_semantic_edit` | ဗီဒီယို၏ ရုပ်မြင်ကွင်း၊ မျက်နှာအမူအရာ (ငိုခြင်း၊ စိတ်လှုပ်ရှားခြင်း) များကို Multimodal AI ဖြင့် ခွဲခြမ်းစိတ်ဖြာပြီး Visual Query (ဥပမာ - "ငိုတဲ့ အပိုင်း", "phone demo") ဖြင့် Effect/Filter/Zoom တိုက်ရိုက် ခိုင်းစေတည်းဖြတ်ခြင်း |
 
 ---
 
